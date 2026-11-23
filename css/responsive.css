@@ -1,0 +1,45 @@
+/* ============================================================================
+   RESPONSIVE.CSS
+   Penyesuaian tampilan untuk tablet & mobile.
+   ============================================================================ */
+
+@media (max-width: 1199.98px) {
+  .header-search { max-width: 240px; }
+}
+
+@media (max-width: 991.98px) {
+  .header-search { display: none; }
+  .header-date-badge { display: none; }
+  .filter-bar { position: static; }
+  .kpi-value { font-size: 20px; }
+  #mapContainer { height: 440px; }
+}
+
+@media (max-width: 767.98px) {
+  .ikod-content { padding: 14px; }
+  .ikod-header { padding: 0 14px; gap: 10px; }
+  .filter-bar { padding: 12px 14px; }
+  .filter-group { min-width: 130px; flex: 1 1 45%; }
+  .filter-bar .btn-reset-filter { margin-left: 0; width: 100%; order: 99; }
+  .header-title-block .app-subtitle { display: none; }
+  .profile-meta { display: none; }
+  .about-hero { padding: 22px; }
+  .metadata-item-body-inner { grid-template-columns: 1fr; }
+  .metadata-item-body-inner .meta-field-full { grid-column: span 1; }
+}
+
+@media (max-width: 575.98px) {
+  .kpi-grid { gap: 10px; }
+  .kpi-card { padding: 14px; gap: 10px; }
+  .kpi-icon { width: 38px; height: 38px; font-size: 15px; }
+  .kpi-value { font-size: 18px; }
+  #mapContainer { height: 360px; }
+  .year-slider-wrap { flex-wrap: wrap; }
+  .export-option-card { padding: 16px; }
+}
+
+/* Sidebar mobile toggle button visibility */
+.mobile-only { display: none; }
+@media (max-width: 991.98px) {
+  .mobile-only { display: inline-flex; }
+}

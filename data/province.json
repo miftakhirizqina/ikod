@@ -1,0 +1,4692 @@
+{
+  "meta": {
+    "title": "Data Provinsi & Kabupaten/Kota - IKOD",
+    "year": 2025,
+    "total_provinsi": 38,
+    "total_kabkota": 514
+  },
+  "provinces": [
+    {
+      "id": "11",
+      "kode_prov": "11",
+      "name": "Aceh",
+      "ibukota": "Banda Aceh",
+      "pulau_region": "Sumatera",
+      "lat": 4.6951,
+      "lon": 96.7494,
+      "jumlah_kabkota": 24,
+      "skor_ikod": 88.96,
+      "trend": 2.08,
+      "rank": 5,
+      "kabkota": [
+        {
+          "id": "11-001",
+          "name": "Kabupaten Aceh",
+          "type": "Kabupaten",
+          "lat": 3.8001,
+          "lon": 95.9901,
+          "skor_ikod": 93.01
+        },
+        {
+          "id": "11-002",
+          "name": "Kabupaten Aceh 2",
+          "type": "Kabupaten",
+          "lat": 4.9026,
+          "lon": 96.9743,
+          "skor_ikod": 91.12
+        },
+        {
+          "id": "11-003",
+          "name": "Kabupaten Aceh 3",
+          "type": "Kabupaten",
+          "lat": 5.1545,
+          "lon": 95.7271,
+          "skor_ikod": 90.46
+        },
+        {
+          "id": "11-004",
+          "name": "Kabupaten Aceh 4",
+          "type": "Kabupaten",
+          "lat": 5.0776,
+          "lon": 95.8822,
+          "skor_ikod": 83.6
+        },
+        {
+          "id": "11-005",
+          "name": "Kabupaten Aceh 5",
+          "type": "Kabupaten",
+          "lat": 4.3079,
+          "lon": 95.8534,
+          "skor_ikod": 84.94
+        },
+        {
+          "id": "11-006",
+          "name": "Kabupaten Aceh 6",
+          "type": "Kabupaten",
+          "lat": 5.2883,
+          "lon": 96.7639,
+          "skor_ikod": 92.74
+        },
+        {
+          "id": "11-007",
+          "name": "Kabupaten Aceh 7",
+          "type": "Kabupaten",
+          "lat": 4.9322,
+          "lon": 96.3624,
+          "skor_ikod": 86.36
+        },
+        {
+          "id": "11-008",
+          "name": "Kabupaten Aceh 8",
+          "type": "Kabupaten",
+          "lat": 5.1231,
+          "lon": 96.8274,
+          "skor_ikod": 90.81
+        },
+        {
+          "id": "11-009",
+          "name": "Kabupaten Aceh 9",
+          "type": "Kabupaten",
+          "lat": 5.456,
+          "lon": 96.9242,
+          "skor_ikod": 85.49
+        },
+        {
+          "id": "11-010",
+          "name": "Kabupaten Aceh 10",
+          "type": "Kabupaten",
+          "lat": 4.5152,
+          "lon": 97.3633,
+          "skor_ikod": 86.31
+        },
+        {
+          "id": "11-011",
+          "name": "Kabupaten Aceh 11",
+          "type": "Kabupaten",
+          "lat": 5.0232,
+          "lon": 96.6375,
+          "skor_ikod": 89.68
+        },
+        {
+          "id": "11-012",
+          "name": "Kabupaten Aceh 12",
+          "type": "Kabupaten",
+          "lat": 4.2308,
+          "lon": 96.3275,
+          "skor_ikod": 83.57
+        },
+        {
+          "id": "11-013",
+          "name": "Kabupaten Aceh 13",
+          "type": "Kabupaten",
+          "lat": 5.1419,
+          "lon": 97.1333,
+          "skor_ikod": 85.41
+        },
+        {
+          "id": "11-014",
+          "name": "Kabupaten Aceh 14",
+          "type": "Kabupaten",
+          "lat": 5.511,
+          "lon": 97.4101,
+          "skor_ikod": 87.14
+        },
+        {
+          "id": "11-015",
+          "name": "Kabupaten Aceh 15",
+          "type": "Kabupaten",
+          "lat": 5.269,
+          "lon": 95.6603,
+          "skor_ikod": 88.86
+        },
+        {
+          "id": "11-016",
+          "name": "Kabupaten Aceh 16",
+          "type": "Kabupaten",
+          "lat": 5.4652,
+          "lon": 97.4533,
+          "skor_ikod": 84.89
+        },
+        {
+          "id": "11-017",
+          "name": "Kabupaten Aceh 17",
+          "type": "Kabupaten",
+          "lat": 5.5484,
+          "lon": 97.1362,
+          "skor_ikod": 89.0
+        },
+        {
+          "id": "11-018",
+          "name": "Kabupaten Aceh 18",
+          "type": "Kabupaten",
+          "lat": 5.1728,
+          "lon": 97.3633,
+          "skor_ikod": 88.92
+        },
+        {
+          "id": "11-019",
+          "name": "Kabupaten Aceh 19",
+          "type": "Kabupaten",
+          "lat": 3.6621,
+          "lon": 97.0394,
+          "skor_ikod": 82.24
+        },
+        {
+          "id": "11-020",
+          "name": "Kota Aceh",
+          "type": "Kota",
+          "lat": 5.3921,
+          "lon": 96.8008,
+          "skor_ikod": 81.45
+        },
+        {
+          "id": "11-021",
+          "name": "Kota Aceh 2",
+          "type": "Kota",
+          "lat": 4.9452,
+          "lon": 96.4617,
+          "skor_ikod": 90.64
+        },
+        {
+          "id": "11-022",
+          "name": "Kota Aceh 3",
+          "type": "Kota",
+          "lat": 4.0622,
+          "lon": 95.9545,
+          "skor_ikod": 87.49
+        },
+        {
+          "id": "11-023",
+          "name": "Kota Aceh 4",
+          "type": "Kota",
+          "lat": 5.2559,
+          "lon": 97.1239,
+          "skor_ikod": 88.76
+        },
+        {
+          "id": "11-024",
+          "name": "Kota Aceh 5",
+          "type": "Kota",
+          "lat": 5.4786,
+          "lon": 96.9204,
+          "skor_ikod": 94.17
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "kode_prov": "12",
+      "name": "Sumatera Utara",
+      "ibukota": "Medan",
+      "pulau_region": "Sumatera",
+      "lat": 2.1154,
+      "lon": 99.5451,
+      "jumlah_kabkota": 34,
+      "skor_ikod": 87.68,
+      "trend": -1.92,
+      "rank": 6,
+      "kabkota": [
+        {
+          "id": "12-001",
+          "name": "Kabupaten Sumatera Utara",
+          "type": "Kabupaten",
+          "lat": 3.1397,
+          "lon": 98.4851,
+          "skor_ikod": 91.53
+        },
+        {
+          "id": "12-002",
+          "name": "Kabupaten Sumatera Utara 2",
+          "type": "Kabupaten",
+          "lat": 1.5283,
+          "lon": 99.3059,
+          "skor_ikod": 86.95
+        },
+        {
+          "id": "12-003",
+          "name": "Kabupaten Sumatera Utara 3",
+          "type": "Kabupaten",
+          "lat": 1.1015,
+          "lon": 99.4866,
+          "skor_ikod": 87.83
+        },
+        {
+          "id": "12-004",
+          "name": "Kabupaten Sumatera Utara 4",
+          "type": "Kabupaten",
+          "lat": 2.3502,
+          "lon": 100.0266,
+          "skor_ikod": 92.86
+        },
+        {
+          "id": "12-005",
+          "name": "Kabupaten Sumatera Utara 5",
+          "type": "Kabupaten",
+          "lat": 2.2422,
+          "lon": 99.0997,
+          "skor_ikod": 89.16
+        },
+        {
+          "id": "12-006",
+          "name": "Kabupaten Sumatera Utara 6",
+          "type": "Kabupaten",
+          "lat": 1.3572,
+          "lon": 100.0646,
+          "skor_ikod": 92.92
+        },
+        {
+          "id": "12-007",
+          "name": "Kabupaten Sumatera Utara 7",
+          "type": "Kabupaten",
+          "lat": 3.1197,
+          "lon": 100.6085,
+          "skor_ikod": 84.82
+        },
+        {
+          "id": "12-008",
+          "name": "Kabupaten Sumatera Utara 8",
+          "type": "Kabupaten",
+          "lat": 2.0065,
+          "lon": 98.8237,
+          "skor_ikod": 90.88
+        },
+        {
+          "id": "12-009",
+          "name": "Kabupaten Sumatera Utara 9",
+          "type": "Kabupaten",
+          "lat": 2.509,
+          "lon": 100.5613,
+          "skor_ikod": 89.48
+        },
+        {
+          "id": "12-010",
+          "name": "Kabupaten Sumatera Utara 10",
+          "type": "Kabupaten",
+          "lat": 1.139,
+          "lon": 98.6714,
+          "skor_ikod": 89.86
+        },
+        {
+          "id": "12-011",
+          "name": "Kabupaten Sumatera Utara 11",
+          "type": "Kabupaten",
+          "lat": 1.2129,
+          "lon": 98.5184,
+          "skor_ikod": 95.87
+        },
+        {
+          "id": "12-012",
+          "name": "Kabupaten Sumatera Utara 12",
+          "type": "Kabupaten",
+          "lat": 1.3213,
+          "lon": 98.8415,
+          "skor_ikod": 90.63
+        },
+        {
+          "id": "12-013",
+          "name": "Kabupaten Sumatera Utara 13",
+          "type": "Kabupaten",
+          "lat": 2.9336,
+          "lon": 100.284,
+          "skor_ikod": 95.31
+        },
+        {
+          "id": "12-014",
+          "name": "Kabupaten Sumatera Utara 14",
+          "type": "Kabupaten",
+          "lat": 2.6071,
+          "lon": 100.6035,
+          "skor_ikod": 87.33
+        },
+        {
+          "id": "12-015",
+          "name": "Kabupaten Sumatera Utara 15",
+          "type": "Kabupaten",
+          "lat": 2.4063,
+          "lon": 98.583,
+          "skor_ikod": 94.22
+        },
+        {
+          "id": "12-016",
+          "name": "Kabupaten Sumatera Utara 16",
+          "type": "Kabupaten",
+          "lat": 1.205,
+          "lon": 99.4121,
+          "skor_ikod": 95.39
+        },
+        {
+          "id": "12-017",
+          "name": "Kabupaten Sumatera Utara 17",
+          "type": "Kabupaten",
+          "lat": 1.0403,
+          "lon": 99.4712,
+          "skor_ikod": 92.55
+        },
+        {
+          "id": "12-018",
+          "name": "Kabupaten Sumatera Utara 18",
+          "type": "Kabupaten",
+          "lat": 1.0254,
+          "lon": 99.288,
+          "skor_ikod": 96.07
+        },
+        {
+          "id": "12-019",
+          "name": "Kabupaten Sumatera Utara 19",
+          "type": "Kabupaten",
+          "lat": 1.9412,
+          "lon": 99.3649,
+          "skor_ikod": 83.11
+        },
+        {
+          "id": "12-020",
+          "name": "Kabupaten Sumatera Utara 20",
+          "type": "Kabupaten",
+          "lat": 2.8072,
+          "lon": 99.7122,
+          "skor_ikod": 92.55
+        },
+        {
+          "id": "12-021",
+          "name": "Kabupaten Sumatera Utara 21",
+          "type": "Kabupaten",
+          "lat": 2.8181,
+          "lon": 99.4291,
+          "skor_ikod": 94.56
+        },
+        {
+          "id": "12-022",
+          "name": "Kabupaten Sumatera Utara 22",
+          "type": "Kabupaten",
+          "lat": 2.0712,
+          "lon": 100.484,
+          "skor_ikod": 85.8
+        },
+        {
+          "id": "12-023",
+          "name": "Kabupaten Sumatera Utara 23",
+          "type": "Kabupaten",
+          "lat": 2.9921,
+          "lon": 99.8028,
+          "skor_ikod": 89.44
+        },
+        {
+          "id": "12-024",
+          "name": "Kabupaten Sumatera Utara 24",
+          "type": "Kabupaten",
+          "lat": 2.5595,
+          "lon": 99.7969,
+          "skor_ikod": 87.81
+        },
+        {
+          "id": "12-025",
+          "name": "Kabupaten Sumatera Utara 25",
+          "type": "Kabupaten",
+          "lat": 2.506,
+          "lon": 99.1959,
+          "skor_ikod": 91.78
+        },
+        {
+          "id": "12-026",
+          "name": "Kabupaten Sumatera Utara 26",
+          "type": "Kabupaten",
+          "lat": 2.0163,
+          "lon": 98.6081,
+          "skor_ikod": 95.04
+        },
+        {
+          "id": "12-027",
+          "name": "Kabupaten Sumatera Utara 27",
+          "type": "Kabupaten",
+          "lat": 2.3824,
+          "lon": 100.438,
+          "skor_ikod": 84.53
+        },
+        {
+          "id": "12-028",
+          "name": "Kota Sumatera Utara",
+          "type": "Kota",
+          "lat": 1.3579,
+          "lon": 98.9616,
+          "skor_ikod": 86.64
+        },
+        {
+          "id": "12-029",
+          "name": "Kota Sumatera Utara 2",
+          "type": "Kota",
+          "lat": 1.7344,
+          "lon": 98.8284,
+          "skor_ikod": 93.36
+        },
+        {
+          "id": "12-030",
+          "name": "Kota Sumatera Utara 3",
+          "type": "Kota",
+          "lat": 2.4768,
+          "lon": 98.7678,
+          "skor_ikod": 90.24
+        },
+        {
+          "id": "12-031",
+          "name": "Kota Sumatera Utara 4",
+          "type": "Kota",
+          "lat": 3.1919,
+          "lon": 100.0735,
+          "skor_ikod": 86.22
+        },
+        {
+          "id": "12-032",
+          "name": "Kota Sumatera Utara 5",
+          "type": "Kota",
+          "lat": 2.9963,
+          "lon": 100.5911,
+          "skor_ikod": 94.18
+        },
+        {
+          "id": "12-033",
+          "name": "Kota Sumatera Utara 6",
+          "type": "Kota",
+          "lat": 1.8837,
+          "lon": 100.2392,
+          "skor_ikod": 84.21
+        },
+        {
+          "id": "12-034",
+          "name": "Kota Sumatera Utara 7",
+          "type": "Kota",
+          "lat": 1.0276,
+          "lon": 99.2264,
+          "skor_ikod": 84.14
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "kode_prov": "13",
+      "name": "Sumatera Barat",
+      "ibukota": "Padang",
+      "pulau_region": "Sumatera",
+      "lat": -0.7399,
+      "lon": 100.8,
+      "jumlah_kabkota": 20,
+      "skor_ikod": 81.58,
+      "trend": 1.89,
+      "rank": 13,
+      "kabkota": [
+        {
+          "id": "13-001",
+          "name": "Kabupaten Sumatera Barat",
+          "type": "Kabupaten",
+          "lat": -1.6195,
+          "lon": 101.8184,
+          "skor_ikod": 85.41
+        },
+        {
+          "id": "13-002",
+          "name": "Kabupaten Sumatera Barat 2",
+          "type": "Kabupaten",
+          "lat": -1.1973,
+          "lon": 101.6001,
+          "skor_ikod": 87.32
+        },
+        {
+          "id": "13-003",
+          "name": "Kabupaten Sumatera Barat 3",
+          "type": "Kabupaten",
+          "lat": -0.6683,
+          "lon": 101.3091,
+          "skor_ikod": 86.6
+        },
+        {
+          "id": "13-004",
+          "name": "Kabupaten Sumatera Barat 4",
+          "type": "Kabupaten",
+          "lat": -0.2912,
+          "lon": 100.7733,
+          "skor_ikod": 84.78
+        },
+        {
+          "id": "13-005",
+          "name": "Kabupaten Sumatera Barat 5",
+          "type": "Kabupaten",
+          "lat": -0.858,
+          "lon": 101.5955,
+          "skor_ikod": 79.08
+        },
+        {
+          "id": "13-006",
+          "name": "Kabupaten Sumatera Barat 6",
+          "type": "Kabupaten",
+          "lat": -1.3446,
+          "lon": 100.7192,
+          "skor_ikod": 79.09
+        },
+        {
+          "id": "13-007",
+          "name": "Kabupaten Sumatera Barat 7",
+          "type": "Kabupaten",
+          "lat": -1.3313,
+          "lon": 100.0496,
+          "skor_ikod": 76.59
+        },
+        {
+          "id": "13-008",
+          "name": "Kabupaten Sumatera Barat 8",
+          "type": "Kabupaten",
+          "lat": -1.2548,
+          "lon": 101.4864,
+          "skor_ikod": 77.25
+        },
+        {
+          "id": "13-009",
+          "name": "Kabupaten Sumatera Barat 9",
+          "type": "Kabupaten",
+          "lat": -0.2843,
+          "lon": 100.4109,
+          "skor_ikod": 86.6
+        },
+        {
+          "id": "13-010",
+          "name": "Kabupaten Sumatera Barat 10",
+          "type": "Kabupaten",
+          "lat": -1.2237,
+          "lon": 101.6057,
+          "skor_ikod": 86.57
+        },
+        {
+          "id": "13-011",
+          "name": "Kabupaten Sumatera Barat 11",
+          "type": "Kabupaten",
+          "lat": -1.3169,
+          "lon": 101.4669,
+          "skor_ikod": 85.86
+        },
+        {
+          "id": "13-012",
+          "name": "Kabupaten Sumatera Barat 12",
+          "type": "Kabupaten",
+          "lat": -0.7132,
+          "lon": 101.0999,
+          "skor_ikod": 76.9
+        },
+        {
+          "id": "13-013",
+          "name": "Kabupaten Sumatera Barat 13",
+          "type": "Kabupaten",
+          "lat": -0.8401,
+          "lon": 101.6476,
+          "skor_ikod": 78.93
+        },
+        {
+          "id": "13-014",
+          "name": "Kabupaten Sumatera Barat 14",
+          "type": "Kabupaten",
+          "lat": 0.3333,
+          "lon": 100.7895,
+          "skor_ikod": 81.4
+        },
+        {
+          "id": "13-015",
+          "name": "Kabupaten Sumatera Barat 15",
+          "type": "Kabupaten",
+          "lat": 0.3387,
+          "lon": 101.0544,
+          "skor_ikod": 82.44
+        },
+        {
+          "id": "13-016",
+          "name": "Kabupaten Sumatera Barat 16",
+          "type": "Kabupaten",
+          "lat": -1.3008,
+          "lon": 101.1848,
+          "skor_ikod": 74.57
+        },
+        {
+          "id": "13-017",
+          "name": "Kota Sumatera Barat",
+          "type": "Kota",
+          "lat": -0.3865,
+          "lon": 100.3931,
+          "skor_ikod": 84.21
+        },
+        {
+          "id": "13-018",
+          "name": "Kota Sumatera Barat 2",
+          "type": "Kota",
+          "lat": -1.6558,
+          "lon": 101.2602,
+          "skor_ikod": 76.21
+        },
+        {
+          "id": "13-019",
+          "name": "Kota Sumatera Barat 3",
+          "type": "Kota",
+          "lat": -0.3541,
+          "lon": 101.304,
+          "skor_ikod": 81.01
+        },
+        {
+          "id": "13-020",
+          "name": "Kota Sumatera Barat 4",
+          "type": "Kota",
+          "lat": -0.5878,
+          "lon": 100.2428,
+          "skor_ikod": 88.0
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "kode_prov": "14",
+      "name": "Riau",
+      "ibukota": "Pekanbaru",
+      "pulau_region": "Sumatera",
+      "lat": 0.2933,
+      "lon": 101.7068,
+      "jumlah_kabkota": 13,
+      "skor_ikod": 82.59,
+      "trend": 1.88,
+      "rank": 10,
+      "kabkota": [
+        {
+          "id": "14-001",
+          "name": "Kabupaten Riau",
+          "type": "Kabupaten",
+          "lat": 1.1097,
+          "lon": 101.0348,
+          "skor_ikod": 85.39
+        },
+        {
+          "id": "14-002",
+          "name": "Kabupaten Riau 2",
+          "type": "Kabupaten",
+          "lat": 0.9628,
+          "lon": 102.2423,
+          "skor_ikod": 85.1
+        },
+        {
+          "id": "14-003",
+          "name": "Kabupaten Riau 3",
+          "type": "Kabupaten",
+          "lat": 0.8417,
+          "lon": 101.6137,
+          "skor_ikod": 74.67
+        },
+        {
+          "id": "14-004",
+          "name": "Kabupaten Riau 4",
+          "type": "Kabupaten",
+          "lat": 0.5936,
+          "lon": 101.6713,
+          "skor_ikod": 86.18
+        },
+        {
+          "id": "14-005",
+          "name": "Kabupaten Riau 5",
+          "type": "Kabupaten",
+          "lat": 0.4459,
+          "lon": 101.893,
+          "skor_ikod": 83.49
+        },
+        {
+          "id": "14-006",
+          "name": "Kabupaten Riau 6",
+          "type": "Kabupaten",
+          "lat": 0.8531,
+          "lon": 102.7134,
+          "skor_ikod": 84.79
+        },
+        {
+          "id": "14-007",
+          "name": "Kabupaten Riau 7",
+          "type": "Kabupaten",
+          "lat": -0.3315,
+          "lon": 102.3569,
+          "skor_ikod": 74.93
+        },
+        {
+          "id": "14-008",
+          "name": "Kabupaten Riau 8",
+          "type": "Kabupaten",
+          "lat": 1.1338,
+          "lon": 101.3404,
+          "skor_ikod": 77.32
+        },
+        {
+          "id": "14-009",
+          "name": "Kabupaten Riau 9",
+          "type": "Kabupaten",
+          "lat": -0.5305,
+          "lon": 101.8838,
+          "skor_ikod": 79.78
+        },
+        {
+          "id": "14-010",
+          "name": "Kabupaten Riau 10",
+          "type": "Kabupaten",
+          "lat": -0.361,
+          "lon": 102.3966,
+          "skor_ikod": 75.19
+        },
+        {
+          "id": "14-011",
+          "name": "Kota Riau",
+          "type": "Kota",
+          "lat": 0.0823,
+          "lon": 100.8203,
+          "skor_ikod": 83.0
+        },
+        {
+          "id": "14-012",
+          "name": "Kota Riau 2",
+          "type": "Kota",
+          "lat": 0.7137,
+          "lon": 101.762,
+          "skor_ikod": 75.04
+        },
+        {
+          "id": "14-013",
+          "name": "Kota Riau 3",
+          "type": "Kota",
+          "lat": 0.6572,
+          "lon": 101.916,
+          "skor_ikod": 80.67
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "kode_prov": "15",
+      "name": "Jambi",
+      "ibukota": "Jambi",
+      "pulau_region": "Sumatera",
+      "lat": -1.6101,
+      "lon": 103.6131,
+      "jumlah_kabkota": 12,
+      "skor_ikod": 79.09,
+      "trend": 1.98,
+      "rank": 24,
+      "kabkota": [
+        {
+          "id": "15-001",
+          "name": "Kabupaten Jambi",
+          "type": "Kabupaten",
+          "lat": -2.3409,
+          "lon": 103.3093,
+          "skor_ikod": 74.61
+        },
+        {
+          "id": "15-002",
+          "name": "Kabupaten Jambi 2",
+          "type": "Kabupaten",
+          "lat": -2.3659,
+          "lon": 103.269,
+          "skor_ikod": 80.12
+        },
+        {
+          "id": "15-003",
+          "name": "Kabupaten Jambi 3",
+          "type": "Kabupaten",
+          "lat": -1.9123,
+          "lon": 102.6956,
+          "skor_ikod": 75.71
+        },
+        {
+          "id": "15-004",
+          "name": "Kabupaten Jambi 4",
+          "type": "Kabupaten",
+          "lat": -0.5707,
+          "lon": 103.2757,
+          "skor_ikod": 73.34
+        },
+        {
+          "id": "15-005",
+          "name": "Kabupaten Jambi 5",
+          "type": "Kabupaten",
+          "lat": -2.5881,
+          "lon": 103.5024,
+          "skor_ikod": 82.46
+        },
+        {
+          "id": "15-006",
+          "name": "Kabupaten Jambi 6",
+          "type": "Kabupaten",
+          "lat": -1.4332,
+          "lon": 104.5849,
+          "skor_ikod": 73.09
+        },
+        {
+          "id": "15-007",
+          "name": "Kabupaten Jambi 7",
+          "type": "Kabupaten",
+          "lat": -1.0642,
+          "lon": 103.1164,
+          "skor_ikod": 78.28
+        },
+        {
+          "id": "15-008",
+          "name": "Kabupaten Jambi 8",
+          "type": "Kabupaten",
+          "lat": -0.8293,
+          "lon": 102.5656,
+          "skor_ikod": 80.62
+        },
+        {
+          "id": "15-009",
+          "name": "Kabupaten Jambi 9",
+          "type": "Kabupaten",
+          "lat": -2.1329,
+          "lon": 102.8338,
+          "skor_ikod": 76.55
+        },
+        {
+          "id": "15-010",
+          "name": "Kota Jambi",
+          "type": "Kota",
+          "lat": -1.5458,
+          "lon": 103.1122,
+          "skor_ikod": 72.98
+        },
+        {
+          "id": "15-011",
+          "name": "Kota Jambi 2",
+          "type": "Kota",
+          "lat": -1.1622,
+          "lon": 103.5303,
+          "skor_ikod": 82.18
+        },
+        {
+          "id": "15-012",
+          "name": "Kota Jambi 3",
+          "type": "Kota",
+          "lat": -0.7347,
+          "lon": 102.6438,
+          "skor_ikod": 80.72
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "kode_prov": "16",
+      "name": "Sumatera Selatan",
+      "ibukota": "Palembang",
+      "pulau_region": "Sumatera",
+      "lat": -3.3194,
+      "lon": 104.9147,
+      "jumlah_kabkota": 18,
+      "skor_ikod": 81.53,
+      "trend": 0.65,
+      "rank": 15,
+      "kabkota": [
+        {
+          "id": "16-001",
+          "name": "Kabupaten Sumatera Selatan",
+          "type": "Kabupaten",
+          "lat": -2.399,
+          "lon": 105.4152,
+          "skor_ikod": 75.31
+        },
+        {
+          "id": "16-002",
+          "name": "Kabupaten Sumatera Selatan 2",
+          "type": "Kabupaten",
+          "lat": -3.1118,
+          "lon": 104.9326,
+          "skor_ikod": 80.44
+        },
+        {
+          "id": "16-003",
+          "name": "Kabupaten Sumatera Selatan 3",
+          "type": "Kabupaten",
+          "lat": -3.9805,
+          "lon": 105.4876,
+          "skor_ikod": 83.33
+        },
+        {
+          "id": "16-004",
+          "name": "Kabupaten Sumatera Selatan 4",
+          "type": "Kabupaten",
+          "lat": -4.3781,
+          "lon": 105.8585,
+          "skor_ikod": 85.11
+        },
+        {
+          "id": "16-005",
+          "name": "Kabupaten Sumatera Selatan 5",
+          "type": "Kabupaten",
+          "lat": -2.4165,
+          "lon": 105.686,
+          "skor_ikod": 85.74
+        },
+        {
+          "id": "16-006",
+          "name": "Kabupaten Sumatera Selatan 6",
+          "type": "Kabupaten",
+          "lat": -3.4145,
+          "lon": 104.4209,
+          "skor_ikod": 84.45
+        },
+        {
+          "id": "16-007",
+          "name": "Kabupaten Sumatera Selatan 7",
+          "type": "Kabupaten",
+          "lat": -3.3091,
+          "lon": 104.4593,
+          "skor_ikod": 80.78
+        },
+        {
+          "id": "16-008",
+          "name": "Kabupaten Sumatera Selatan 8",
+          "type": "Kabupaten",
+          "lat": -2.9492,
+          "lon": 103.919,
+          "skor_ikod": 81.09
+        },
+        {
+          "id": "16-009",
+          "name": "Kabupaten Sumatera Selatan 9",
+          "type": "Kabupaten",
+          "lat": -4.131,
+          "lon": 105.232,
+          "skor_ikod": 76.92
+        },
+        {
+          "id": "16-010",
+          "name": "Kabupaten Sumatera Selatan 10",
+          "type": "Kabupaten",
+          "lat": -4.0047,
+          "lon": 105.6836,
+          "skor_ikod": 75.11
+        },
+        {
+          "id": "16-011",
+          "name": "Kabupaten Sumatera Selatan 11",
+          "type": "Kabupaten",
+          "lat": -3.9388,
+          "lon": 105.1369,
+          "skor_ikod": 78.47
+        },
+        {
+          "id": "16-012",
+          "name": "Kabupaten Sumatera Selatan 12",
+          "type": "Kabupaten",
+          "lat": -2.3884,
+          "lon": 104.193,
+          "skor_ikod": 78.72
+        },
+        {
+          "id": "16-013",
+          "name": "Kabupaten Sumatera Selatan 13",
+          "type": "Kabupaten",
+          "lat": -3.6491,
+          "lon": 103.8242,
+          "skor_ikod": 81.29
+        },
+        {
+          "id": "16-014",
+          "name": "Kabupaten Sumatera Selatan 14",
+          "type": "Kabupaten",
+          "lat": -2.5636,
+          "lon": 105.6578,
+          "skor_ikod": 76.71
+        },
+        {
+          "id": "16-015",
+          "name": "Kota Sumatera Selatan",
+          "type": "Kota",
+          "lat": -2.2339,
+          "lon": 105.0995,
+          "skor_ikod": 75.38
+        },
+        {
+          "id": "16-016",
+          "name": "Kota Sumatera Selatan 2",
+          "type": "Kota",
+          "lat": -3.772,
+          "lon": 104.4678,
+          "skor_ikod": 76.81
+        },
+        {
+          "id": "16-017",
+          "name": "Kota Sumatera Selatan 3",
+          "type": "Kota",
+          "lat": -2.3646,
+          "lon": 104.7616,
+          "skor_ikod": 83.09
+        },
+        {
+          "id": "16-018",
+          "name": "Kota Sumatera Selatan 4",
+          "type": "Kota",
+          "lat": -4.0725,
+          "lon": 105.5988,
+          "skor_ikod": 75.48
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "kode_prov": "17",
+      "name": "Bengkulu",
+      "ibukota": "Bengkulu",
+      "pulau_region": "Sumatera",
+      "lat": -3.5778,
+      "lon": 102.3464,
+      "jumlah_kabkota": 11,
+      "skor_ikod": 77.55,
+      "trend": 3.47,
+      "rank": 25,
+      "kabkota": [
+        {
+          "id": "17-001",
+          "name": "Kabupaten Bengkulu",
+          "type": "Kabupaten",
+          "lat": -4.2621,
+          "lon": 102.9823,
+          "skor_ikod": 82.23
+        },
+        {
+          "id": "17-002",
+          "name": "Kabupaten Bengkulu 2",
+          "type": "Kabupaten",
+          "lat": -3.6591,
+          "lon": 101.4403,
+          "skor_ikod": 77.08
+        },
+        {
+          "id": "17-003",
+          "name": "Kabupaten Bengkulu 3",
+          "type": "Kabupaten",
+          "lat": -2.5642,
+          "lon": 103.2442,
+          "skor_ikod": 74.49
+        },
+        {
+          "id": "17-004",
+          "name": "Kabupaten Bengkulu 4",
+          "type": "Kabupaten",
+          "lat": -2.4837,
+          "lon": 101.4573,
+          "skor_ikod": 71.97
+        },
+        {
+          "id": "17-005",
+          "name": "Kabupaten Bengkulu 5",
+          "type": "Kabupaten",
+          "lat": -2.4968,
+          "lon": 103.3598,
+          "skor_ikod": 79.53
+        },
+        {
+          "id": "17-006",
+          "name": "Kabupaten Bengkulu 6",
+          "type": "Kabupaten",
+          "lat": -3.8834,
+          "lon": 102.3827,
+          "skor_ikod": 74.92
+        },
+        {
+          "id": "17-007",
+          "name": "Kabupaten Bengkulu 7",
+          "type": "Kabupaten",
+          "lat": -3.4576,
+          "lon": 102.6076,
+          "skor_ikod": 74.08
+        },
+        {
+          "id": "17-008",
+          "name": "Kabupaten Bengkulu 8",
+          "type": "Kabupaten",
+          "lat": -4.4801,
+          "lon": 102.6618,
+          "skor_ikod": 81.47
+        },
+        {
+          "id": "17-009",
+          "name": "Kabupaten Bengkulu 9",
+          "type": "Kabupaten",
+          "lat": -4.1791,
+          "lon": 102.5206,
+          "skor_ikod": 82.48
+        },
+        {
+          "id": "17-010",
+          "name": "Kota Bengkulu",
+          "type": "Kota",
+          "lat": -2.9497,
+          "lon": 103.0155,
+          "skor_ikod": 79.02
+        },
+        {
+          "id": "17-011",
+          "name": "Kota Bengkulu 2",
+          "type": "Kota",
+          "lat": -3.75,
+          "lon": 103.3197,
+          "skor_ikod": 71.17
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "kode_prov": "18",
+      "name": "Lampung",
+      "ibukota": "Bandar Lampung",
+      "pulau_region": "Sumatera",
+      "lat": -4.5586,
+      "lon": 105.4068,
+      "jumlah_kabkota": 16,
+      "skor_ikod": 89.66,
+      "trend": 0.27,
+      "rank": 3,
+      "kabkota": [
+        {
+          "id": "18-001",
+          "name": "Kabupaten Lampung",
+          "type": "Kabupaten",
+          "lat": -3.8199,
+          "lon": 105.3532,
+          "skor_ikod": 87.67
+        },
+        {
+          "id": "18-002",
+          "name": "Kabupaten Lampung 2",
+          "type": "Kabupaten",
+          "lat": -3.9103,
+          "lon": 105.1428,
+          "skor_ikod": 93.84
+        },
+        {
+          "id": "18-003",
+          "name": "Kabupaten Lampung 3",
+          "type": "Kabupaten",
+          "lat": -4.7145,
+          "lon": 105.3008,
+          "skor_ikod": 86.14
+        },
+        {
+          "id": "18-004",
+          "name": "Kabupaten Lampung 4",
+          "type": "Kabupaten",
+          "lat": -4.828,
+          "lon": 106.2072,
+          "skor_ikod": 90.02
+        },
+        {
+          "id": "18-005",
+          "name": "Kabupaten Lampung 5",
+          "type": "Kabupaten",
+          "lat": -4.8925,
+          "lon": 104.5938,
+          "skor_ikod": 89.24
+        },
+        {
+          "id": "18-006",
+          "name": "Kabupaten Lampung 6",
+          "type": "Kabupaten",
+          "lat": -4.426,
+          "lon": 106.3846,
+          "skor_ikod": 95.23
+        },
+        {
+          "id": "18-007",
+          "name": "Kabupaten Lampung 7",
+          "type": "Kabupaten",
+          "lat": -3.6772,
+          "lon": 106.2163,
+          "skor_ikod": 94.54
+        },
+        {
+          "id": "18-008",
+          "name": "Kabupaten Lampung 8",
+          "type": "Kabupaten",
+          "lat": -3.7851,
+          "lon": 105.2761,
+          "skor_ikod": 84.53
+        },
+        {
+          "id": "18-009",
+          "name": "Kabupaten Lampung 9",
+          "type": "Kabupaten",
+          "lat": -4.7051,
+          "lon": 105.4234,
+          "skor_ikod": 90.35
+        },
+        {
+          "id": "18-010",
+          "name": "Kabupaten Lampung 10",
+          "type": "Kabupaten",
+          "lat": -5.4782,
+          "lon": 105.1773,
+          "skor_ikod": 92.88
+        },
+        {
+          "id": "18-011",
+          "name": "Kabupaten Lampung 11",
+          "type": "Kabupaten",
+          "lat": -4.269,
+          "lon": 105.0154,
+          "skor_ikod": 94.99
+        },
+        {
+          "id": "18-012",
+          "name": "Kabupaten Lampung 12",
+          "type": "Kabupaten",
+          "lat": -3.7278,
+          "lon": 106.0905,
+          "skor_ikod": 90.95
+        },
+        {
+          "id": "18-013",
+          "name": "Kota Lampung",
+          "type": "Kota",
+          "lat": -4.4224,
+          "lon": 104.3547,
+          "skor_ikod": 96.47
+        },
+        {
+          "id": "18-014",
+          "name": "Kota Lampung 2",
+          "type": "Kota",
+          "lat": -5.4859,
+          "lon": 104.4715,
+          "skor_ikod": 95.33
+        },
+        {
+          "id": "18-015",
+          "name": "Kota Lampung 3",
+          "type": "Kota",
+          "lat": -5.0958,
+          "lon": 105.21,
+          "skor_ikod": 93.47
+        },
+        {
+          "id": "18-016",
+          "name": "Kota Lampung 4",
+          "type": "Kota",
+          "lat": -5.3859,
+          "lon": 105.7338,
+          "skor_ikod": 92.93
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "kode_prov": "19",
+      "name": "Kepulauan Bangka Belitung",
+      "ibukota": "Pangkal Pinang",
+      "pulau_region": "Sumatera",
+      "lat": -2.741,
+      "lon": 106.4406,
+      "jumlah_kabkota": 8,
+      "skor_ikod": 80.07,
+      "trend": -2.72,
+      "rank": 20,
+      "kabkota": [
+        {
+          "id": "19-001",
+          "name": "Kabupaten Kepulauan Bangka Belitung",
+          "type": "Kabupaten",
+          "lat": -2.4093,
+          "lon": 107.188,
+          "skor_ikod": 85.58
+        },
+        {
+          "id": "19-002",
+          "name": "Kabupaten Kepulauan Bangka Belitung 2",
+          "type": "Kabupaten",
+          "lat": -2.4814,
+          "lon": 106.0915,
+          "skor_ikod": 83.33
+        },
+        {
+          "id": "19-003",
+          "name": "Kabupaten Kepulauan Bangka Belitung 3",
+          "type": "Kabupaten",
+          "lat": -3.3061,
+          "lon": 107.2163,
+          "skor_ikod": 89.01
+        },
+        {
+          "id": "19-004",
+          "name": "Kabupaten Kepulauan Bangka Belitung 4",
+          "type": "Kabupaten",
+          "lat": -1.893,
+          "lon": 106.4067,
+          "skor_ikod": 83.18
+        },
+        {
+          "id": "19-005",
+          "name": "Kabupaten Kepulauan Bangka Belitung 5",
+          "type": "Kabupaten",
+          "lat": -1.8424,
+          "lon": 105.9126,
+          "skor_ikod": 82.44
+        },
+        {
+          "id": "19-006",
+          "name": "Kabupaten Kepulauan Bangka Belitung 6",
+          "type": "Kabupaten",
+          "lat": -2.745,
+          "lon": 105.9009,
+          "skor_ikod": 86.42
+        },
+        {
+          "id": "19-007",
+          "name": "Kota Kepulauan Bangka Belitung",
+          "type": "Kota",
+          "lat": -1.8091,
+          "lon": 106.1141,
+          "skor_ikod": 84.16
+        },
+        {
+          "id": "19-008",
+          "name": "Kota Kepulauan Bangka Belitung 2",
+          "type": "Kota",
+          "lat": -2.6447,
+          "lon": 105.5018,
+          "skor_ikod": 78.31
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "kode_prov": "21",
+      "name": "Kepulauan Riau",
+      "ibukota": "Tanjung Pinang",
+      "pulau_region": "Sumatera",
+      "lat": 3.9456,
+      "lon": 108.1428,
+      "jumlah_kabkota": 8,
+      "skor_ikod": 72.0,
+      "trend": -0.99,
+      "rank": 29,
+      "kabkota": [
+        {
+          "id": "21-001",
+          "name": "Kabupaten Kepulauan Riau",
+          "type": "Kabupaten",
+          "lat": 3.6699,
+          "lon": 108.7481,
+          "skor_ikod": 68.45
+        },
+        {
+          "id": "21-002",
+          "name": "Kabupaten Kepulauan Riau 2",
+          "type": "Kabupaten",
+          "lat": 4.6903,
+          "lon": 108.1898,
+          "skor_ikod": 72.06
+        },
+        {
+          "id": "21-003",
+          "name": "Kabupaten Kepulauan Riau 3",
+          "type": "Kabupaten",
+          "lat": 3.0869,
+          "lon": 108.5583,
+          "skor_ikod": 74.64
+        },
+        {
+          "id": "21-004",
+          "name": "Kabupaten Kepulauan Riau 4",
+          "type": "Kabupaten",
+          "lat": 3.2835,
+          "lon": 109.0074,
+          "skor_ikod": 70.6
+        },
+        {
+          "id": "21-005",
+          "name": "Kabupaten Kepulauan Riau 5",
+          "type": "Kabupaten",
+          "lat": 3.8222,
+          "lon": 108.9305,
+          "skor_ikod": 66.9
+        },
+        {
+          "id": "21-006",
+          "name": "Kabupaten Kepulauan Riau 6",
+          "type": "Kabupaten",
+          "lat": 4.5277,
+          "lon": 108.1067,
+          "skor_ikod": 74.11
+        },
+        {
+          "id": "21-007",
+          "name": "Kota Kepulauan Riau",
+          "type": "Kota",
+          "lat": 4.2815,
+          "lon": 107.8654,
+          "skor_ikod": 66.54
+        },
+        {
+          "id": "21-008",
+          "name": "Kota Kepulauan Riau 2",
+          "type": "Kota",
+          "lat": 3.9438,
+          "lon": 109.0488,
+          "skor_ikod": 73.21
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "kode_prov": "31",
+      "name": "DKI Jakarta",
+      "ibukota": "Jakarta",
+      "pulau_region": "Jawa",
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "jumlah_kabkota": 7,
+      "skor_ikod": 91.76,
+      "trend": 2.84,
+      "rank": 2,
+      "kabkota": [
+        {
+          "id": "31-001",
+          "name": "Kabupaten DKI Jakarta",
+          "type": "Kabupaten",
+          "lat": -5.4962,
+          "lon": 106.7852,
+          "skor_ikod": 86.12
+        },
+        {
+          "id": "31-002",
+          "name": "Kabupaten DKI Jakarta 2",
+          "type": "Kabupaten",
+          "lat": -5.353,
+          "lon": 105.9255,
+          "skor_ikod": 89.99
+        },
+        {
+          "id": "31-003",
+          "name": "Kabupaten DKI Jakarta 3",
+          "type": "Kabupaten",
+          "lat": -5.7398,
+          "lon": 106.3236,
+          "skor_ikod": 94.26
+        },
+        {
+          "id": "31-004",
+          "name": "Kabupaten DKI Jakarta 4",
+          "type": "Kabupaten",
+          "lat": -7.2845,
+          "lon": 107.0128,
+          "skor_ikod": 88.01
+        },
+        {
+          "id": "31-005",
+          "name": "Kabupaten DKI Jakarta 5",
+          "type": "Kabupaten",
+          "lat": -5.9868,
+          "lon": 105.9418,
+          "skor_ikod": 86.07
+        },
+        {
+          "id": "31-006",
+          "name": "Kota DKI Jakarta",
+          "type": "Kota",
+          "lat": -5.9161,
+          "lon": 105.9048,
+          "skor_ikod": 85.74
+        },
+        {
+          "id": "31-007",
+          "name": "Kota DKI Jakarta 2",
+          "type": "Kota",
+          "lat": -6.1583,
+          "lon": 106.0293,
+          "skor_ikod": 93.31
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "kode_prov": "32",
+      "name": "Jawa Barat",
+      "ibukota": "Bandung",
+      "pulau_region": "Jawa",
+      "lat": -6.9147,
+      "lon": 107.6098,
+      "jumlah_kabkota": 27,
+      "skor_ikod": 80.33,
+      "trend": -1.78,
+      "rank": 18,
+      "kabkota": [
+        {
+          "id": "32-001",
+          "name": "Kabupaten Jawa Barat",
+          "type": "Kabupaten",
+          "lat": -6.838,
+          "lon": 107.6549,
+          "skor_ikod": 85.99
+        },
+        {
+          "id": "32-002",
+          "name": "Kabupaten Jawa Barat 2",
+          "type": "Kabupaten",
+          "lat": -6.8805,
+          "lon": 107.1764,
+          "skor_ikod": 86.69
+        },
+        {
+          "id": "32-003",
+          "name": "Kabupaten Jawa Barat 3",
+          "type": "Kabupaten",
+          "lat": -7.7043,
+          "lon": 106.8817,
+          "skor_ikod": 87.04
+        },
+        {
+          "id": "32-004",
+          "name": "Kabupaten Jawa Barat 4",
+          "type": "Kabupaten",
+          "lat": -6.1898,
+          "lon": 107.7084,
+          "skor_ikod": 83.78
+        },
+        {
+          "id": "32-005",
+          "name": "Kabupaten Jawa Barat 5",
+          "type": "Kabupaten",
+          "lat": -6.0718,
+          "lon": 107.4378,
+          "skor_ikod": 80.8
+        },
+        {
+          "id": "32-006",
+          "name": "Kabupaten Jawa Barat 6",
+          "type": "Kabupaten",
+          "lat": -6.0394,
+          "lon": 108.5195,
+          "skor_ikod": 78.13
+        },
+        {
+          "id": "32-007",
+          "name": "Kabupaten Jawa Barat 7",
+          "type": "Kabupaten",
+          "lat": -6.2454,
+          "lon": 107.0789,
+          "skor_ikod": 81.06
+        },
+        {
+          "id": "32-008",
+          "name": "Kabupaten Jawa Barat 8",
+          "type": "Kabupaten",
+          "lat": -7.4314,
+          "lon": 107.1149,
+          "skor_ikod": 78.17
+        },
+        {
+          "id": "32-009",
+          "name": "Kabupaten Jawa Barat 9",
+          "type": "Kabupaten",
+          "lat": -6.5392,
+          "lon": 108.4422,
+          "skor_ikod": 80.55
+        },
+        {
+          "id": "32-010",
+          "name": "Kabupaten Jawa Barat 10",
+          "type": "Kabupaten",
+          "lat": -5.9077,
+          "lon": 107.2661,
+          "skor_ikod": 80.41
+        },
+        {
+          "id": "32-011",
+          "name": "Kabupaten Jawa Barat 11",
+          "type": "Kabupaten",
+          "lat": -6.8052,
+          "lon": 107.2149,
+          "skor_ikod": 86.31
+        },
+        {
+          "id": "32-012",
+          "name": "Kabupaten Jawa Barat 12",
+          "type": "Kabupaten",
+          "lat": -7.2652,
+          "lon": 107.6254,
+          "skor_ikod": 77.3
+        },
+        {
+          "id": "32-013",
+          "name": "Kabupaten Jawa Barat 13",
+          "type": "Kabupaten",
+          "lat": -7.1094,
+          "lon": 106.5327,
+          "skor_ikod": 79.81
+        },
+        {
+          "id": "32-014",
+          "name": "Kabupaten Jawa Barat 14",
+          "type": "Kabupaten",
+          "lat": -6.5335,
+          "lon": 106.9679,
+          "skor_ikod": 77.01
+        },
+        {
+          "id": "32-015",
+          "name": "Kabupaten Jawa Barat 15",
+          "type": "Kabupaten",
+          "lat": -7.8371,
+          "lon": 106.6363,
+          "skor_ikod": 80.78
+        },
+        {
+          "id": "32-016",
+          "name": "Kabupaten Jawa Barat 16",
+          "type": "Kabupaten",
+          "lat": -6.8361,
+          "lon": 107.4444,
+          "skor_ikod": 78.48
+        },
+        {
+          "id": "32-017",
+          "name": "Kabupaten Jawa Barat 17",
+          "type": "Kabupaten",
+          "lat": -5.9635,
+          "lon": 108.5197,
+          "skor_ikod": 76.41
+        },
+        {
+          "id": "32-018",
+          "name": "Kabupaten Jawa Barat 18",
+          "type": "Kabupaten",
+          "lat": -7.0987,
+          "lon": 108.5078,
+          "skor_ikod": 87.62
+        },
+        {
+          "id": "32-019",
+          "name": "Kabupaten Jawa Barat 19",
+          "type": "Kabupaten",
+          "lat": -6.0681,
+          "lon": 107.857,
+          "skor_ikod": 80.29
+        },
+        {
+          "id": "32-020",
+          "name": "Kabupaten Jawa Barat 20",
+          "type": "Kabupaten",
+          "lat": -5.9281,
+          "lon": 107.7539,
+          "skor_ikod": 85.75
+        },
+        {
+          "id": "32-021",
+          "name": "Kabupaten Jawa Barat 21",
+          "type": "Kabupaten",
+          "lat": -7.9673,
+          "lon": 107.8633,
+          "skor_ikod": 80.09
+        },
+        {
+          "id": "32-022",
+          "name": "Kota Jawa Barat",
+          "type": "Kota",
+          "lat": -6.433,
+          "lon": 107.127,
+          "skor_ikod": 84.85
+        },
+        {
+          "id": "32-023",
+          "name": "Kota Jawa Barat 2",
+          "type": "Kota",
+          "lat": -6.9395,
+          "lon": 108.3503,
+          "skor_ikod": 84.8
+        },
+        {
+          "id": "32-024",
+          "name": "Kota Jawa Barat 3",
+          "type": "Kota",
+          "lat": -7.7673,
+          "lon": 107.3161,
+          "skor_ikod": 75.64
+        },
+        {
+          "id": "32-025",
+          "name": "Kota Jawa Barat 4",
+          "type": "Kota",
+          "lat": -6.7295,
+          "lon": 108.6025,
+          "skor_ikod": 85.12
+        },
+        {
+          "id": "32-026",
+          "name": "Kota Jawa Barat 5",
+          "type": "Kota",
+          "lat": -6.9335,
+          "lon": 106.97,
+          "skor_ikod": 78.8
+        },
+        {
+          "id": "32-027",
+          "name": "Kota Jawa Barat 6",
+          "type": "Kota",
+          "lat": -6.7873,
+          "lon": 107.7153,
+          "skor_ikod": 77.55
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "kode_prov": "33",
+      "name": "Jawa Tengah",
+      "ibukota": "Semarang",
+      "pulau_region": "Jawa",
+      "lat": -7.15,
+      "lon": 110.1403,
+      "jumlah_kabkota": 35,
+      "skor_ikod": 81.63,
+      "trend": 1.51,
+      "rank": 12,
+      "kabkota": [
+        {
+          "id": "33-001",
+          "name": "Kabupaten Jawa Tengah",
+          "type": "Kabupaten",
+          "lat": -7.5496,
+          "lon": 110.4337,
+          "skor_ikod": 76.51
+        },
+        {
+          "id": "33-002",
+          "name": "Kabupaten Jawa Tengah 2",
+          "type": "Kabupaten",
+          "lat": -6.3251,
+          "lon": 109.8544,
+          "skor_ikod": 76.17
+        },
+        {
+          "id": "33-003",
+          "name": "Kabupaten Jawa Tengah 3",
+          "type": "Kabupaten",
+          "lat": -6.5122,
+          "lon": 109.9815,
+          "skor_ikod": 79.86
+        },
+        {
+          "id": "33-004",
+          "name": "Kabupaten Jawa Tengah 4",
+          "type": "Kabupaten",
+          "lat": -7.8894,
+          "lon": 110.3907,
+          "skor_ikod": 78.66
+        },
+        {
+          "id": "33-005",
+          "name": "Kabupaten Jawa Tengah 5",
+          "type": "Kabupaten",
+          "lat": -7.4359,
+          "lon": 109.1893,
+          "skor_ikod": 75.31
+        },
+        {
+          "id": "33-006",
+          "name": "Kabupaten Jawa Tengah 6",
+          "type": "Kabupaten",
+          "lat": -7.0481,
+          "lon": 110.3665,
+          "skor_ikod": 86.64
+        },
+        {
+          "id": "33-007",
+          "name": "Kabupaten Jawa Tengah 7",
+          "type": "Kabupaten",
+          "lat": -7.0174,
+          "lon": 110.7976,
+          "skor_ikod": 80.22
+        },
+        {
+          "id": "33-008",
+          "name": "Kabupaten Jawa Tengah 8",
+          "type": "Kabupaten",
+          "lat": -6.5132,
+          "lon": 110.2375,
+          "skor_ikod": 85.33
+        },
+        {
+          "id": "33-009",
+          "name": "Kabupaten Jawa Tengah 9",
+          "type": "Kabupaten",
+          "lat": -7.6812,
+          "lon": 110.278,
+          "skor_ikod": 84.66
+        },
+        {
+          "id": "33-010",
+          "name": "Kabupaten Jawa Tengah 10",
+          "type": "Kabupaten",
+          "lat": -7.8397,
+          "lon": 110.0256,
+          "skor_ikod": 84.56
+        },
+        {
+          "id": "33-011",
+          "name": "Kabupaten Jawa Tengah 11",
+          "type": "Kabupaten",
+          "lat": -6.3382,
+          "lon": 110.9876,
+          "skor_ikod": 83.5
+        },
+        {
+          "id": "33-012",
+          "name": "Kabupaten Jawa Tengah 12",
+          "type": "Kabupaten",
+          "lat": -6.4655,
+          "lon": 110.2669,
+          "skor_ikod": 84.32
+        },
+        {
+          "id": "33-013",
+          "name": "Kabupaten Jawa Tengah 13",
+          "type": "Kabupaten",
+          "lat": -7.0447,
+          "lon": 111.01,
+          "skor_ikod": 81.51
+        },
+        {
+          "id": "33-014",
+          "name": "Kabupaten Jawa Tengah 14",
+          "type": "Kabupaten",
+          "lat": -6.4901,
+          "lon": 109.8485,
+          "skor_ikod": 77.5
+        },
+        {
+          "id": "33-015",
+          "name": "Kabupaten Jawa Tengah 15",
+          "type": "Kabupaten",
+          "lat": -6.5773,
+          "lon": 110.7551,
+          "skor_ikod": 75.34
+        },
+        {
+          "id": "33-016",
+          "name": "Kabupaten Jawa Tengah 16",
+          "type": "Kabupaten",
+          "lat": -6.4775,
+          "lon": 110.1898,
+          "skor_ikod": 78.33
+        },
+        {
+          "id": "33-017",
+          "name": "Kabupaten Jawa Tengah 17",
+          "type": "Kabupaten",
+          "lat": -6.8074,
+          "lon": 109.5755,
+          "skor_ikod": 80.01
+        },
+        {
+          "id": "33-018",
+          "name": "Kabupaten Jawa Tengah 18",
+          "type": "Kabupaten",
+          "lat": -6.4972,
+          "lon": 110.587,
+          "skor_ikod": 73.24
+        },
+        {
+          "id": "33-019",
+          "name": "Kabupaten Jawa Tengah 19",
+          "type": "Kabupaten",
+          "lat": -6.5503,
+          "lon": 109.8779,
+          "skor_ikod": 79.73
+        },
+        {
+          "id": "33-020",
+          "name": "Kabupaten Jawa Tengah 20",
+          "type": "Kabupaten",
+          "lat": -6.1436,
+          "lon": 109.9991,
+          "skor_ikod": 80.0
+        },
+        {
+          "id": "33-021",
+          "name": "Kabupaten Jawa Tengah 21",
+          "type": "Kabupaten",
+          "lat": -7.8497,
+          "lon": 110.7297,
+          "skor_ikod": 79.4
+        },
+        {
+          "id": "33-022",
+          "name": "Kabupaten Jawa Tengah 22",
+          "type": "Kabupaten",
+          "lat": -6.3726,
+          "lon": 109.4556,
+          "skor_ikod": 79.82
+        },
+        {
+          "id": "33-023",
+          "name": "Kabupaten Jawa Tengah 23",
+          "type": "Kabupaten",
+          "lat": -6.66,
+          "lon": 110.8239,
+          "skor_ikod": 80.34
+        },
+        {
+          "id": "33-024",
+          "name": "Kabupaten Jawa Tengah 24",
+          "type": "Kabupaten",
+          "lat": -6.9619,
+          "lon": 110.3381,
+          "skor_ikod": 74.92
+        },
+        {
+          "id": "33-025",
+          "name": "Kabupaten Jawa Tengah 25",
+          "type": "Kabupaten",
+          "lat": -6.5731,
+          "lon": 110.9545,
+          "skor_ikod": 84.73
+        },
+        {
+          "id": "33-026",
+          "name": "Kabupaten Jawa Tengah 26",
+          "type": "Kabupaten",
+          "lat": -7.8292,
+          "lon": 110.1611,
+          "skor_ikod": 77.19
+        },
+        {
+          "id": "33-027",
+          "name": "Kabupaten Jawa Tengah 27",
+          "type": "Kabupaten",
+          "lat": -8.036,
+          "lon": 110.6787,
+          "skor_ikod": 79.03
+        },
+        {
+          "id": "33-028",
+          "name": "Kota Jawa Tengah",
+          "type": "Kota",
+          "lat": -7.0714,
+          "lon": 109.8459,
+          "skor_ikod": 84.55
+        },
+        {
+          "id": "33-029",
+          "name": "Kota Jawa Tengah 2",
+          "type": "Kota",
+          "lat": -6.0935,
+          "lon": 110.5247,
+          "skor_ikod": 84.73
+        },
+        {
+          "id": "33-030",
+          "name": "Kota Jawa Tengah 3",
+          "type": "Kota",
+          "lat": -6.7701,
+          "lon": 109.9377,
+          "skor_ikod": 82.64
+        },
+        {
+          "id": "33-031",
+          "name": "Kota Jawa Tengah 4",
+          "type": "Kota",
+          "lat": -7.1847,
+          "lon": 109.9338,
+          "skor_ikod": 81.13
+        },
+        {
+          "id": "33-032",
+          "name": "Kota Jawa Tengah 5",
+          "type": "Kota",
+          "lat": -6.8793,
+          "lon": 110.2215,
+          "skor_ikod": 79.96
+        },
+        {
+          "id": "33-033",
+          "name": "Kota Jawa Tengah 6",
+          "type": "Kota",
+          "lat": -7.4194,
+          "lon": 109.7759,
+          "skor_ikod": 80.94
+        },
+        {
+          "id": "33-034",
+          "name": "Kota Jawa Tengah 7",
+          "type": "Kota",
+          "lat": -6.74,
+          "lon": 110.0741,
+          "skor_ikod": 84.88
+        },
+        {
+          "id": "33-035",
+          "name": "Kota Jawa Tengah 8",
+          "type": "Kota",
+          "lat": -6.8102,
+          "lon": 109.275,
+          "skor_ikod": 78.4
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "kode_prov": "34",
+      "name": "Daerah Istimewa Yogyakarta",
+      "ibukota": "Yogyakarta",
+      "pulau_region": "Jawa",
+      "lat": -7.7956,
+      "lon": 110.3695,
+      "jumlah_kabkota": 5,
+      "skor_ikod": 96.87,
+      "trend": 3.63,
+      "rank": 1,
+      "kabkota": [
+        {
+          "id": "34-001",
+          "name": "Kabupaten Daerah Istimewa Yogyakarta",
+          "type": "Kabupaten",
+          "lat": -7.4363,
+          "lon": 109.7373,
+          "skor_ikod": 94.75
+        },
+        {
+          "id": "34-002",
+          "name": "Kabupaten Daerah Istimewa Yogyakarta 2",
+          "type": "Kabupaten",
+          "lat": -7.1395,
+          "lon": 110.1949,
+          "skor_ikod": 98.0
+        },
+        {
+          "id": "34-003",
+          "name": "Kabupaten Daerah Istimewa Yogyakarta 3",
+          "type": "Kabupaten",
+          "lat": -6.9567,
+          "lon": 110.6413,
+          "skor_ikod": 90.39
+        },
+        {
+          "id": "34-004",
+          "name": "Kabupaten Daerah Istimewa Yogyakarta 4",
+          "type": "Kabupaten",
+          "lat": -6.9651,
+          "lon": 111.0908,
+          "skor_ikod": 98.0
+        },
+        {
+          "id": "34-005",
+          "name": "Kota Daerah Istimewa Yogyakarta",
+          "type": "Kota",
+          "lat": -7.2177,
+          "lon": 111.2479,
+          "skor_ikod": 90.91
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "kode_prov": "35",
+      "name": "Jawa Timur",
+      "ibukota": "Surabaya",
+      "pulau_region": "Jawa",
+      "lat": -7.5361,
+      "lon": 112.2384,
+      "jumlah_kabkota": 38,
+      "skor_ikod": 87.15,
+      "trend": 1.9,
+      "rank": 7,
+      "kabkota": [
+        {
+          "id": "35-001",
+          "name": "Kabupaten Jawa Timur",
+          "type": "Kabupaten",
+          "lat": -7.8717,
+          "lon": 113.3366,
+          "skor_ikod": 91.71
+        },
+        {
+          "id": "35-002",
+          "name": "Kabupaten Jawa Timur 2",
+          "type": "Kabupaten",
+          "lat": -6.4852,
+          "lon": 111.1458,
+          "skor_ikod": 83.27
+        },
+        {
+          "id": "35-003",
+          "name": "Kabupaten Jawa Timur 3",
+          "type": "Kabupaten",
+          "lat": -7.039,
+          "lon": 112.4813,
+          "skor_ikod": 82.42
+        },
+        {
+          "id": "35-004",
+          "name": "Kabupaten Jawa Timur 4",
+          "type": "Kabupaten",
+          "lat": -7.0182,
+          "lon": 112.4142,
+          "skor_ikod": 83.9
+        },
+        {
+          "id": "35-005",
+          "name": "Kabupaten Jawa Timur 5",
+          "type": "Kabupaten",
+          "lat": -8.1274,
+          "lon": 113.3007,
+          "skor_ikod": 84.52
+        },
+        {
+          "id": "35-006",
+          "name": "Kabupaten Jawa Timur 6",
+          "type": "Kabupaten",
+          "lat": -7.839,
+          "lon": 112.6588,
+          "skor_ikod": 86.91
+        },
+        {
+          "id": "35-007",
+          "name": "Kabupaten Jawa Timur 7",
+          "type": "Kabupaten",
+          "lat": -7.6988,
+          "lon": 111.7409,
+          "skor_ikod": 83.91
+        },
+        {
+          "id": "35-008",
+          "name": "Kabupaten Jawa Timur 8",
+          "type": "Kabupaten",
+          "lat": -6.6797,
+          "lon": 111.9682,
+          "skor_ikod": 86.12
+        },
+        {
+          "id": "35-009",
+          "name": "Kabupaten Jawa Timur 9",
+          "type": "Kabupaten",
+          "lat": -6.5211,
+          "lon": 113.1655,
+          "skor_ikod": 87.4
+        },
+        {
+          "id": "35-010",
+          "name": "Kabupaten Jawa Timur 10",
+          "type": "Kabupaten",
+          "lat": -8.5479,
+          "lon": 113.1562,
+          "skor_ikod": 89.68
+        },
+        {
+          "id": "35-011",
+          "name": "Kabupaten Jawa Timur 11",
+          "type": "Kabupaten",
+          "lat": -8.5957,
+          "lon": 112.6831,
+          "skor_ikod": 85.78
+        },
+        {
+          "id": "35-012",
+          "name": "Kabupaten Jawa Timur 12",
+          "type": "Kabupaten",
+          "lat": -6.8032,
+          "lon": 112.1758,
+          "skor_ikod": 87.02
+        },
+        {
+          "id": "35-013",
+          "name": "Kabupaten Jawa Timur 13",
+          "type": "Kabupaten",
+          "lat": -7.4659,
+          "lon": 112.7282,
+          "skor_ikod": 88.56
+        },
+        {
+          "id": "35-014",
+          "name": "Kabupaten Jawa Timur 14",
+          "type": "Kabupaten",
+          "lat": -6.4879,
+          "lon": 111.8966,
+          "skor_ikod": 83.31
+        },
+        {
+          "id": "35-015",
+          "name": "Kabupaten Jawa Timur 15",
+          "type": "Kabupaten",
+          "lat": -7.8513,
+          "lon": 111.2695,
+          "skor_ikod": 89.19
+        },
+        {
+          "id": "35-016",
+          "name": "Kabupaten Jawa Timur 16",
+          "type": "Kabupaten",
+          "lat": -8.0845,
+          "lon": 112.1102,
+          "skor_ikod": 89.88
+        },
+        {
+          "id": "35-017",
+          "name": "Kabupaten Jawa Timur 17",
+          "type": "Kabupaten",
+          "lat": -7.2727,
+          "lon": 112.8147,
+          "skor_ikod": 86.73
+        },
+        {
+          "id": "35-018",
+          "name": "Kabupaten Jawa Timur 18",
+          "type": "Kabupaten",
+          "lat": -7.3819,
+          "lon": 111.6608,
+          "skor_ikod": 88.71
+        },
+        {
+          "id": "35-019",
+          "name": "Kabupaten Jawa Timur 19",
+          "type": "Kabupaten",
+          "lat": -7.15,
+          "lon": 113.0799,
+          "skor_ikod": 84.46
+        },
+        {
+          "id": "35-020",
+          "name": "Kabupaten Jawa Timur 20",
+          "type": "Kabupaten",
+          "lat": -8.0473,
+          "lon": 113.0723,
+          "skor_ikod": 88.31
+        },
+        {
+          "id": "35-021",
+          "name": "Kabupaten Jawa Timur 21",
+          "type": "Kabupaten",
+          "lat": -7.2635,
+          "lon": 112.2485,
+          "skor_ikod": 82.55
+        },
+        {
+          "id": "35-022",
+          "name": "Kabupaten Jawa Timur 22",
+          "type": "Kabupaten",
+          "lat": -8.5486,
+          "lon": 113.1483,
+          "skor_ikod": 88.76
+        },
+        {
+          "id": "35-023",
+          "name": "Kabupaten Jawa Timur 23",
+          "type": "Kabupaten",
+          "lat": -8.066,
+          "lon": 112.2613,
+          "skor_ikod": 88.21
+        },
+        {
+          "id": "35-024",
+          "name": "Kabupaten Jawa Timur 24",
+          "type": "Kabupaten",
+          "lat": -6.6506,
+          "lon": 113.185,
+          "skor_ikod": 84.75
+        },
+        {
+          "id": "35-025",
+          "name": "Kabupaten Jawa Timur 25",
+          "type": "Kabupaten",
+          "lat": -8.2915,
+          "lon": 111.7838,
+          "skor_ikod": 84.73
+        },
+        {
+          "id": "35-026",
+          "name": "Kabupaten Jawa Timur 26",
+          "type": "Kabupaten",
+          "lat": -6.4568,
+          "lon": 111.8922,
+          "skor_ikod": 88.31
+        },
+        {
+          "id": "35-027",
+          "name": "Kabupaten Jawa Timur 27",
+          "type": "Kabupaten",
+          "lat": -8.1152,
+          "lon": 112.6367,
+          "skor_ikod": 85.09
+        },
+        {
+          "id": "35-028",
+          "name": "Kabupaten Jawa Timur 28",
+          "type": "Kabupaten",
+          "lat": -7.2475,
+          "lon": 111.966,
+          "skor_ikod": 89.35
+        },
+        {
+          "id": "35-029",
+          "name": "Kabupaten Jawa Timur 29",
+          "type": "Kabupaten",
+          "lat": -6.67,
+          "lon": 112.0625,
+          "skor_ikod": 79.31
+        },
+        {
+          "id": "35-030",
+          "name": "Kabupaten Jawa Timur 30",
+          "type": "Kabupaten",
+          "lat": -7.0209,
+          "lon": 113.0782,
+          "skor_ikod": 84.5
+        },
+        {
+          "id": "35-031",
+          "name": "Kota Jawa Timur",
+          "type": "Kota",
+          "lat": -6.5719,
+          "lon": 112.8287,
+          "skor_ikod": 79.35
+        },
+        {
+          "id": "35-032",
+          "name": "Kota Jawa Timur 2",
+          "type": "Kota",
+          "lat": -8.273,
+          "lon": 111.8195,
+          "skor_ikod": 86.25
+        },
+        {
+          "id": "35-033",
+          "name": "Kota Jawa Timur 3",
+          "type": "Kota",
+          "lat": -8.2501,
+          "lon": 111.381,
+          "skor_ikod": 79.12
+        },
+        {
+          "id": "35-034",
+          "name": "Kota Jawa Timur 4",
+          "type": "Kota",
+          "lat": -7.9183,
+          "lon": 112.4453,
+          "skor_ikod": 89.45
+        },
+        {
+          "id": "35-035",
+          "name": "Kota Jawa Timur 5",
+          "type": "Kota",
+          "lat": -6.7701,
+          "lon": 111.2386,
+          "skor_ikod": 84.14
+        },
+        {
+          "id": "35-036",
+          "name": "Kota Jawa Timur 6",
+          "type": "Kota",
+          "lat": -7.4146,
+          "lon": 112.0162,
+          "skor_ikod": 82.24
+        },
+        {
+          "id": "35-037",
+          "name": "Kota Jawa Timur 7",
+          "type": "Kota",
+          "lat": -7.4052,
+          "lon": 111.2092,
+          "skor_ikod": 79.44
+        },
+        {
+          "id": "35-038",
+          "name": "Kota Jawa Timur 8",
+          "type": "Kota",
+          "lat": -6.6622,
+          "lon": 112.5871,
+          "skor_ikod": 80.0
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "kode_prov": "36",
+      "name": "Banten",
+      "ibukota": "Serang",
+      "pulau_region": "Jawa",
+      "lat": -6.4058,
+      "lon": 106.064,
+      "jumlah_kabkota": 8,
+      "skor_ikod": 72.18,
+      "trend": 0.8,
+      "rank": 28,
+      "kabkota": [
+        {
+          "id": "36-001",
+          "name": "Kabupaten Banten",
+          "type": "Kabupaten",
+          "lat": -6.0888,
+          "lon": 106.4584,
+          "skor_ikod": 69.68
+        },
+        {
+          "id": "36-002",
+          "name": "Kabupaten Banten 2",
+          "type": "Kabupaten",
+          "lat": -6.6539,
+          "lon": 106.3294,
+          "skor_ikod": 79.93
+        },
+        {
+          "id": "36-003",
+          "name": "Kabupaten Banten 3",
+          "type": "Kabupaten",
+          "lat": -5.816,
+          "lon": 105.7851,
+          "skor_ikod": 66.4
+        },
+        {
+          "id": "36-004",
+          "name": "Kabupaten Banten 4",
+          "type": "Kabupaten",
+          "lat": -5.8343,
+          "lon": 106.134,
+          "skor_ikod": 77.35
+        },
+        {
+          "id": "36-005",
+          "name": "Kabupaten Banten 5",
+          "type": "Kabupaten",
+          "lat": -6.7036,
+          "lon": 105.0013,
+          "skor_ikod": 68.01
+        },
+        {
+          "id": "36-006",
+          "name": "Kabupaten Banten 6",
+          "type": "Kabupaten",
+          "lat": -6.7148,
+          "lon": 106.5403,
+          "skor_ikod": 77.05
+        },
+        {
+          "id": "36-007",
+          "name": "Kota Banten",
+          "type": "Kota",
+          "lat": -6.119,
+          "lon": 106.8465,
+          "skor_ikod": 78.76
+        },
+        {
+          "id": "36-008",
+          "name": "Kota Banten 2",
+          "type": "Kota",
+          "lat": -7.4818,
+          "lon": 107.0348,
+          "skor_ikod": 80.27
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "kode_prov": "51",
+      "name": "Bali",
+      "ibukota": "Denpasar",
+      "pulau_region": "Bali-Nusra",
+      "lat": -8.4095,
+      "lon": 115.1889,
+      "jumlah_kabkota": 9,
+      "skor_ikod": 77.21,
+      "trend": 1.35,
+      "rank": 27,
+      "kabkota": [
+        {
+          "id": "51-001",
+          "name": "Kabupaten Bali",
+          "type": "Kabupaten",
+          "lat": -9.0658,
+          "lon": 115.5102,
+          "skor_ikod": 72.98
+        },
+        {
+          "id": "51-002",
+          "name": "Kabupaten Bali 2",
+          "type": "Kabupaten",
+          "lat": -8.1522,
+          "lon": 115.7866,
+          "skor_ikod": 81.58
+        },
+        {
+          "id": "51-003",
+          "name": "Kabupaten Bali 3",
+          "type": "Kabupaten",
+          "lat": -8.997,
+          "lon": 115.0178,
+          "skor_ikod": 79.61
+        },
+        {
+          "id": "51-004",
+          "name": "Kabupaten Bali 4",
+          "type": "Kabupaten",
+          "lat": -9.2174,
+          "lon": 115.3702,
+          "skor_ikod": 78.82
+        },
+        {
+          "id": "51-005",
+          "name": "Kabupaten Bali 5",
+          "type": "Kabupaten",
+          "lat": -8.908,
+          "lon": 116.2176,
+          "skor_ikod": 81.86
+        },
+        {
+          "id": "51-006",
+          "name": "Kabupaten Bali 6",
+          "type": "Kabupaten",
+          "lat": -8.0443,
+          "lon": 114.5818,
+          "skor_ikod": 79.48
+        },
+        {
+          "id": "51-007",
+          "name": "Kabupaten Bali 7",
+          "type": "Kabupaten",
+          "lat": -9.0778,
+          "lon": 115.0861,
+          "skor_ikod": 71.37
+        },
+        {
+          "id": "51-008",
+          "name": "Kota Bali",
+          "type": "Kota",
+          "lat": -8.6166,
+          "lon": 115.8829,
+          "skor_ikod": 75.39
+        },
+        {
+          "id": "51-009",
+          "name": "Kota Bali 2",
+          "type": "Kota",
+          "lat": -8.2087,
+          "lon": 115.7748,
+          "skor_ikod": 73.67
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "kode_prov": "52",
+      "name": "Nusa Tenggara Barat",
+      "ibukota": "Mataram",
+      "pulau_region": "Bali-Nusra",
+      "lat": -8.6529,
+      "lon": 117.3616,
+      "jumlah_kabkota": 10,
+      "skor_ikod": 81.95,
+      "trend": 1.93,
+      "rank": 11,
+      "kabkota": [
+        {
+          "id": "52-001",
+          "name": "Kabupaten Nusa Tenggara Barat",
+          "type": "Kabupaten",
+          "lat": -9.0231,
+          "lon": 117.3043,
+          "skor_ikod": 73.78
+        },
+        {
+          "id": "52-002",
+          "name": "Kabupaten Nusa Tenggara Barat 2",
+          "type": "Kabupaten",
+          "lat": -8.9357,
+          "lon": 116.7187,
+          "skor_ikod": 81.22
+        },
+        {
+          "id": "52-003",
+          "name": "Kabupaten Nusa Tenggara Barat 3",
+          "type": "Kabupaten",
+          "lat": -9.4067,
+          "lon": 117.219,
+          "skor_ikod": 76.26
+        },
+        {
+          "id": "52-004",
+          "name": "Kabupaten Nusa Tenggara Barat 4",
+          "type": "Kabupaten",
+          "lat": -9.6611,
+          "lon": 118.3378,
+          "skor_ikod": 84.07
+        },
+        {
+          "id": "52-005",
+          "name": "Kabupaten Nusa Tenggara Barat 5",
+          "type": "Kabupaten",
+          "lat": -9.3508,
+          "lon": 118.0137,
+          "skor_ikod": 74.93
+        },
+        {
+          "id": "52-006",
+          "name": "Kabupaten Nusa Tenggara Barat 6",
+          "type": "Kabupaten",
+          "lat": -8.7891,
+          "lon": 116.6764,
+          "skor_ikod": 78.26
+        },
+        {
+          "id": "52-007",
+          "name": "Kabupaten Nusa Tenggara Barat 7",
+          "type": "Kabupaten",
+          "lat": -8.7653,
+          "lon": 116.743,
+          "skor_ikod": 76.13
+        },
+        {
+          "id": "52-008",
+          "name": "Kabupaten Nusa Tenggara Barat 8",
+          "type": "Kabupaten",
+          "lat": -8.2409,
+          "lon": 117.0757,
+          "skor_ikod": 83.12
+        },
+        {
+          "id": "52-009",
+          "name": "Kota Nusa Tenggara Barat",
+          "type": "Kota",
+          "lat": -7.8799,
+          "lon": 116.767,
+          "skor_ikod": 81.33
+        },
+        {
+          "id": "52-010",
+          "name": "Kota Nusa Tenggara Barat 2",
+          "type": "Kota",
+          "lat": -8.8645,
+          "lon": 118.0243,
+          "skor_ikod": 73.28
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "kode_prov": "53",
+      "name": "Nusa Tenggara Timur",
+      "ibukota": "Kupang",
+      "pulau_region": "Bali-Nusra",
+      "lat": -9.65,
+      "lon": 121.0794,
+      "jumlah_kabkota": 22,
+      "skor_ikod": 77.47,
+      "trend": 0.77,
+      "rank": 26,
+      "kabkota": [
+        {
+          "id": "53-001",
+          "name": "Kabupaten Nusa Tenggara Timur",
+          "type": "Kabupaten",
+          "lat": -9.5653,
+          "lon": 120.8902,
+          "skor_ikod": 79.14
+        },
+        {
+          "id": "53-002",
+          "name": "Kabupaten Nusa Tenggara Timur 2",
+          "type": "Kabupaten",
+          "lat": -9.4757,
+          "lon": 121.1099,
+          "skor_ikod": 76.2
+        },
+        {
+          "id": "53-003",
+          "name": "Kabupaten Nusa Tenggara Timur 3",
+          "type": "Kabupaten",
+          "lat": -9.2248,
+          "lon": 120.7467,
+          "skor_ikod": 78.25
+        },
+        {
+          "id": "53-004",
+          "name": "Kabupaten Nusa Tenggara Timur 4",
+          "type": "Kabupaten",
+          "lat": -9.5984,
+          "lon": 121.9929,
+          "skor_ikod": 82.11
+        },
+        {
+          "id": "53-005",
+          "name": "Kabupaten Nusa Tenggara Timur 5",
+          "type": "Kabupaten",
+          "lat": -9.6735,
+          "lon": 122.1579,
+          "skor_ikod": 80.95
+        },
+        {
+          "id": "53-006",
+          "name": "Kabupaten Nusa Tenggara Timur 6",
+          "type": "Kabupaten",
+          "lat": -8.5553,
+          "lon": 121.6214,
+          "skor_ikod": 79.49
+        },
+        {
+          "id": "53-007",
+          "name": "Kabupaten Nusa Tenggara Timur 7",
+          "type": "Kabupaten",
+          "lat": -8.7927,
+          "lon": 120.6411,
+          "skor_ikod": 79.03
+        },
+        {
+          "id": "53-008",
+          "name": "Kabupaten Nusa Tenggara Timur 8",
+          "type": "Kabupaten",
+          "lat": -9.2997,
+          "lon": 120.6855,
+          "skor_ikod": 78.04
+        },
+        {
+          "id": "53-009",
+          "name": "Kabupaten Nusa Tenggara Timur 9",
+          "type": "Kabupaten",
+          "lat": -10.4418,
+          "lon": 121.7103,
+          "skor_ikod": 76.68
+        },
+        {
+          "id": "53-010",
+          "name": "Kabupaten Nusa Tenggara Timur 10",
+          "type": "Kabupaten",
+          "lat": -9.9154,
+          "lon": 122.1783,
+          "skor_ikod": 83.82
+        },
+        {
+          "id": "53-011",
+          "name": "Kabupaten Nusa Tenggara Timur 11",
+          "type": "Kabupaten",
+          "lat": -8.6336,
+          "lon": 121.0029,
+          "skor_ikod": 82.5
+        },
+        {
+          "id": "53-012",
+          "name": "Kabupaten Nusa Tenggara Timur 12",
+          "type": "Kabupaten",
+          "lat": -9.5209,
+          "lon": 121.4074,
+          "skor_ikod": 79.04
+        },
+        {
+          "id": "53-013",
+          "name": "Kabupaten Nusa Tenggara Timur 13",
+          "type": "Kabupaten",
+          "lat": -9.4414,
+          "lon": 121.1968,
+          "skor_ikod": 72.44
+        },
+        {
+          "id": "53-014",
+          "name": "Kabupaten Nusa Tenggara Timur 14",
+          "type": "Kabupaten",
+          "lat": -8.6411,
+          "lon": 121.588,
+          "skor_ikod": 75.29
+        },
+        {
+          "id": "53-015",
+          "name": "Kabupaten Nusa Tenggara Timur 15",
+          "type": "Kabupaten",
+          "lat": -9.1833,
+          "lon": 121.4503,
+          "skor_ikod": 82.03
+        },
+        {
+          "id": "53-016",
+          "name": "Kabupaten Nusa Tenggara Timur 16",
+          "type": "Kabupaten",
+          "lat": -9.3104,
+          "lon": 120.9651,
+          "skor_ikod": 84.41
+        },
+        {
+          "id": "53-017",
+          "name": "Kabupaten Nusa Tenggara Timur 17",
+          "type": "Kabupaten",
+          "lat": -10.6834,
+          "lon": 122.1411,
+          "skor_ikod": 74.36
+        },
+        {
+          "id": "53-018",
+          "name": "Kota Nusa Tenggara Timur",
+          "type": "Kota",
+          "lat": -10.085,
+          "lon": 121.131,
+          "skor_ikod": 76.75
+        },
+        {
+          "id": "53-019",
+          "name": "Kota Nusa Tenggara Timur 2",
+          "type": "Kota",
+          "lat": -9.597,
+          "lon": 121.5335,
+          "skor_ikod": 73.03
+        },
+        {
+          "id": "53-020",
+          "name": "Kota Nusa Tenggara Timur 3",
+          "type": "Kota",
+          "lat": -10.1903,
+          "lon": 121.0459,
+          "skor_ikod": 72.03
+        },
+        {
+          "id": "53-021",
+          "name": "Kota Nusa Tenggara Timur 4",
+          "type": "Kota",
+          "lat": -8.7894,
+          "lon": 121.806,
+          "skor_ikod": 77.27
+        },
+        {
+          "id": "53-022",
+          "name": "Kota Nusa Tenggara Timur 5",
+          "type": "Kota",
+          "lat": -10.4217,
+          "lon": 120.4732,
+          "skor_ikod": 79.37
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "kode_prov": "61",
+      "name": "Kalimantan Barat",
+      "ibukota": "Pontianak",
+      "pulau_region": "Kalimantan",
+      "lat": 0.0,
+      "lon": 111.47,
+      "jumlah_kabkota": 14,
+      "skor_ikod": 67.45,
+      "trend": 2.8,
+      "rank": 35,
+      "kabkota": [
+        {
+          "id": "61-001",
+          "name": "Kabupaten Kalimantan Barat",
+          "type": "Kabupaten",
+          "lat": 0.1463,
+          "lon": 110.605,
+          "skor_ikod": 60.97
+        },
+        {
+          "id": "61-002",
+          "name": "Kabupaten Kalimantan Barat 2",
+          "type": "Kabupaten",
+          "lat": 0.2907,
+          "lon": 110.7872,
+          "skor_ikod": 66.5
+        },
+        {
+          "id": "61-003",
+          "name": "Kabupaten Kalimantan Barat 3",
+          "type": "Kabupaten",
+          "lat": -0.6887,
+          "lon": 111.4695,
+          "skor_ikod": 68.34
+        },
+        {
+          "id": "61-004",
+          "name": "Kabupaten Kalimantan Barat 4",
+          "type": "Kabupaten",
+          "lat": 0.1843,
+          "lon": 111.431,
+          "skor_ikod": 64.19
+        },
+        {
+          "id": "61-005",
+          "name": "Kabupaten Kalimantan Barat 5",
+          "type": "Kabupaten",
+          "lat": -0.4493,
+          "lon": 111.0166,
+          "skor_ikod": 66.33
+        },
+        {
+          "id": "61-006",
+          "name": "Kabupaten Kalimantan Barat 6",
+          "type": "Kabupaten",
+          "lat": 0.0587,
+          "lon": 110.7084,
+          "skor_ikod": 66.44
+        },
+        {
+          "id": "61-007",
+          "name": "Kabupaten Kalimantan Barat 7",
+          "type": "Kabupaten",
+          "lat": -0.2439,
+          "lon": 110.7443,
+          "skor_ikod": 72.25
+        },
+        {
+          "id": "61-008",
+          "name": "Kabupaten Kalimantan Barat 8",
+          "type": "Kabupaten",
+          "lat": -0.241,
+          "lon": 112.1528,
+          "skor_ikod": 62.32
+        },
+        {
+          "id": "61-009",
+          "name": "Kabupaten Kalimantan Barat 9",
+          "type": "Kabupaten",
+          "lat": 0.2202,
+          "lon": 112.2444,
+          "skor_ikod": 71.95
+        },
+        {
+          "id": "61-010",
+          "name": "Kabupaten Kalimantan Barat 10",
+          "type": "Kabupaten",
+          "lat": -0.1411,
+          "lon": 110.5386,
+          "skor_ikod": 62.89
+        },
+        {
+          "id": "61-011",
+          "name": "Kabupaten Kalimantan Barat 11",
+          "type": "Kabupaten",
+          "lat": 0.2055,
+          "lon": 111.9041,
+          "skor_ikod": 66.68
+        },
+        {
+          "id": "61-012",
+          "name": "Kota Kalimantan Barat",
+          "type": "Kota",
+          "lat": 0.3643,
+          "lon": 111.1916,
+          "skor_ikod": 69.2
+        },
+        {
+          "id": "61-013",
+          "name": "Kota Kalimantan Barat 2",
+          "type": "Kota",
+          "lat": 0.4524,
+          "lon": 110.735,
+          "skor_ikod": 67.57
+        },
+        {
+          "id": "61-014",
+          "name": "Kota Kalimantan Barat 3",
+          "type": "Kota",
+          "lat": -0.3051,
+          "lon": 112.0112,
+          "skor_ikod": 65.11
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "kode_prov": "62",
+      "name": "Kalimantan Tengah",
+      "ibukota": "Palangka Raya",
+      "pulau_region": "Kalimantan",
+      "lat": -1.6815,
+      "lon": 113.3824,
+      "jumlah_kabkota": 14,
+      "skor_ikod": 69.79,
+      "trend": 0.26,
+      "rank": 32,
+      "kabkota": [
+        {
+          "id": "62-001",
+          "name": "Kabupaten Kalimantan Tengah",
+          "type": "Kabupaten",
+          "lat": -1.6463,
+          "lon": 112.7068,
+          "skor_ikod": 63.79
+        },
+        {
+          "id": "62-002",
+          "name": "Kabupaten Kalimantan Tengah 2",
+          "type": "Kabupaten",
+          "lat": -2.7369,
+          "lon": 113.714,
+          "skor_ikod": 67.54
+        },
+        {
+          "id": "62-003",
+          "name": "Kabupaten Kalimantan Tengah 3",
+          "type": "Kabupaten",
+          "lat": -2.5633,
+          "lon": 114.0697,
+          "skor_ikod": 69.46
+        },
+        {
+          "id": "62-004",
+          "name": "Kabupaten Kalimantan Tengah 4",
+          "type": "Kabupaten",
+          "lat": -2.2828,
+          "lon": 114.3622,
+          "skor_ikod": 69.92
+        },
+        {
+          "id": "62-005",
+          "name": "Kabupaten Kalimantan Tengah 5",
+          "type": "Kabupaten",
+          "lat": -2.3917,
+          "lon": 114.2806,
+          "skor_ikod": 74.93
+        },
+        {
+          "id": "62-006",
+          "name": "Kabupaten Kalimantan Tengah 6",
+          "type": "Kabupaten",
+          "lat": -1.625,
+          "lon": 113.4481,
+          "skor_ikod": 70.03
+        },
+        {
+          "id": "62-007",
+          "name": "Kabupaten Kalimantan Tengah 7",
+          "type": "Kabupaten",
+          "lat": -2.728,
+          "lon": 113.0746,
+          "skor_ikod": 70.91
+        },
+        {
+          "id": "62-008",
+          "name": "Kabupaten Kalimantan Tengah 8",
+          "type": "Kabupaten",
+          "lat": -1.8431,
+          "lon": 112.7306,
+          "skor_ikod": 72.55
+        },
+        {
+          "id": "62-009",
+          "name": "Kabupaten Kalimantan Tengah 9",
+          "type": "Kabupaten",
+          "lat": -1.9917,
+          "lon": 112.3976,
+          "skor_ikod": 64.39
+        },
+        {
+          "id": "62-010",
+          "name": "Kabupaten Kalimantan Tengah 10",
+          "type": "Kabupaten",
+          "lat": -1.3475,
+          "lon": 112.5294,
+          "skor_ikod": 68.53
+        },
+        {
+          "id": "62-011",
+          "name": "Kabupaten Kalimantan Tengah 11",
+          "type": "Kabupaten",
+          "lat": -1.1714,
+          "lon": 112.5232,
+          "skor_ikod": 66.09
+        },
+        {
+          "id": "62-012",
+          "name": "Kota Kalimantan Tengah",
+          "type": "Kota",
+          "lat": -1.6599,
+          "lon": 112.4404,
+          "skor_ikod": 63.47
+        },
+        {
+          "id": "62-013",
+          "name": "Kota Kalimantan Tengah 2",
+          "type": "Kota",
+          "lat": -2.7498,
+          "lon": 113.3308,
+          "skor_ikod": 64.06
+        },
+        {
+          "id": "62-014",
+          "name": "Kota Kalimantan Tengah 3",
+          "type": "Kota",
+          "lat": -1.5273,
+          "lon": 113.7896,
+          "skor_ikod": 66.31
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "kode_prov": "63",
+      "name": "Kalimantan Selatan",
+      "ibukota": "Banjarmasin",
+      "pulau_region": "Kalimantan",
+      "lat": -3.0926,
+      "lon": 115.2838,
+      "jumlah_kabkota": 13,
+      "skor_ikod": 79.99,
+      "trend": -0.35,
+      "rank": 21,
+      "kabkota": [
+        {
+          "id": "63-001",
+          "name": "Kabupaten Kalimantan Selatan",
+          "type": "Kabupaten",
+          "lat": -3.5673,
+          "lon": 115.6527,
+          "skor_ikod": 78.24
+        },
+        {
+          "id": "63-002",
+          "name": "Kabupaten Kalimantan Selatan 2",
+          "type": "Kabupaten",
+          "lat": -2.3884,
+          "lon": 115.7615,
+          "skor_ikod": 85.46
+        },
+        {
+          "id": "63-003",
+          "name": "Kabupaten Kalimantan Selatan 3",
+          "type": "Kabupaten",
+          "lat": -3.4067,
+          "lon": 116.3177,
+          "skor_ikod": 81.61
+        },
+        {
+          "id": "63-004",
+          "name": "Kabupaten Kalimantan Selatan 4",
+          "type": "Kabupaten",
+          "lat": -2.0241,
+          "lon": 114.839,
+          "skor_ikod": 80.2
+        },
+        {
+          "id": "63-005",
+          "name": "Kabupaten Kalimantan Selatan 5",
+          "type": "Kabupaten",
+          "lat": -3.3519,
+          "lon": 116.0897,
+          "skor_ikod": 87.34
+        },
+        {
+          "id": "63-006",
+          "name": "Kabupaten Kalimantan Selatan 6",
+          "type": "Kabupaten",
+          "lat": -3.5738,
+          "lon": 114.2949,
+          "skor_ikod": 81.59
+        },
+        {
+          "id": "63-007",
+          "name": "Kabupaten Kalimantan Selatan 7",
+          "type": "Kabupaten",
+          "lat": -2.4844,
+          "lon": 116.0491,
+          "skor_ikod": 77.32
+        },
+        {
+          "id": "63-008",
+          "name": "Kabupaten Kalimantan Selatan 8",
+          "type": "Kabupaten",
+          "lat": -3.2291,
+          "lon": 114.7219,
+          "skor_ikod": 80.68
+        },
+        {
+          "id": "63-009",
+          "name": "Kabupaten Kalimantan Selatan 9",
+          "type": "Kabupaten",
+          "lat": -3.6256,
+          "lon": 114.4835,
+          "skor_ikod": 83.74
+        },
+        {
+          "id": "63-010",
+          "name": "Kabupaten Kalimantan Selatan 10",
+          "type": "Kabupaten",
+          "lat": -2.9532,
+          "lon": 114.192,
+          "skor_ikod": 81.69
+        },
+        {
+          "id": "63-011",
+          "name": "Kota Kalimantan Selatan",
+          "type": "Kota",
+          "lat": -2.931,
+          "lon": 115.0602,
+          "skor_ikod": 81.95
+        },
+        {
+          "id": "63-012",
+          "name": "Kota Kalimantan Selatan 2",
+          "type": "Kota",
+          "lat": -3.2007,
+          "lon": 116.1554,
+          "skor_ikod": 87.31
+        },
+        {
+          "id": "63-013",
+          "name": "Kota Kalimantan Selatan 3",
+          "type": "Kota",
+          "lat": -2.2605,
+          "lon": 115.6193,
+          "skor_ikod": 77.38
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "kode_prov": "64",
+      "name": "Kalimantan Timur",
+      "ibukota": "Samarinda",
+      "pulau_region": "Kalimantan",
+      "lat": 0.5387,
+      "lon": 116.4194,
+      "jumlah_kabkota": 10,
+      "skor_ikod": 67.99,
+      "trend": -2.09,
+      "rank": 34,
+      "kabkota": [
+        {
+          "id": "64-001",
+          "name": "Kabupaten Kalimantan Timur",
+          "type": "Kabupaten",
+          "lat": 0.4823,
+          "lon": 116.9897,
+          "skor_ikod": 74.74
+        },
+        {
+          "id": "64-002",
+          "name": "Kabupaten Kalimantan Timur 2",
+          "type": "Kabupaten",
+          "lat": 0.53,
+          "lon": 117.3797,
+          "skor_ikod": 74.59
+        },
+        {
+          "id": "64-003",
+          "name": "Kabupaten Kalimantan Timur 3",
+          "type": "Kabupaten",
+          "lat": 0.3994,
+          "lon": 116.7817,
+          "skor_ikod": 73.23
+        },
+        {
+          "id": "64-004",
+          "name": "Kabupaten Kalimantan Timur 4",
+          "type": "Kabupaten",
+          "lat": 0.6962,
+          "lon": 115.5477,
+          "skor_ikod": 65.69
+        },
+        {
+          "id": "64-005",
+          "name": "Kabupaten Kalimantan Timur 5",
+          "type": "Kabupaten",
+          "lat": 0.8456,
+          "lon": 115.9956,
+          "skor_ikod": 65.02
+        },
+        {
+          "id": "64-006",
+          "name": "Kabupaten Kalimantan Timur 6",
+          "type": "Kabupaten",
+          "lat": 1.6326,
+          "lon": 115.4007,
+          "skor_ikod": 73.43
+        },
+        {
+          "id": "64-007",
+          "name": "Kabupaten Kalimantan Timur 7",
+          "type": "Kabupaten",
+          "lat": 1.3746,
+          "lon": 116.1858,
+          "skor_ikod": 62.53
+        },
+        {
+          "id": "64-008",
+          "name": "Kabupaten Kalimantan Timur 8",
+          "type": "Kabupaten",
+          "lat": 1.5334,
+          "lon": 115.8443,
+          "skor_ikod": 71.11
+        },
+        {
+          "id": "64-009",
+          "name": "Kota Kalimantan Timur",
+          "type": "Kota",
+          "lat": 0.0136,
+          "lon": 116.0174,
+          "skor_ikod": 62.94
+        },
+        {
+          "id": "64-010",
+          "name": "Kota Kalimantan Timur 2",
+          "type": "Kota",
+          "lat": 0.5501,
+          "lon": 115.4814,
+          "skor_ikod": 76.79
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "kode_prov": "65",
+      "name": "Kalimantan Utara",
+      "ibukota": "Tanjung Selor",
+      "pulau_region": "Kalimantan",
+      "lat": 3.073,
+      "lon": 116.0413,
+      "jumlah_kabkota": 5,
+      "skor_ikod": 79.32,
+      "trend": 0.95,
+      "rank": 23,
+      "kabkota": [
+        {
+          "id": "65-001",
+          "name": "Kabupaten Kalimantan Utara",
+          "type": "Kabupaten",
+          "lat": 1.9795,
+          "lon": 115.32,
+          "skor_ikod": 80.94
+        },
+        {
+          "id": "65-002",
+          "name": "Kabupaten Kalimantan Utara 2",
+          "type": "Kabupaten",
+          "lat": 2.1924,
+          "lon": 117.0578,
+          "skor_ikod": 72.0
+        },
+        {
+          "id": "65-003",
+          "name": "Kabupaten Kalimantan Utara 3",
+          "type": "Kabupaten",
+          "lat": 1.9971,
+          "lon": 116.0859,
+          "skor_ikod": 81.98
+        },
+        {
+          "id": "65-004",
+          "name": "Kabupaten Kalimantan Utara 4",
+          "type": "Kabupaten",
+          "lat": 2.9199,
+          "lon": 116.4041,
+          "skor_ikod": 77.49
+        },
+        {
+          "id": "65-005",
+          "name": "Kota Kalimantan Utara",
+          "type": "Kota",
+          "lat": 3.5701,
+          "lon": 116.0283,
+          "skor_ikod": 81.06
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "kode_prov": "71",
+      "name": "Sulawesi Utara",
+      "ibukota": "Manado",
+      "pulau_region": "Sulawesi",
+      "lat": 1.4748,
+      "lon": 124.8421,
+      "jumlah_kabkota": 15,
+      "skor_ikod": 89.05,
+      "trend": 1.89,
+      "rank": 4,
+      "kabkota": [
+        {
+          "id": "71-001",
+          "name": "Kabupaten Sulawesi Utara",
+          "type": "Kabupaten",
+          "lat": 1.6369,
+          "lon": 124.3286,
+          "skor_ikod": 86.3
+        },
+        {
+          "id": "71-002",
+          "name": "Kabupaten Sulawesi Utara 2",
+          "type": "Kabupaten",
+          "lat": 2.4746,
+          "lon": 124.254,
+          "skor_ikod": 88.68
+        },
+        {
+          "id": "71-003",
+          "name": "Kabupaten Sulawesi Utara 3",
+          "type": "Kabupaten",
+          "lat": 1.8801,
+          "lon": 125.5068,
+          "skor_ikod": 84.34
+        },
+        {
+          "id": "71-004",
+          "name": "Kabupaten Sulawesi Utara 4",
+          "type": "Kabupaten",
+          "lat": 2.0616,
+          "lon": 124.7948,
+          "skor_ikod": 90.87
+        },
+        {
+          "id": "71-005",
+          "name": "Kabupaten Sulawesi Utara 5",
+          "type": "Kabupaten",
+          "lat": 1.584,
+          "lon": 125.0121,
+          "skor_ikod": 86.59
+        },
+        {
+          "id": "71-006",
+          "name": "Kabupaten Sulawesi Utara 6",
+          "type": "Kabupaten",
+          "lat": 0.8955,
+          "lon": 123.7783,
+          "skor_ikod": 90.72
+        },
+        {
+          "id": "71-007",
+          "name": "Kabupaten Sulawesi Utara 7",
+          "type": "Kabupaten",
+          "lat": 1.2524,
+          "lon": 123.928,
+          "skor_ikod": 88.28
+        },
+        {
+          "id": "71-008",
+          "name": "Kabupaten Sulawesi Utara 8",
+          "type": "Kabupaten",
+          "lat": 0.9743,
+          "lon": 123.7653,
+          "skor_ikod": 83.74
+        },
+        {
+          "id": "71-009",
+          "name": "Kabupaten Sulawesi Utara 9",
+          "type": "Kabupaten",
+          "lat": 0.5525,
+          "lon": 125.7811,
+          "skor_ikod": 86.23
+        },
+        {
+          "id": "71-010",
+          "name": "Kabupaten Sulawesi Utara 10",
+          "type": "Kabupaten",
+          "lat": 2.3836,
+          "lon": 125.0216,
+          "skor_ikod": 89.16
+        },
+        {
+          "id": "71-011",
+          "name": "Kabupaten Sulawesi Utara 11",
+          "type": "Kabupaten",
+          "lat": 2.1558,
+          "lon": 125.2463,
+          "skor_ikod": 85.38
+        },
+        {
+          "id": "71-012",
+          "name": "Kabupaten Sulawesi Utara 12",
+          "type": "Kabupaten",
+          "lat": 1.185,
+          "lon": 123.8148,
+          "skor_ikod": 92.89
+        },
+        {
+          "id": "71-013",
+          "name": "Kota Sulawesi Utara",
+          "type": "Kota",
+          "lat": 1.9713,
+          "lon": 124.1479,
+          "skor_ikod": 93.39
+        },
+        {
+          "id": "71-014",
+          "name": "Kota Sulawesi Utara 2",
+          "type": "Kota",
+          "lat": 2.3627,
+          "lon": 125.6578,
+          "skor_ikod": 85.21
+        },
+        {
+          "id": "71-015",
+          "name": "Kota Sulawesi Utara 3",
+          "type": "Kota",
+          "lat": 1.608,
+          "lon": 125.2605,
+          "skor_ikod": 88.86
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "kode_prov": "72",
+      "name": "Sulawesi Tengah",
+      "ibukota": "Palu",
+      "pulau_region": "Sulawesi",
+      "lat": -1.43,
+      "lon": 121.4456,
+      "jumlah_kabkota": 13,
+      "skor_ikod": 69.92,
+      "trend": 0.54,
+      "rank": 30,
+      "kabkota": [
+        {
+          "id": "72-001",
+          "name": "Kabupaten Sulawesi Tengah",
+          "type": "Kabupaten",
+          "lat": -0.7942,
+          "lon": 121.5453,
+          "skor_ikod": 70.76
+        },
+        {
+          "id": "72-002",
+          "name": "Kabupaten Sulawesi Tengah 2",
+          "type": "Kabupaten",
+          "lat": -0.3511,
+          "lon": 121.6781,
+          "skor_ikod": 69.18
+        },
+        {
+          "id": "72-003",
+          "name": "Kabupaten Sulawesi Tengah 3",
+          "type": "Kabupaten",
+          "lat": -0.8124,
+          "lon": 120.7026,
+          "skor_ikod": 71.55
+        },
+        {
+          "id": "72-004",
+          "name": "Kabupaten Sulawesi Tengah 4",
+          "type": "Kabupaten",
+          "lat": -1.9891,
+          "lon": 120.7744,
+          "skor_ikod": 68.82
+        },
+        {
+          "id": "72-005",
+          "name": "Kabupaten Sulawesi Tengah 5",
+          "type": "Kabupaten",
+          "lat": -0.7757,
+          "lon": 122.5105,
+          "skor_ikod": 71.19
+        },
+        {
+          "id": "72-006",
+          "name": "Kabupaten Sulawesi Tengah 6",
+          "type": "Kabupaten",
+          "lat": -1.3729,
+          "lon": 120.5394,
+          "skor_ikod": 71.41
+        },
+        {
+          "id": "72-007",
+          "name": "Kabupaten Sulawesi Tengah 7",
+          "type": "Kabupaten",
+          "lat": -2.3034,
+          "lon": 121.0657,
+          "skor_ikod": 71.74
+        },
+        {
+          "id": "72-008",
+          "name": "Kabupaten Sulawesi Tengah 8",
+          "type": "Kabupaten",
+          "lat": -1.6081,
+          "lon": 122.3972,
+          "skor_ikod": 70.17
+        },
+        {
+          "id": "72-009",
+          "name": "Kabupaten Sulawesi Tengah 9",
+          "type": "Kabupaten",
+          "lat": -2.1771,
+          "lon": 121.7286,
+          "skor_ikod": 73.31
+        },
+        {
+          "id": "72-010",
+          "name": "Kabupaten Sulawesi Tengah 10",
+          "type": "Kabupaten",
+          "lat": -2.4432,
+          "lon": 120.4647,
+          "skor_ikod": 67.21
+        },
+        {
+          "id": "72-011",
+          "name": "Kota Sulawesi Tengah",
+          "type": "Kota",
+          "lat": -0.7483,
+          "lon": 120.7971,
+          "skor_ikod": 68.06
+        },
+        {
+          "id": "72-012",
+          "name": "Kota Sulawesi Tengah 2",
+          "type": "Kota",
+          "lat": -0.3887,
+          "lon": 122.1849,
+          "skor_ikod": 73.97
+        },
+        {
+          "id": "72-013",
+          "name": "Kota Sulawesi Tengah 3",
+          "type": "Kota",
+          "lat": -0.6634,
+          "lon": 121.6188,
+          "skor_ikod": 72.84
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "kode_prov": "73",
+      "name": "Sulawesi Selatan",
+      "ibukota": "Makassar",
+      "pulau_region": "Sulawesi",
+      "lat": -3.6688,
+      "lon": 119.9741,
+      "jumlah_kabkota": 24,
+      "skor_ikod": 66.22,
+      "trend": 0.15,
+      "rank": 36,
+      "kabkota": [
+        {
+          "id": "73-001",
+          "name": "Kabupaten Sulawesi Selatan",
+          "type": "Kabupaten",
+          "lat": -4.4241,
+          "lon": 120.157,
+          "skor_ikod": 65.49
+        },
+        {
+          "id": "73-002",
+          "name": "Kabupaten Sulawesi Selatan 2",
+          "type": "Kabupaten",
+          "lat": -2.8656,
+          "lon": 119.523,
+          "skor_ikod": 69.07
+        },
+        {
+          "id": "73-003",
+          "name": "Kabupaten Sulawesi Selatan 3",
+          "type": "Kabupaten",
+          "lat": -3.0593,
+          "lon": 119.6895,
+          "skor_ikod": 67.23
+        },
+        {
+          "id": "73-004",
+          "name": "Kabupaten Sulawesi Selatan 4",
+          "type": "Kabupaten",
+          "lat": -3.3639,
+          "lon": 120.1203,
+          "skor_ikod": 68.92
+        },
+        {
+          "id": "73-005",
+          "name": "Kabupaten Sulawesi Selatan 5",
+          "type": "Kabupaten",
+          "lat": -2.889,
+          "lon": 119.2402,
+          "skor_ikod": 64.74
+        },
+        {
+          "id": "73-006",
+          "name": "Kabupaten Sulawesi Selatan 6",
+          "type": "Kabupaten",
+          "lat": -4.3683,
+          "lon": 120.1805,
+          "skor_ikod": 68.17
+        },
+        {
+          "id": "73-007",
+          "name": "Kabupaten Sulawesi Selatan 7",
+          "type": "Kabupaten",
+          "lat": -2.6414,
+          "lon": 119.4056,
+          "skor_ikod": 70.7
+        },
+        {
+          "id": "73-008",
+          "name": "Kabupaten Sulawesi Selatan 8",
+          "type": "Kabupaten",
+          "lat": -2.7144,
+          "lon": 119.3305,
+          "skor_ikod": 61.28
+        },
+        {
+          "id": "73-009",
+          "name": "Kabupaten Sulawesi Selatan 9",
+          "type": "Kabupaten",
+          "lat": -4.2735,
+          "lon": 120.8219,
+          "skor_ikod": 60.7
+        },
+        {
+          "id": "73-010",
+          "name": "Kabupaten Sulawesi Selatan 10",
+          "type": "Kabupaten",
+          "lat": -2.585,
+          "lon": 120.6264,
+          "skor_ikod": 72.16
+        },
+        {
+          "id": "73-011",
+          "name": "Kabupaten Sulawesi Selatan 11",
+          "type": "Kabupaten",
+          "lat": -3.2535,
+          "lon": 120.4574,
+          "skor_ikod": 63.27
+        },
+        {
+          "id": "73-012",
+          "name": "Kabupaten Sulawesi Selatan 12",
+          "type": "Kabupaten",
+          "lat": -2.6963,
+          "lon": 120.8759,
+          "skor_ikod": 70.65
+        },
+        {
+          "id": "73-013",
+          "name": "Kabupaten Sulawesi Selatan 13",
+          "type": "Kabupaten",
+          "lat": -4.1733,
+          "lon": 119.4747,
+          "skor_ikod": 69.71
+        },
+        {
+          "id": "73-014",
+          "name": "Kabupaten Sulawesi Selatan 14",
+          "type": "Kabupaten",
+          "lat": -2.9951,
+          "lon": 119.5765,
+          "skor_ikod": 63.43
+        },
+        {
+          "id": "73-015",
+          "name": "Kabupaten Sulawesi Selatan 15",
+          "type": "Kabupaten",
+          "lat": -2.847,
+          "lon": 120.3928,
+          "skor_ikod": 63.58
+        },
+        {
+          "id": "73-016",
+          "name": "Kabupaten Sulawesi Selatan 16",
+          "type": "Kabupaten",
+          "lat": -4.4346,
+          "lon": 119.9927,
+          "skor_ikod": 64.75
+        },
+        {
+          "id": "73-017",
+          "name": "Kabupaten Sulawesi Selatan 17",
+          "type": "Kabupaten",
+          "lat": -3.2649,
+          "lon": 120.8831,
+          "skor_ikod": 62.06
+        },
+        {
+          "id": "73-018",
+          "name": "Kabupaten Sulawesi Selatan 18",
+          "type": "Kabupaten",
+          "lat": -2.6226,
+          "lon": 120.6927,
+          "skor_ikod": 68.91
+        },
+        {
+          "id": "73-019",
+          "name": "Kabupaten Sulawesi Selatan 19",
+          "type": "Kabupaten",
+          "lat": -3.4046,
+          "lon": 119.3907,
+          "skor_ikod": 60.99
+        },
+        {
+          "id": "73-020",
+          "name": "Kota Sulawesi Selatan",
+          "type": "Kota",
+          "lat": -3.4027,
+          "lon": 119.2507,
+          "skor_ikod": 67.48
+        },
+        {
+          "id": "73-021",
+          "name": "Kota Sulawesi Selatan 2",
+          "type": "Kota",
+          "lat": -2.6091,
+          "lon": 119.2488,
+          "skor_ikod": 59.35
+        },
+        {
+          "id": "73-022",
+          "name": "Kota Sulawesi Selatan 3",
+          "type": "Kota",
+          "lat": -4.4668,
+          "lon": 121.0732,
+          "skor_ikod": 69.21
+        },
+        {
+          "id": "73-023",
+          "name": "Kota Sulawesi Selatan 4",
+          "type": "Kota",
+          "lat": -3.769,
+          "lon": 119.408,
+          "skor_ikod": 59.05
+        },
+        {
+          "id": "73-024",
+          "name": "Kota Sulawesi Selatan 5",
+          "type": "Kota",
+          "lat": -4.1735,
+          "lon": 119.7008,
+          "skor_ikod": 67.12
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "kode_prov": "74",
+      "name": "Sulawesi Tenggara",
+      "ibukota": "Kendari",
+      "pulau_region": "Sulawesi",
+      "lat": -4.1449,
+      "lon": 122.1746,
+      "jumlah_kabkota": 17,
+      "skor_ikod": 64.6,
+      "trend": 0.38,
+      "rank": 37,
+      "kabkota": [
+        {
+          "id": "74-001",
+          "name": "Kabupaten Sulawesi Tenggara",
+          "type": "Kabupaten",
+          "lat": -4.7565,
+          "lon": 122.4107,
+          "skor_ikod": 66.94
+        },
+        {
+          "id": "74-002",
+          "name": "Kabupaten Sulawesi Tenggara 2",
+          "type": "Kabupaten",
+          "lat": -4.6558,
+          "lon": 122.606,
+          "skor_ikod": 67.79
+        },
+        {
+          "id": "74-003",
+          "name": "Kabupaten Sulawesi Tenggara 3",
+          "type": "Kabupaten",
+          "lat": -4.1899,
+          "lon": 123.0275,
+          "skor_ikod": 63.54
+        },
+        {
+          "id": "74-004",
+          "name": "Kabupaten Sulawesi Tenggara 4",
+          "type": "Kabupaten",
+          "lat": -4.5856,
+          "lon": 122.109,
+          "skor_ikod": 68.29
+        },
+        {
+          "id": "74-005",
+          "name": "Kabupaten Sulawesi Tenggara 5",
+          "type": "Kabupaten",
+          "lat": -3.7275,
+          "lon": 122.6821,
+          "skor_ikod": 66.69
+        },
+        {
+          "id": "74-006",
+          "name": "Kabupaten Sulawesi Tenggara 6",
+          "type": "Kabupaten",
+          "lat": -3.1579,
+          "lon": 123.0246,
+          "skor_ikod": 68.41
+        },
+        {
+          "id": "74-007",
+          "name": "Kabupaten Sulawesi Tenggara 7",
+          "type": "Kabupaten",
+          "lat": -3.962,
+          "lon": 123.2746,
+          "skor_ikod": 71.0
+        },
+        {
+          "id": "74-008",
+          "name": "Kabupaten Sulawesi Tenggara 8",
+          "type": "Kabupaten",
+          "lat": -4.1506,
+          "lon": 122.7492,
+          "skor_ikod": 59.09
+        },
+        {
+          "id": "74-009",
+          "name": "Kabupaten Sulawesi Tenggara 9",
+          "type": "Kabupaten",
+          "lat": -4.1841,
+          "lon": 121.3808,
+          "skor_ikod": 63.79
+        },
+        {
+          "id": "74-010",
+          "name": "Kabupaten Sulawesi Tenggara 10",
+          "type": "Kabupaten",
+          "lat": -4.7331,
+          "lon": 122.3922,
+          "skor_ikod": 58.36
+        },
+        {
+          "id": "74-011",
+          "name": "Kabupaten Sulawesi Tenggara 11",
+          "type": "Kabupaten",
+          "lat": -4.7663,
+          "lon": 122.4498,
+          "skor_ikod": 59.44
+        },
+        {
+          "id": "74-012",
+          "name": "Kabupaten Sulawesi Tenggara 12",
+          "type": "Kabupaten",
+          "lat": -3.6514,
+          "lon": 123.0718,
+          "skor_ikod": 62.7
+        },
+        {
+          "id": "74-013",
+          "name": "Kabupaten Sulawesi Tenggara 13",
+          "type": "Kabupaten",
+          "lat": -4.8133,
+          "lon": 123.118,
+          "skor_ikod": 67.21
+        },
+        {
+          "id": "74-014",
+          "name": "Kota Sulawesi Tenggara",
+          "type": "Kota",
+          "lat": -4.6301,
+          "lon": 122.9564,
+          "skor_ikod": 65.16
+        },
+        {
+          "id": "74-015",
+          "name": "Kota Sulawesi Tenggara 2",
+          "type": "Kota",
+          "lat": -3.1486,
+          "lon": 121.9061,
+          "skor_ikod": 60.41
+        },
+        {
+          "id": "74-016",
+          "name": "Kota Sulawesi Tenggara 3",
+          "type": "Kota",
+          "lat": -4.7867,
+          "lon": 121.2271,
+          "skor_ikod": 65.65
+        },
+        {
+          "id": "74-017",
+          "name": "Kota Sulawesi Tenggara 4",
+          "type": "Kota",
+          "lat": -4.7294,
+          "lon": 122.7283,
+          "skor_ikod": 63.28
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "kode_prov": "75",
+      "name": "Gorontalo",
+      "ibukota": "Gorontalo",
+      "pulau_region": "Sulawesi",
+      "lat": 0.6999,
+      "lon": 122.4467,
+      "jumlah_kabkota": 6,
+      "skor_ikod": 79.79,
+      "trend": 2.69,
+      "rank": 22,
+      "kabkota": [
+        {
+          "id": "75-001",
+          "name": "Kabupaten Gorontalo",
+          "type": "Kabupaten",
+          "lat": 1.7323,
+          "lon": 123.1492,
+          "skor_ikod": 81.1
+        },
+        {
+          "id": "75-002",
+          "name": "Kabupaten Gorontalo 2",
+          "type": "Kabupaten",
+          "lat": 1.7479,
+          "lon": 122.161,
+          "skor_ikod": 77.6
+        },
+        {
+          "id": "75-003",
+          "name": "Kabupaten Gorontalo 3",
+          "type": "Kabupaten",
+          "lat": -0.1489,
+          "lon": 122.8209,
+          "skor_ikod": 79.2
+        },
+        {
+          "id": "75-004",
+          "name": "Kabupaten Gorontalo 4",
+          "type": "Kabupaten",
+          "lat": 1.6223,
+          "lon": 121.9013,
+          "skor_ikod": 74.07
+        },
+        {
+          "id": "75-005",
+          "name": "Kabupaten Gorontalo 5",
+          "type": "Kabupaten",
+          "lat": 0.3218,
+          "lon": 122.3317,
+          "skor_ikod": 78.8
+        },
+        {
+          "id": "75-006",
+          "name": "Kota Gorontalo",
+          "type": "Kota",
+          "lat": 1.4073,
+          "lon": 122.9408,
+          "skor_ikod": 83.86
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "kode_prov": "76",
+      "name": "Sulawesi Barat",
+      "ibukota": "Mamuju",
+      "pulau_region": "Sulawesi",
+      "lat": -2.6866,
+      "lon": 118.873,
+      "jumlah_kabkota": 6,
+      "skor_ikod": 81.05,
+      "trend": 0.42,
+      "rank": 17,
+      "kabkota": [
+        {
+          "id": "76-001",
+          "name": "Kabupaten Sulawesi Barat",
+          "type": "Kabupaten",
+          "lat": -2.9587,
+          "lon": 118.7952,
+          "skor_ikod": 85.36
+        },
+        {
+          "id": "76-002",
+          "name": "Kabupaten Sulawesi Barat 2",
+          "type": "Kabupaten",
+          "lat": -2.0555,
+          "lon": 119.8765,
+          "skor_ikod": 75.53
+        },
+        {
+          "id": "76-003",
+          "name": "Kabupaten Sulawesi Barat 3",
+          "type": "Kabupaten",
+          "lat": -2.8902,
+          "lon": 118.3906,
+          "skor_ikod": 83.72
+        },
+        {
+          "id": "76-004",
+          "name": "Kabupaten Sulawesi Barat 4",
+          "type": "Kabupaten",
+          "lat": -2.3583,
+          "lon": 119.2291,
+          "skor_ikod": 82.31
+        },
+        {
+          "id": "76-005",
+          "name": "Kabupaten Sulawesi Barat 5",
+          "type": "Kabupaten",
+          "lat": -3.0213,
+          "lon": 118.4467,
+          "skor_ikod": 79.78
+        },
+        {
+          "id": "76-006",
+          "name": "Kota Sulawesi Barat",
+          "type": "Kota",
+          "lat": -3.6398,
+          "lon": 119.4544,
+          "skor_ikod": 82.77
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "kode_prov": "81",
+      "name": "Maluku",
+      "ibukota": "Ambon",
+      "pulau_region": "Maluku-Papua",
+      "lat": -3.2385,
+      "lon": 130.1453,
+      "jumlah_kabkota": 11,
+      "skor_ikod": 84.54,
+      "trend": -0.16,
+      "rank": 9,
+      "kabkota": [
+        {
+          "id": "81-001",
+          "name": "Kabupaten Maluku",
+          "type": "Kabupaten",
+          "lat": -3.5457,
+          "lon": 131.1796,
+          "skor_ikod": 81.62
+        },
+        {
+          "id": "81-002",
+          "name": "Kabupaten Maluku 2",
+          "type": "Kabupaten",
+          "lat": -4.1259,
+          "lon": 130.1443,
+          "skor_ikod": 85.0
+        },
+        {
+          "id": "81-003",
+          "name": "Kabupaten Maluku 3",
+          "type": "Kabupaten",
+          "lat": -4.2824,
+          "lon": 130.382,
+          "skor_ikod": 82.43
+        },
+        {
+          "id": "81-004",
+          "name": "Kabupaten Maluku 4",
+          "type": "Kabupaten",
+          "lat": -3.5831,
+          "lon": 130.647,
+          "skor_ikod": 86.48
+        },
+        {
+          "id": "81-005",
+          "name": "Kabupaten Maluku 5",
+          "type": "Kabupaten",
+          "lat": -2.9243,
+          "lon": 129.5152,
+          "skor_ikod": 86.86
+        },
+        {
+          "id": "81-006",
+          "name": "Kabupaten Maluku 6",
+          "type": "Kabupaten",
+          "lat": -4.0857,
+          "lon": 130.797,
+          "skor_ikod": 80.75
+        },
+        {
+          "id": "81-007",
+          "name": "Kabupaten Maluku 7",
+          "type": "Kabupaten",
+          "lat": -2.2726,
+          "lon": 130.7169,
+          "skor_ikod": 86.97
+        },
+        {
+          "id": "81-008",
+          "name": "Kabupaten Maluku 8",
+          "type": "Kabupaten",
+          "lat": -2.708,
+          "lon": 131.1217,
+          "skor_ikod": 90.42
+        },
+        {
+          "id": "81-009",
+          "name": "Kabupaten Maluku 9",
+          "type": "Kabupaten",
+          "lat": -3.7786,
+          "lon": 130.416,
+          "skor_ikod": 83.8
+        },
+        {
+          "id": "81-010",
+          "name": "Kota Maluku",
+          "type": "Kota",
+          "lat": -4.3008,
+          "lon": 129.8253,
+          "skor_ikod": 83.03
+        },
+        {
+          "id": "81-011",
+          "name": "Kota Maluku 2",
+          "type": "Kota",
+          "lat": -3.9879,
+          "lon": 131.1218,
+          "skor_ikod": 82.29
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "kode_prov": "82",
+      "name": "Maluku Utara",
+      "ibukota": "Sofifi",
+      "pulau_region": "Maluku-Papua",
+      "lat": 0.7737,
+      "lon": 127.38,
+      "jumlah_kabkota": 10,
+      "skor_ikod": 80.29,
+      "trend": 2.93,
+      "rank": 19,
+      "kabkota": [
+        {
+          "id": "82-001",
+          "name": "Kabupaten Maluku Utara",
+          "type": "Kabupaten",
+          "lat": 1.1171,
+          "lon": 127.2888,
+          "skor_ikod": 78.34
+        },
+        {
+          "id": "82-002",
+          "name": "Kabupaten Maluku Utara 2",
+          "type": "Kabupaten",
+          "lat": 1.4478,
+          "lon": 126.766,
+          "skor_ikod": 77.9
+        },
+        {
+          "id": "82-003",
+          "name": "Kabupaten Maluku Utara 3",
+          "type": "Kabupaten",
+          "lat": 1.1805,
+          "lon": 126.4194,
+          "skor_ikod": 80.31
+        },
+        {
+          "id": "82-004",
+          "name": "Kabupaten Maluku Utara 4",
+          "type": "Kabupaten",
+          "lat": 1.0736,
+          "lon": 127.2919,
+          "skor_ikod": 84.26
+        },
+        {
+          "id": "82-005",
+          "name": "Kabupaten Maluku Utara 5",
+          "type": "Kabupaten",
+          "lat": -0.2339,
+          "lon": 126.7133,
+          "skor_ikod": 83.38
+        },
+        {
+          "id": "82-006",
+          "name": "Kabupaten Maluku Utara 6",
+          "type": "Kabupaten",
+          "lat": -0.1327,
+          "lon": 128.109,
+          "skor_ikod": 76.11
+        },
+        {
+          "id": "82-007",
+          "name": "Kabupaten Maluku Utara 7",
+          "type": "Kabupaten",
+          "lat": 1.5679,
+          "lon": 126.7535,
+          "skor_ikod": 73.74
+        },
+        {
+          "id": "82-008",
+          "name": "Kabupaten Maluku Utara 8",
+          "type": "Kabupaten",
+          "lat": 0.2444,
+          "lon": 126.7098,
+          "skor_ikod": 78.99
+        },
+        {
+          "id": "82-009",
+          "name": "Kota Maluku Utara",
+          "type": "Kota",
+          "lat": 0.5855,
+          "lon": 127.7676,
+          "skor_ikod": 79.06
+        },
+        {
+          "id": "82-010",
+          "name": "Kota Maluku Utara 2",
+          "type": "Kota",
+          "lat": -0.0121,
+          "lon": 127.001,
+          "skor_ikod": 80.02
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "kode_prov": "91",
+      "name": "Papua",
+      "ibukota": "Jayapura",
+      "pulau_region": "Maluku-Papua",
+      "lat": -2.533,
+      "lon": 140.7181,
+      "jumlah_kabkota": 9,
+      "skor_ikod": 69.81,
+      "trend": 2.89,
+      "rank": 31,
+      "kabkota": [
+        {
+          "id": "91-001",
+          "name": "Kabupaten Papua",
+          "type": "Kabupaten",
+          "lat": -2.2326,
+          "lon": 140.0376,
+          "skor_ikod": 69.13
+        },
+        {
+          "id": "91-002",
+          "name": "Kabupaten Papua 2",
+          "type": "Kabupaten",
+          "lat": -1.9366,
+          "lon": 140.2139,
+          "skor_ikod": 72.56
+        },
+        {
+          "id": "91-003",
+          "name": "Kabupaten Papua 3",
+          "type": "Kabupaten",
+          "lat": -2.1453,
+          "lon": 140.9333,
+          "skor_ikod": 72.02
+        },
+        {
+          "id": "91-004",
+          "name": "Kabupaten Papua 4",
+          "type": "Kabupaten",
+          "lat": -3.429,
+          "lon": 140.6429,
+          "skor_ikod": 71.94
+        },
+        {
+          "id": "91-005",
+          "name": "Kabupaten Papua 5",
+          "type": "Kabupaten",
+          "lat": -1.8291,
+          "lon": 140.3363,
+          "skor_ikod": 70.52
+        },
+        {
+          "id": "91-006",
+          "name": "Kabupaten Papua 6",
+          "type": "Kabupaten",
+          "lat": -3.5447,
+          "lon": 140.6263,
+          "skor_ikod": 69.76
+        },
+        {
+          "id": "91-007",
+          "name": "Kabupaten Papua 7",
+          "type": "Kabupaten",
+          "lat": -1.8943,
+          "lon": 141.4758,
+          "skor_ikod": 72.79
+        },
+        {
+          "id": "91-008",
+          "name": "Kota Papua",
+          "type": "Kota",
+          "lat": -1.8827,
+          "lon": 141.2718,
+          "skor_ikod": 69.55
+        },
+        {
+          "id": "91-009",
+          "name": "Kota Papua 2",
+          "type": "Kota",
+          "lat": -3.2799,
+          "lon": 141.4151,
+          "skor_ikod": 67.12
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "kode_prov": "92",
+      "name": "Papua Barat",
+      "ibukota": "Manokwari",
+      "pulau_region": "Maluku-Papua",
+      "lat": -1.3361,
+      "lon": 133.1747,
+      "jumlah_kabkota": 5,
+      "skor_ikod": 86.2,
+      "trend": -0.74,
+      "rank": 8,
+      "kabkota": [
+        {
+          "id": "92-001",
+          "name": "Kabupaten Papua Barat",
+          "type": "Kabupaten",
+          "lat": -1.2405,
+          "lon": 133.4058,
+          "skor_ikod": 84.74
+        },
+        {
+          "id": "92-002",
+          "name": "Kabupaten Papua Barat 2",
+          "type": "Kabupaten",
+          "lat": -1.0351,
+          "lon": 133.8288,
+          "skor_ikod": 83.63
+        },
+        {
+          "id": "92-003",
+          "name": "Kabupaten Papua Barat 3",
+          "type": "Kabupaten",
+          "lat": -2.2737,
+          "lon": 133.0201,
+          "skor_ikod": 89.29
+        },
+        {
+          "id": "92-004",
+          "name": "Kabupaten Papua Barat 4",
+          "type": "Kabupaten",
+          "lat": -1.7117,
+          "lon": 132.7538,
+          "skor_ikod": 82.11
+        },
+        {
+          "id": "92-005",
+          "name": "Kota Papua Barat",
+          "type": "Kota",
+          "lat": -0.3748,
+          "lon": 132.9046,
+          "skor_ikod": 88.08
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "kode_prov": "93",
+      "name": "Papua Barat Daya",
+      "ibukota": "Sorong",
+      "pulau_region": "Maluku-Papua",
+      "lat": -0.8762,
+      "lon": 131.2558,
+      "jumlah_kabkota": 5,
+      "skor_ikod": 81.22,
+      "trend": -1.26,
+      "rank": 16,
+      "kabkota": [
+        {
+          "id": "93-001",
+          "name": "Kabupaten Papua Barat Daya",
+          "type": "Kabupaten",
+          "lat": -0.1285,
+          "lon": 131.1976,
+          "skor_ikod": 87.48
+        },
+        {
+          "id": "93-002",
+          "name": "Kabupaten Papua Barat Daya 2",
+          "type": "Kabupaten",
+          "lat": -0.141,
+          "lon": 130.9409,
+          "skor_ikod": 83.63
+        },
+        {
+          "id": "93-003",
+          "name": "Kabupaten Papua Barat Daya 3",
+          "type": "Kabupaten",
+          "lat": -1.2662,
+          "lon": 131.6968,
+          "skor_ikod": 81.96
+        },
+        {
+          "id": "93-004",
+          "name": "Kabupaten Papua Barat Daya 4",
+          "type": "Kabupaten",
+          "lat": -0.0249,
+          "lon": 131.3427,
+          "skor_ikod": 81.36
+        },
+        {
+          "id": "93-005",
+          "name": "Kota Papua Barat Daya",
+          "type": "Kota",
+          "lat": -1.956,
+          "lon": 130.8018,
+          "skor_ikod": 87.97
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "kode_prov": "94",
+      "name": "Papua Selatan",
+      "ibukota": "Merauke",
+      "pulau_region": "Maluku-Papua",
+      "lat": -8.47,
+      "lon": 140.4,
+      "jumlah_kabkota": 4,
+      "skor_ikod": 81.56,
+      "trend": 3.39,
+      "rank": 14,
+      "kabkota": [
+        {
+          "id": "94-001",
+          "name": "Kabupaten Papua Selatan",
+          "type": "Kabupaten",
+          "lat": -7.703,
+          "lon": 139.3413,
+          "skor_ikod": 84.45
+        },
+        {
+          "id": "94-002",
+          "name": "Kabupaten Papua Selatan 2",
+          "type": "Kabupaten",
+          "lat": -7.5451,
+          "lon": 139.4857,
+          "skor_ikod": 81.09
+        },
+        {
+          "id": "94-003",
+          "name": "Kabupaten Papua Selatan 3",
+          "type": "Kabupaten",
+          "lat": -8.0548,
+          "lon": 139.9211,
+          "skor_ikod": 74.43
+        },
+        {
+          "id": "94-004",
+          "name": "Kota Papua Selatan",
+          "type": "Kota",
+          "lat": -7.9375,
+          "lon": 141.0452,
+          "skor_ikod": 81.72
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "kode_prov": "95",
+      "name": "Papua Tengah",
+      "ibukota": "Nabire",
+      "pulau_region": "Maluku-Papua",
+      "lat": -3.3667,
+      "lon": 135.4833,
+      "jumlah_kabkota": 4,
+      "skor_ikod": 68.91,
+      "trend": -0.94,
+      "rank": 33,
+      "kabkota": [
+        {
+          "id": "95-001",
+          "name": "Kabupaten Papua Tengah",
+          "type": "Kabupaten",
+          "lat": -2.3589,
+          "lon": 135.7336,
+          "skor_ikod": 65.51
+        },
+        {
+          "id": "95-002",
+          "name": "Kabupaten Papua Tengah 2",
+          "type": "Kabupaten",
+          "lat": -2.9121,
+          "lon": 135.8153,
+          "skor_ikod": 65.44
+        },
+        {
+          "id": "95-003",
+          "name": "Kabupaten Papua Tengah 3",
+          "type": "Kabupaten",
+          "lat": -4.4136,
+          "lon": 134.778,
+          "skor_ikod": 63.67
+        },
+        {
+          "id": "95-004",
+          "name": "Kota Papua Tengah",
+          "type": "Kota",
+          "lat": -4.2121,
+          "lon": 134.8386,
+          "skor_ikod": 68.04
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "kode_prov": "96",
+      "name": "Papua Pegunungan",
+      "ibukota": "Wamena",
+      "pulau_region": "Maluku-Papua",
+      "lat": -4.0833,
+      "lon": 138.95,
+      "jumlah_kabkota": 4,
+      "skor_ikod": 61.29,
+      "trend": 2.74,
+      "rank": 38,
+      "kabkota": [
+        {
+          "id": "96-001",
+          "name": "Kabupaten Papua Pegunungan",
+          "type": "Kabupaten",
+          "lat": -4.2152,
+          "lon": 139.6792,
+          "skor_ikod": 65.87
+        },
+        {
+          "id": "96-002",
+          "name": "Kabupaten Papua Pegunungan 2",
+          "type": "Kabupaten",
+          "lat": -3.8484,
+          "lon": 139.7968,
+          "skor_ikod": 67.3
+        },
+        {
+          "id": "96-003",
+          "name": "Kabupaten Papua Pegunungan 3",
+          "type": "Kabupaten",
+          "lat": -4.5462,
+          "lon": 138.2671,
+          "skor_ikod": 64.78
+        },
+        {
+          "id": "96-004",
+          "name": "Kota Papua Pegunungan",
+          "type": "Kota",
+          "lat": -3.8887,
+          "lon": 140.0056,
+          "skor_ikod": 61.07
+        }
+      ]
+    }
+  ]
+}

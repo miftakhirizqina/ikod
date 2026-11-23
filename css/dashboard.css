@@ -1,0 +1,432 @@
+/* ============================================================================
+   DASHBOARD.CSS
+   Layout utama (header, content, footer), KPI cards, filter bar, komponen
+   khusus tiap halaman (peta, dimensi, indikator, metadata, quality, analytics).
+   ============================================================================ */
+
+/* ---------------------------------------------------------------------------
+   1. APP SHELL LAYOUT
+   --------------------------------------------------------------------------- */
+.app-shell {
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left var(--transition-slow);
+}
+.app-shell.sidebar-collapsed { margin-left: var(--sidebar-width-collapsed); }
+
+@media (max-width: 991.98px) {
+  .app-shell, .app-shell.sidebar-collapsed { margin-left: 0; }
+}
+
+/* ---------------------------------------------------------------------------
+   2. HEADER (topbar)
+   --------------------------------------------------------------------------- */
+.ikod-header {
+  height: var(--header-height);
+  background: var(--color-card-bg);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 22px;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+.header-title-block { display: flex; flex-direction: column; line-height: 1.15; }
+.header-title-block .app-title { font-size: 15.5px; font-weight: 700; color: var(--color-text-primary); }
+.header-title-block .app-subtitle { font-size: 10.5px; color: var(--color-text-muted); letter-spacing: 0.3px; }
+
+.header-search {
+  flex: 1;
+  max-width: 380px;
+  position: relative;
+}
+.header-search input {
+  width: 100%;
+  padding: 9px 14px 9px 38px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  font-size: 13px;
+  color: var(--color-text-primary);
+}
+.header-search i {
+  position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+  color: var(--color-text-muted); font-size: 13px;
+}
+
+.header-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.header-date-badge {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: 7px 12px;
+  border-radius: 10px;
+  display: flex; align-items: center; gap: 6px;
+  white-space: nowrap;
+}
+.icon-btn-badge { position: relative; }
+.icon-btn-badge .dot {
+  position: absolute; top: 6px; right: 7px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--color-danger);
+  border: 2px solid var(--color-card-bg);
+}
+.header-profile {
+  display: flex; align-items: center; gap: 10px;
+  padding: 5px 10px 5px 5px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+}
+.header-profile .avatar-circle {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  color: #fff; display: flex; align-items: center; justify-content: center;
+  font-size: 12.5px; font-weight: 700;
+}
+.header-profile .profile-meta { line-height: 1.1; }
+.header-profile .profile-meta strong { display: block; font-size: 12.5px; color: var(--color-text-primary); }
+.header-profile .profile-meta span { font-size: 10.5px; color: var(--color-text-muted); }
+
+.notif-panel { width: 320px; padding: 0; border: 1px solid var(--color-border); box-shadow: var(--shadow-lg); }
+.notif-panel .notif-item { padding: 12px 16px; border-bottom: 1px solid var(--color-border); font-size: 12.5px; }
+.notif-panel .notif-item:last-child { border-bottom: none; }
+.notif-panel .notif-item strong { display: block; color: var(--color-text-primary); font-size: 12.5px; }
+.notif-panel .notif-item span { color: var(--color-text-muted); font-size: 11px; }
+
+/* ---------------------------------------------------------------------------
+   3. GLOBAL FILTER BAR
+   --------------------------------------------------------------------------- */
+.filter-bar {
+  background: var(--color-card-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: 14px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+  position: sticky;
+  top: var(--header-height);
+  z-index: 850;
+}
+.filter-group { display: flex; flex-direction: column; min-width: 148px; }
+.filter-group.grow { flex: 1; min-width: 200px; }
+.filter-bar .btn-reset-filter { margin-left: auto; }
+
+/* ---------------------------------------------------------------------------
+   4. MAIN CONTENT
+   --------------------------------------------------------------------------- */
+.ikod-content { padding: 22px; flex: 1; }
+.page-view { display: none; animation: fadeInPage 0.35s ease; }
+.page-view.active { display: block; }
+@keyframes fadeInPage { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.page-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+/* ---------------------------------------------------------------------------
+   5. KPI CARDS
+   --------------------------------------------------------------------------- */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1399.98px) { .kpi-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 991.98px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 575.98px) { .kpi-grid { grid-template-columns: 1fr; } }
+
+.kpi-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.kpi-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.kpi-icon {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.kpi-body { flex: 1; min-width: 0; }
+.kpi-value { font-size: 23px; font-weight: 700; color: var(--color-text-primary); line-height: 1.1; }
+.kpi-label { font-size: 11.5px; color: var(--color-text-muted); margin-top: 3px; font-weight: 500; }
+.kpi-trend { font-size: 11px; font-weight: 600; margin-top: 4px; display: inline-flex; align-items: center; gap: 3px; }
+
+/* Palet ikon KPI (variasi warna per kartu) */
+.kpi-icon.bg-1 { background: rgba(21,59,117,0.1); color: var(--color-primary); }
+.kpi-icon.bg-2 { background: rgba(13,110,253,0.1); color: var(--color-accent); }
+.kpi-icon.bg-3 { background: rgba(15,118,110,0.1); color: var(--color-teal); }
+.kpi-icon.bg-4 { background: rgba(245,158,11,0.12); color: #B45309; }
+.kpi-icon.bg-5 { background: rgba(124,58,237,0.1); color: #7C3AED; }
+.kpi-icon.bg-6 { background: rgba(220,38,38,0.1); color: var(--color-danger); }
+.kpi-icon.bg-7 { background: rgba(22,163,74,0.1); color: var(--color-success); }
+.kpi-icon.bg-8 { background: rgba(14,165,233,0.1); color: var(--color-info); }
+
+/* ---------------------------------------------------------------------------
+   6. GRID LAYOUT WIDGET (bento style, ala Power BI)
+   --------------------------------------------------------------------------- */
+.widget-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+.col-span-4 { grid-column: span 4; }
+.col-span-5 { grid-column: span 5; }
+.col-span-6 { grid-column: span 6; }
+.col-span-7 { grid-column: span 7; }
+.col-span-8 { grid-column: span 8; }
+.col-span-12 { grid-column: span 12; }
+@media (max-width: 1199.98px) {
+  .widget-grid > [class*="col-span-"] { grid-column: span 12; }
+}
+.chart-box { position: relative; width: 100%; }
+.chart-box.h-260 { height: 260px; }
+.chart-box.h-300 { height: 300px; }
+.chart-box.h-340 { height: 340px; }
+.chart-box.h-380 { height: 380px; }
+
+/* ---------------------------------------------------------------------------
+   7. NATIONAL GAUGE SCORE (skor IKOD nasional)
+   --------------------------------------------------------------------------- */
+.gauge-wrap { position: relative; display: flex; align-items: center; justify-content: center; }
+.gauge-center-label { position: absolute; text-align: center; }
+.gauge-center-label .gauge-value { font-size: 34px; font-weight: 700; color: var(--color-primary); }
+.gauge-center-label .gauge-caption { font-size: 11px; color: var(--color-text-muted); font-weight: 500; }
+
+/* ---------------------------------------------------------------------------
+   8. RANKING LIST (top provinsi)
+   --------------------------------------------------------------------------- */
+.rank-list-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.rank-list-item:last-child { border-bottom: none; }
+.rank-badge-num {
+  width: 26px; height: 26px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11.5px; font-weight: 700;
+  background: var(--color-bg); color: var(--color-text-secondary);
+  flex-shrink: 0;
+}
+.rank-list-item:nth-child(1) .rank-badge-num { background: #FEF3C7; color: #92400E; }
+.rank-list-item:nth-child(2) .rank-badge-num { background: #E2E8F0; color: #334155; }
+.rank-list-item:nth-child(3) .rank-badge-num { background: #FFE4D5; color: #9A3412; }
+.rank-info { flex: 1; min-width: 0; }
+.rank-info .rank-name { font-size: 13px; font-weight: 600; color: var(--color-text-primary); }
+.rank-info .rank-sub { font-size: 11px; color: var(--color-text-muted); }
+.rank-score { font-size: 14px; font-weight: 700; color: var(--color-primary); }
+
+/* ---------------------------------------------------------------------------
+   9. PETA (Leaflet) PAGE
+   --------------------------------------------------------------------------- */
+#mapContainer {
+  width: 100%; height: 560px;
+  border-radius: var(--radius-md);
+  z-index: 1;
+  background: #E9EEF5;
+}
+.leaflet-popup-content-wrapper { border-radius: 12px; }
+.map-popup-title { font-weight: 700; font-size: 13.5px; color: var(--color-primary); margin-bottom: 4px; }
+.map-popup-score { font-size: 20px; font-weight: 700; color: var(--color-accent); }
+.map-popup-row { display: flex; justify-content: space-between; font-size: 12px; padding: 3px 0; border-top: 1px dashed var(--color-border); margin-top: 4px; }
+
+.map-legend {
+  background: var(--color-card-bg);
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 11.5px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+}
+.map-legend .legend-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.map-legend .legend-swatch { width: 14px; height: 14px; border-radius: 4px; }
+
+.province-search-list { max-height: 480px; overflow-y: auto; }
+.province-list-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 9px 10px; border-radius: 8px; cursor: pointer;
+  font-size: 12.5px;
+}
+.province-list-item:hover, .province-list-item.active-item { background: rgba(13,110,253,0.08); }
+
+/* ---------------------------------------------------------------------------
+   10. DIMENSI 12 / PROGRESS RANKING
+   --------------------------------------------------------------------------- */
+.dim-progress-item { margin-bottom: 14px; }
+.dim-progress-item:last-child { margin-bottom: 0; }
+.dim-progress-head { display: flex; justify-content: space-between; font-size: 12.5px; margin-bottom: 6px; }
+.dim-progress-head .dim-name { font-weight: 600; color: var(--color-text-primary); display: flex; align-items: center; gap: 8px; }
+.dim-progress-head .dim-value { font-weight: 700; color: var(--color-primary); }
+.dim-bar { height: 9px; border-radius: 6px; background: var(--color-border); overflow: hidden; }
+.dim-bar > span { display: block; height: 100%; border-radius: 6px; transition: width 0.6s ease; }
+
+/* ---------------------------------------------------------------------------
+   11. DATA QUALITY PAGE
+   --------------------------------------------------------------------------- */
+.quality-metric-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.quality-metric-row .q-label { width: 110px; font-size: 12px; color: var(--color-text-secondary); flex-shrink: 0; }
+.quality-metric-row .q-bar { flex: 1; }
+.quality-metric-row .q-val { width: 42px; text-align: right; font-size: 12px; font-weight: 700; color: var(--color-text-primary); }
+
+/* ---------------------------------------------------------------------------
+   12. ANALYTICS - HEATMAP (custom, tanpa plugin tambahan)
+   --------------------------------------------------------------------------- */
+.heatmap-wrap { overflow-x: auto; }
+.heatmap-table { border-collapse: collapse; font-size: 10.5px; width: 100%; }
+.heatmap-table th {
+  padding: 6px 4px; font-weight: 600; color: var(--color-text-secondary);
+  font-size: 10px; text-align: center; white-space: nowrap;
+}
+.heatmap-table th.row-head-th { text-align: left; position: sticky; left: 0; background: var(--color-card-bg); }
+.heatmap-table td { padding: 0; text-align: center; }
+.heatmap-cell {
+  width: 100%; height: 26px; display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 9.5px; font-weight: 600; cursor: default;
+}
+.heatmap-row-label {
+  font-size: 11px; padding: 4px 10px 4px 4px; white-space: nowrap;
+  position: sticky; left: 0; background: var(--color-card-bg); font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------------
+   13. LONGITUDINAL - SLIDER TAHUN
+   --------------------------------------------------------------------------- */
+.year-slider-wrap { display: flex; align-items: center; gap: 14px; }
+.year-slider-wrap input[type="range"] {
+  flex: 1;
+  accent-color: var(--color-accent);
+}
+.year-slider-value {
+  min-width: 58px; text-align: center;
+  font-weight: 700; font-size: 15px; color: var(--color-primary);
+  background: var(--color-bg); border-radius: 8px; padding: 4px 10px;
+}
+
+/* ---------------------------------------------------------------------------
+   14. METADATA ACCORDION CARDS
+   --------------------------------------------------------------------------- */
+.metadata-item {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.metadata-item-head {
+  padding: 13px 16px;
+  display: flex; align-items: center; justify-content: between; gap: 10px;
+  cursor: pointer;
+  background: var(--color-card-bg);
+}
+.metadata-item-head .meta-title { font-weight: 600; font-size: 13px; flex: 1; }
+.metadata-item-head .meta-chev { transition: transform var(--transition-fast); color: var(--color-text-muted); }
+.metadata-item.open .meta-chev { transform: rotate(180deg); }
+.metadata-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow);
+  background: var(--color-bg);
+}
+.metadata-item.open .metadata-item-body { max-height: 600px; }
+.metadata-item-body-inner { padding: 14px 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 20px; font-size: 12.5px; }
+.metadata-item-body-inner .meta-field-label { color: var(--color-text-muted); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px; }
+.metadata-item-body-inner .meta-field-full { grid-column: span 2; }
+
+/* ---------------------------------------------------------------------------
+   15. LAPORAN PAGE
+   --------------------------------------------------------------------------- */
+.export-option-card {
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  text-align: center;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+.export-option-card:hover { border-color: var(--color-accent); background: rgba(13,110,253,0.03); }
+.export-option-card i { font-size: 30px; margin-bottom: 10px; }
+
+#printableReport { display: none; }
+
+/* ---------------------------------------------------------------------------
+   16. FOOTER
+   --------------------------------------------------------------------------- */
+.ikod-footer {
+  padding: 14px 22px;
+  border-top: 1px solid var(--color-border);
+  font-size: 12px;
+  color: var(--color-text-muted);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+}
+
+/* ---------------------------------------------------------------------------
+   17. SETTINGS PAGE
+   --------------------------------------------------------------------------- */
+.settings-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.settings-row:last-child { border-bottom: none; }
+.settings-row .settings-label { font-weight: 600; font-size: 13.5px; color: var(--color-text-primary); }
+.settings-row .settings-desc { font-size: 11.5px; color: var(--color-text-muted); margin-top: 2px; }
+
+.form-switch .form-check-input {
+  width: 42px; height: 22px; cursor: pointer;
+}
+.form-switch .form-check-input:checked { background-color: var(--color-accent); border-color: var(--color-accent); }
+
+/* ---------------------------------------------------------------------------
+   18. ABOUT (TENTANG) PAGE
+   --------------------------------------------------------------------------- */
+.about-hero {
+  background: linear-gradient(120deg, var(--color-primary), #0F2C58);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.about-hero::after {
+  content: '';
+  position: absolute; right: -60px; top: -60px;
+  width: 220px; height: 220px; border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+}
+.about-timeline-item { display: flex; gap: 14px; padding-bottom: 18px; position: relative; }
+.about-timeline-item::before {
+  content: ''; position: absolute; left: 9px; top: 26px; bottom: 0; width: 2px;
+  background: var(--color-border);
+}
+.about-timeline-item:last-child::before { display: none; }
+.about-timeline-dot {
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--color-accent); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; flex-shrink: 0; margin-top: 2px;
+}
+
+/* Print styles */
+@media print {
+  .ikod-sidebar, .ikod-header, .filter-bar, .ikod-footer, .no-print { display: none !important; }
+  .app-shell { margin-left: 0 !important; }
+  #printableReport { display: block !important; }
+  .page-view { display: none !important; }
+}

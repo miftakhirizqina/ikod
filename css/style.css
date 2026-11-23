@@ -1,0 +1,412 @@
+/* ============================================================================
+   STYLE.CSS
+   Base stylesheet: CSS Reset, Design Tokens (Custom Properties), Typography,
+   Global Utilities, Dark Mode tokens.
+   Dashboard IKOD - BRIN Prototype v1
+   ============================================================================ */
+
+/* ---------------------------------------------------------------------------
+   1. DESIGN TOKENS
+   --------------------------------------------------------------------------- */
+:root {
+  /* Brand colors (fixed per spesifikasi) */
+  --color-primary: #153B75;        /* Navy - warna utama header/sidebar */
+  --color-accent: #0D6EFD;         /* Blue - aksen interaktif */
+  --color-teal: #0F766E;           /* Teal - aksen sekunder / positif */
+  --color-white: #FFFFFF;
+  --color-bg: #F5F7FA;             /* Background utama */
+
+  /* Derived neutrals */
+  --color-text-primary: #1B2430;
+  --color-text-secondary: #64748B;
+  --color-text-muted: #94A3B8;
+  --color-border: #E5E9F0;
+  --color-card-bg: #FFFFFF;
+
+  /* Status colors */
+  --color-success: #16A34A;
+  --color-warning: #F59E0B;
+  --color-danger: #DC2626;
+  --color-info: #0EA5E9;
+
+  /* Chart palette (konsisten dipakai di seluruh chart.js) */
+  --chart-color-1: #153B75;
+  --chart-color-2: #0D6EFD;
+  --chart-color-3: #0F766E;
+  --chart-color-4: #F59E0B;
+  --chart-color-5: #DC2626;
+  --chart-color-6: #7C3AED;
+  --chart-color-7: #0EA5E9;
+  --chart-color-8: #16A34A;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+  --shadow-lg: 0 12px 32px rgba(16, 24, 40, 0.12);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* Layout */
+  --sidebar-width: 264px;
+  --sidebar-width-collapsed: 84px;
+  --header-height: 68px;
+  --footer-height: 52px;
+
+  /* Motion */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Font */
+  --font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Dark mode token overrides (applied via [data-theme="dark"] on <html>) */
+[data-theme="dark"] {
+  --color-bg: #0B1120;
+  --color-card-bg: #131C31;
+  --color-text-primary: #E7ECF5;
+  --color-text-secondary: #A6B1C4;
+  --color-text-muted: #71809A;
+  --color-border: #223049;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------------------------------------------------------------------------
+   2. RESET & BASE
+   --------------------------------------------------------------------------- */
+* , *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--transition-base), color var(--transition-base);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+p { margin: 0 0 0.5rem 0; color: var(--color-text-secondary); }
+
+a { text-decoration: none; color: var(--color-accent); }
+
+ul { list-style: none; margin: 0; padding: 0; }
+
+button { font-family: var(--font-family-base); cursor: pointer; }
+
+::selection { background: var(--color-accent); color: #fff; }
+
+/* Scrollbar styling (webkit) */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(21, 59, 117, 0.25); border-radius: 10px; }
+[data-theme="dark"] ::-webkit-scrollbar-thumb { background: rgba(167, 182, 214, 0.25); }
+
+/* ---------------------------------------------------------------------------
+   3. TYPOGRAPHY UTILITIES
+   --------------------------------------------------------------------------- */
+.text-primary-brand { color: var(--color-primary) !important; }
+.text-accent { color: var(--color-accent) !important; }
+.text-teal { color: var(--color-teal) !important; }
+.text-muted-ikod { color: var(--color-text-muted) !important; }
+.text-secondary-ikod { color: var(--color-text-secondary) !important; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fs-11 { font-size: 11px; }
+.fs-12 { font-size: 12px; }
+.fs-13 { font-size: 13px; }
+.fs-24 { font-size: 24px; }
+.fs-28 { font-size: 28px; }
+.letter-spacing-1 { letter-spacing: 0.4px; }
+.uppercase-label {
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+/* ---------------------------------------------------------------------------
+   4. CARD / SURFACE COMPONENT (reusable di seluruh dashboard)
+   --------------------------------------------------------------------------- */
+.ikod-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+  padding: 20px;
+  transition: box-shadow var(--transition-base), transform var(--transition-base), background-color var(--transition-base), border-color var(--transition-base);
+}
+.ikod-card:hover { box-shadow: var(--shadow-md); }
+.ikod-card.no-hover:hover { box-shadow: var(--shadow-sm); }
+
+.ikod-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.ikod-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ikod-card-title i { color: var(--color-accent); }
+.ikod-card-subtitle { font-size: 12px; color: var(--color-text-muted); margin-top: 2px; }
+
+/* ---------------------------------------------------------------------------
+   5. BADGES / PILLS / STATUS CHIPS
+   --------------------------------------------------------------------------- */
+.ikod-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.badge-up { background: rgba(22, 163, 74, 0.12); color: var(--color-success); }
+.badge-down { background: rgba(220, 38, 38, 0.12); color: var(--color-danger); }
+.badge-flat { background: rgba(148, 163, 184, 0.16); color: var(--color-text-secondary); }
+.badge-info { background: rgba(13, 110, 253, 0.12); color: var(--color-accent); }
+.badge-teal { background: rgba(15, 118, 110, 0.12); color: var(--color-teal); }
+.badge-warning { background: rgba(245, 158, 11, 0.14); color: #B45309; }
+
+/* ---------------------------------------------------------------------------
+   6. BUTTONS (custom variants selaras palet IKOD)
+   --------------------------------------------------------------------------- */
+.btn-ikod-primary {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 13.5px;
+  padding: 8px 16px;
+  transition: all var(--transition-fast);
+}
+.btn-ikod-primary:hover { background: #0f2c58; color: #fff; }
+
+.btn-ikod-outline {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 13.5px;
+  padding: 8px 16px;
+  transition: all var(--transition-fast);
+}
+.btn-ikod-outline:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+.btn-ikod-accent {
+  background: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 13.5px;
+  padding: 8px 16px;
+}
+.btn-ikod-accent:hover { background: #0b5ed7; color: #fff; }
+
+.btn-icon-only {
+  width: 38px; height: 38px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card-bg);
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+}
+.btn-icon-only:hover { color: var(--color-accent); border-color: var(--color-accent); }
+
+/* ---------------------------------------------------------------------------
+   7. FORM CONTROLS (filter global, search, select)
+   --------------------------------------------------------------------------- */
+.form-select, .form-control {
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  color: var(--color-text-primary);
+  font-size: 13.5px;
+  padding: 8px 12px;
+}
+.form-select:focus, .form-control:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.14);
+}
+.form-label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 4px;
+}
+
+/* ---------------------------------------------------------------------------
+   8. TABLE (data table generik dipakai di Indikator, Metadata, dsb)
+   --------------------------------------------------------------------------- */
+.table-ikod {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13px;
+}
+.table-ikod thead th {
+  background: var(--color-bg);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+[data-theme="dark"] .table-ikod thead th { background: #0F1830; }
+.table-ikod thead th:hover { color: var(--color-accent); }
+.table-ikod thead th .sort-icon { margin-left: 4px; font-size: 10px; opacity: 0.5; }
+.table-ikod tbody td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+  vertical-align: middle;
+}
+.table-ikod tbody tr { transition: background var(--transition-fast); }
+.table-ikod tbody tr:hover { background: rgba(13, 110, 253, 0.05); }
+
+/* progress bar mini di dalam tabel/list */
+.mini-progress {
+  height: 6px;
+  border-radius: 6px;
+  background: var(--color-border);
+  overflow: hidden;
+  width: 100%;
+}
+.mini-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: 6px;
+  background: var(--color-accent);
+  transition: width var(--transition-slow);
+}
+
+/* ---------------------------------------------------------------------------
+   9. LOADING OVERLAY & SKELETON
+   --------------------------------------------------------------------------- */
+#globalLoader {
+  position: fixed;
+  inset: 0;
+  background: var(--color-bg);
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  transition: opacity var(--transition-slow), visibility var(--transition-slow);
+}
+#globalLoader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+.loader-ring {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  border: 4px solid rgba(21, 59, 117, 0.15);
+  border-top-color: var(--color-primary);
+  animation: spin 0.85s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loader-text { font-size: 13px; color: var(--color-text-secondary); font-weight: 500; }
+
+/* ---------------------------------------------------------------------------
+   10. TOAST NOTIFICATION (custom, ringan)
+   --------------------------------------------------------------------------- */
+#toastContainer {
+  position: fixed;
+  top: 84px;
+  right: 20px;
+  z-index: 4000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 340px;
+}
+.ikod-toast {
+  background: var(--color-card-bg);
+  border-left: 4px solid var(--color-accent);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  padding: 12px 16px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 13px;
+  color: var(--color-text-primary);
+  animation: toastIn 0.3s ease;
+}
+.ikod-toast.toast-success { border-left-color: var(--color-success); }
+.ikod-toast.toast-danger { border-left-color: var(--color-danger); }
+.ikod-toast.toast-warning { border-left-color: var(--color-warning); }
+.ikod-toast i { margin-top: 2px; }
+.ikod-toast .toast-close { margin-left: auto; cursor: pointer; color: var(--color-text-muted); }
+@keyframes toastIn {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.ikod-toast.toast-out { animation: toastOut 0.25s ease forwards; }
+@keyframes toastOut { to { opacity: 0; transform: translateX(24px); } }
+
+/* ---------------------------------------------------------------------------
+   11. MISC UTILITIES
+   --------------------------------------------------------------------------- */
+.divider-v { width: 1px; background: var(--color-border); align-self: stretch; }
+.hover-lift { transition: transform var(--transition-fast); }
+.hover-lift:hover { transform: translateY(-2px); }
+.cursor-pointer { cursor: pointer; }
+.gap-3 { gap: 1rem; }
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+.section-subtitle { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 20px; }
+.empty-state { text-align: center; padding: 40px 20px; color: var(--color-text-muted); }
+.empty-state i { font-size: 32px; margin-bottom: 10px; display: block; }
+
+/* Focus visibility (aksesibilitas) */
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

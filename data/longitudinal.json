@@ -1,0 +1,4280 @@
+{
+  "meta": {
+    "title": "Data Longitudinal Skor IKOD 2001-2025",
+    "years": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "national_series": [
+    {
+      "year": 2001,
+      "skor_ikod": 66.62
+    },
+    {
+      "year": 2002,
+      "skor_ikod": 67.08
+    },
+    {
+      "year": 2003,
+      "skor_ikod": 67.22
+    },
+    {
+      "year": 2004,
+      "skor_ikod": 67.74
+    },
+    {
+      "year": 2005,
+      "skor_ikod": 68.53
+    },
+    {
+      "year": 2006,
+      "skor_ikod": 68.35
+    },
+    {
+      "year": 2007,
+      "skor_ikod": 69.31
+    },
+    {
+      "year": 2008,
+      "skor_ikod": 69.15
+    },
+    {
+      "year": 2009,
+      "skor_ikod": 69.39
+    },
+    {
+      "year": 2010,
+      "skor_ikod": 70.41
+    },
+    {
+      "year": 2011,
+      "skor_ikod": 71.28
+    },
+    {
+      "year": 2012,
+      "skor_ikod": 71.51
+    },
+    {
+      "year": 2013,
+      "skor_ikod": 72.03
+    },
+    {
+      "year": 2014,
+      "skor_ikod": 72.41
+    },
+    {
+      "year": 2015,
+      "skor_ikod": 72.78
+    },
+    {
+      "year": 2016,
+      "skor_ikod": 73.38
+    },
+    {
+      "year": 2017,
+      "skor_ikod": 73.93
+    },
+    {
+      "year": 2018,
+      "skor_ikod": 74.36
+    },
+    {
+      "year": 2019,
+      "skor_ikod": 74.56
+    },
+    {
+      "year": 2020,
+      "skor_ikod": 73.98
+    },
+    {
+      "year": 2021,
+      "skor_ikod": 74.71
+    },
+    {
+      "year": 2022,
+      "skor_ikod": 76.01
+    },
+    {
+      "year": 2023,
+      "skor_ikod": 77.14
+    },
+    {
+      "year": 2024,
+      "skor_ikod": 77.9
+    },
+    {
+      "year": 2025,
+      "skor_ikod": 78.85
+    }
+  ],
+  "province_series": {
+    "11": [
+      {
+        "year": 2001,
+        "skor_ikod": 78.86
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 79.23
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 76.5
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 78.11
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 76.98
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 79.09
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 80.64
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 80.5
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 78.78
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 80.93
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 80.36
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 81.41
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 80.82
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 84.43
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 84.31
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 83.99
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 85.09
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 82.91
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 86.48
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 84.87
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 84.46
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 85.24
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 87.17
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 86.88
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 88.96
+      }
+    ],
+    "12": [
+      {
+        "year": 2001,
+        "skor_ikod": 77.09
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 79.48
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 79.43
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 78.54
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 77.99
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 79.03
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 81.86
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 80.66
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 79.25
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 80.29
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 83.99
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 82.75
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 84.6
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 84.13
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 82.1
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 84.43
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 84.7
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 86.84
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 84.63
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 85.53
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 86.12
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 86.43
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 87.16
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 89.6
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 87.68
+      }
+    ],
+    "13": [
+      {
+        "year": 2001,
+        "skor_ikod": 70.36
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 70.64
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 68.63
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 71.24
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 70.63
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.12
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 71.35
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 73.78
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 74.28
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 75.07
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 74.79
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.72
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 75.71
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 77.39
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 75.91
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 77.29
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 77.34
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 77.03
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 76.35
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 75.09
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 79.22
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 79.63
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 78.5
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 79.69
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.58
+      }
+    ],
+    "14": [
+      {
+        "year": 2001,
+        "skor_ikod": 67.54
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 69.95
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 71.01
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.49
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 69.42
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 73.15
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 71.36
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 69.99
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 71.42
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 74.65
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 75.11
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.64
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 72.69
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 74.88
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 74.36
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 74.92
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 76.42
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 75.59
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 75.62
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 77.98
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 77.65
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 77.1
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 78.35
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.71
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 82.59
+      }
+    ],
+    "15": [
+      {
+        "year": 2001,
+        "skor_ikod": 66.02
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 65.72
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 65.86
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.66
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 67.2
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.44
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 67.6
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 68.06
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 68.77
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 70.6
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 69.76
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.5
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 72.76
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 73.29
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 71.8
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 75.15
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 73.84
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 72.97
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 75.88
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 72.57
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 76.17
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 76.11
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 79.06
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 77.11
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 79.09
+      }
+    ],
+    "16": [
+      {
+        "year": 2001,
+        "skor_ikod": 69.51
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 70.59
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 67.88
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 70.38
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 69.47
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 69.78
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 70.63
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 70.62
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 71.27
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 70.94
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 73.67
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.4
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 74.46
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 72.64
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 74.92
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 76.94
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 77.33
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 77.03
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 76.99
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 76.78
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 77.1
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 76.13
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 78.07
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.88
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.53
+      }
+    ],
+    "17": [
+      {
+        "year": 2001,
+        "skor_ikod": 63.81
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 66.52
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 66.89
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 63.99
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 67.82
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 66.21
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 65.67
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 67.23
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 67.53
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 70.44
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 69.09
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 68.6
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 71.74
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 70.9
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 72.62
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 71.23
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 73.5
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 72.31
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 71.74
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 71.42
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 71.25
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 73.38
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 75.66
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 74.08
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 77.55
+      }
+    ],
+    "18": [
+      {
+        "year": 2001,
+        "skor_ikod": 78.67
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 78.85
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 80.89
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 82.46
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 82.61
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 81.02
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 82.53
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 82.52
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 82.14
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 81.88
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 83.72
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 85.57
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 83.87
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 86.83
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 84.42
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 86.09
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 87.27
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 86.16
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 85.57
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 87.55
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 87.09
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 90.16
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 90.12
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 89.39
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 89.66
+      }
+    ],
+    "19": [
+      {
+        "year": 2001,
+        "skor_ikod": 68.33
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 69.88
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 68.67
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 70.7
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 72.61
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 72.48
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 72.28
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 73.95
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 74.58
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 74.8
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 75.37
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 75.78
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 76.82
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 75.3
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 74.73
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 76.71
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 77.74
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 76.97
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 77.9
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 78.92
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 76.23
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 81.02
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 80.14
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 82.79
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 80.07
+      }
+    ],
+    "21": [
+      {
+        "year": 2001,
+        "skor_ikod": 60.91
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 59.6
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 60.09
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 62.12
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 62.75
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 62.7
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 63.41
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 61.4
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 62.59
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 63.42
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 62.78
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 66.71
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 64.18
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 64.47
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 66.15
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 64.88
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 66.57
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 66.6
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 67.3
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 65.67
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 67.03
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 70.24
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 68.49
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 72.99
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 72.0
+      }
+    ],
+    "31": [
+      {
+        "year": 2001,
+        "skor_ikod": 79.11
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 77.52
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 78.17
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 79.65
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 80.79
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 80.74
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 80.81
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 79.64
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 80.24
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 81.84
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 83.68
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 82.92
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 82.37
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 84.13
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 85.6
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 86.09
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 83.92
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 87.16
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 87.08
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 86.1
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 86.01
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 88.92
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 87.1
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 88.92
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 91.76
+      }
+    ],
+    "32": [
+      {
+        "year": 2001,
+        "skor_ikod": 68.93
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 69.67
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 70.22
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 71.39
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 71.64
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 71.39
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 73.73
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 71.08
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 73.41
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 73.19
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 72.21
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 75.07
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 73.27
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 74.09
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 75.58
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 75.47
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 75.57
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 76.6
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 76.45
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 76.09
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 76.74
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 79.44
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 79.37
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 82.11
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 80.33
+      }
+    ],
+    "33": [
+      {
+        "year": 2001,
+        "skor_ikod": 66.85
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 66.67
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 68.88
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.42
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 69.12
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.41
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 69.43
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 71.39
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 71.12
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 73.84
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 72.41
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 71.94
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 72.27
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 73.04
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 75.08
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 74.04
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 74.2
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 77.83
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 76.52
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 75.58
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 78.02
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 76.28
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 80.33
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.12
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.63
+      }
+    ],
+    "34": [
+      {
+        "year": 2001,
+        "skor_ikod": 81.29
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 85.06
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 86.06
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 85.77
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 84.88
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 85.76
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 85.87
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 87.67
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 85.14
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 87.49
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 87.25
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 88.09
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 89.46
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 89.57
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 89.88
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 91.96
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 92.31
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 92.47
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 90.61
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 89.13
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 90.74
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 92.03
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 92.58
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 93.24
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 96.87
+      }
+    ],
+    "35": [
+      {
+        "year": 2001,
+        "skor_ikod": 75.22
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 73.7
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 75.03
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 75.27
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 75.65
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 73.6
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 76.67
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 77.16
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 75.05
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 76.44
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 79.7
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 80.13
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 77.68
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 78.1
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 79.62
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 78.12
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 80.54
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 80.19
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 79.64
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 82.15
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 81.87
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 82.8
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 84.48
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 85.25
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 87.15
+      }
+    ],
+    "36": [
+      {
+        "year": 2001,
+        "skor_ikod": 60.26
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 61.34
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 63.52
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 62.89
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 63.71
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 63.64
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 64.39
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 65.88
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 63.33
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 65.72
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 66.39
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 67.09
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 67.13
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 66.67
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 66.47
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 66.97
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 68.69
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 70.66
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 70.86
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 68.4
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 71.11
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 72.45
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 71.25
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 71.38
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 72.18
+      }
+    ],
+    "51": [
+      {
+        "year": 2001,
+        "skor_ikod": 66.05
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 66.04
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 64.3
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 66.84
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 67.11
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 66.45
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 69.09
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 68.91
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 68.36
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 69.98
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 69.73
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 68.26
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 69.47
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 68.85
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 70.13
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 73.14
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 71.16
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 72.3
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 72.24
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 70.62
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 71.07
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 72.97
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 74.69
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 75.86
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 77.21
+      }
+    ],
+    "52": [
+      {
+        "year": 2001,
+        "skor_ikod": 69.39
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 67.37
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 67.01
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 70.87
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 67.82
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 68.23
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 71.07
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 72.37
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 70.51
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 70.49
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 74.0
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 72.69
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 72.64
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 73.83
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 72.64
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 74.93
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 75.3
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 77.48
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 77.4
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 75.24
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 77.37
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 78.1
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 79.55
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.02
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.95
+      }
+    ],
+    "53": [
+      {
+        "year": 2001,
+        "skor_ikod": 64.04
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 67.53
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 65.97
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 65.57
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 68.39
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 67.52
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 67.67
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 68.32
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 67.74
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 67.68
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 71.35
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 69.21
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 70.01
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 69.83
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 72.22
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 71.07
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 71.34
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 73.97
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 72.87
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 71.27
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 72.85
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 74.76
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 74.63
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 76.7
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 77.47
+      }
+    ],
+    "61": [
+      {
+        "year": 2001,
+        "skor_ikod": 55.63
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 53.45
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 55.17
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 53.51
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 53.98
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 54.29
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 56.34
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 57.29
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 57.54
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 57.99
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 58.7
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 57.95
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 60.8
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 60.59
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 61.38
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 62.45
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 62.54
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 61.67
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 63.23
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 61.23
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 62.23
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 63.25
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 63.77
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 64.65
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 67.45
+      }
+    ],
+    "62": [
+      {
+        "year": 2001,
+        "skor_ikod": 57.42
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 55.97
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 57.98
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 57.55
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 59.64
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 57.14
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 59.07
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 57.02
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 61.25
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 59.04
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 61.03
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 59.76
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 62.83
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 62.44
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 62.06
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 64.41
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 62.92
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 63.97
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 64.49
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 64.64
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 64.72
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 64.57
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 67.95
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 69.53
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 69.79
+      }
+    ],
+    "63": [
+      {
+        "year": 2001,
+        "skor_ikod": 66.75
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 66.72
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 68.56
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 71.49
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 69.7
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.39
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 69.93
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 68.88
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 71.31
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 72.25
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 74.6
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 72.59
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 74.18
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 75.53
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 76.05
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 75.61
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 74.61
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 74.14
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 77.18
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 76.73
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 76.82
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 75.92
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 80.19
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.34
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 79.99
+      }
+    ],
+    "64": [
+      {
+        "year": 2001,
+        "skor_ikod": 58.64
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 56.01
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 55.72
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 56.17
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 59.36
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 58.01
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 58.14
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 61.01
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 60.55
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 60.4
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 60.61
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 59.83
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 63.75
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 61.34
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 63.31
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 64.49
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 66.02
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 63.99
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 63.13
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 65.63
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 65.4
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 68.2
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 67.67
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 70.08
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 67.99
+      }
+    ],
+    "65": [
+      {
+        "year": 2001,
+        "skor_ikod": 68.07
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 69.16
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 69.7
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 67.41
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 70.59
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 68.03
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 68.83
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 70.27
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 68.48
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 69.64
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 73.22
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.71
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 73.06
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 73.97
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 74.55
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 74.03
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 72.45
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 75.19
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 76.79
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 74.96
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 74.01
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 76.43
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 79.23
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 78.37
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 79.32
+      }
+    ],
+    "71": [
+      {
+        "year": 2001,
+        "skor_ikod": 75.55
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 74.17
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 77.44
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 75.08
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 77.7
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 76.01
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 76.54
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 76.37
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 77.43
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 78.7
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 80.9
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 80.07
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 82.74
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 80.3
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 80.22
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 81.65
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 83.68
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 82.48
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 84.25
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 81.9
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 83.88
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 82.9
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 85.15
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 87.16
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 89.05
+      }
+    ],
+    "72": [
+      {
+        "year": 2001,
+        "skor_ikod": 57.61
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 58.03
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 57.78
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 60.55
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 59.26
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 59.66
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 63.18
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 61.16
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 62.76
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 63.64
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 63.69
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 63.44
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 65.15
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 62.79
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 66.6
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 63.84
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 66.93
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 68.15
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 67.46
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 64.92
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 66.72
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 67.37
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 70.74
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 69.38
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 69.92
+      }
+    ],
+    "73": [
+      {
+        "year": 2001,
+        "skor_ikod": 51.61
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 54.87
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 54.42
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 54.13
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 55.79
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 54.17
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 57.48
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 56.73
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 54.8
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 57.73
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 58.23
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 59.58
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 57.7
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 60.13
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 58.18
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 60.37
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 62.46
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 62.23
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 60.35
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 60.02
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 62.31
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 62.64
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 64.7
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 66.07
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 66.22
+      }
+    ],
+    "74": [
+      {
+        "year": 2001,
+        "skor_ikod": 51.66
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 55.25
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 54.84
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 56.05
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 53.78
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 53.38
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 57.65
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 53.99
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 55.8
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 56.14
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 58.03
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 57.44
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 59.34
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 60.24
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 59.04
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 59.41
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 58.64
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 61.0
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 61.1
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 61.79
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 60.28
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 61.7
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 63.06
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 64.22
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 64.6
+      }
+    ],
+    "75": [
+      {
+        "year": 2001,
+        "skor_ikod": 66.89
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 67.58
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 67.78
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 65.1
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 65.75
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 67.88
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 66.66
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 66.84
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 69.51
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 69.95
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 72.15
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 69.97
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 72.89
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 72.75
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 72.54
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 73.25
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 74.75
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 74.87
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 74.2
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 73.15
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 72.09
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 75.74
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 77.35
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 77.1
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 79.79
+      }
+    ],
+    "76": [
+      {
+        "year": 2001,
+        "skor_ikod": 71.22
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 70.31
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 71.48
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 70.98
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 72.68
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.72
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 74.44
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 73.4
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 74.13
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 73.46
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 75.48
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.99
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 73.83
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 75.4
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 75.95
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 76.43
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 76.07
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 75.55
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 77.51
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 75.88
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 78.42
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 80.35
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 81.21
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 80.63
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.05
+      }
+    ],
+    "81": [
+      {
+        "year": 2001,
+        "skor_ikod": 75.08
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 73.54
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 73.71
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 74.39
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 76.85
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 76.78
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 78.52
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 76.06
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 76.83
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 79.52
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 77.64
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 78.96
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 80.76
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 80.13
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 81.34
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 80.05
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 82.53
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 81.8
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 83.06
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 83.11
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 83.28
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 84.46
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 83.55
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 84.7
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 84.54
+      }
+    ],
+    "82": [
+      {
+        "year": 2001,
+        "skor_ikod": 67.63
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 67.76
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 67.15
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.29
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 69.72
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 69.68
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 68.87
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 70.81
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 67.78
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 68.82
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 69.96
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 73.4
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 73.18
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 74.35
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 72.67
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 71.67
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 74.9
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 75.45
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 75.26
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 74.2
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 75.87
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 76.57
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 77.75
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 77.36
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 80.29
+      }
+    ],
+    "91": [
+      {
+        "year": 2001,
+        "skor_ikod": 57.45
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 58.15
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 57.09
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 57.14
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 60.15
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 61.67
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 59.2
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 60.44
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 59.89
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 60.23
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 61.66
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 63.91
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 62.31
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 63.32
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 64.01
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 65.5
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 64.71
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 65.32
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 64.79
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 65.28
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 63.83
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 68.79
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 69.46
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 66.92
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 69.81
+      }
+    ],
+    "92": [
+      {
+        "year": 2001,
+        "skor_ikod": 72.02
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 75.91
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 73.7
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 73.92
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 73.77
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 76.64
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 74.63
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 75.22
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 76.38
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 77.37
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 77.04
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 79.57
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 78.25
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 80.02
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 78.41
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 80.47
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 81.1
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 79.9
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 81.03
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 81.8
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 83.63
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 82.3
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 86.11
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 86.94
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 86.2
+      }
+    ],
+    "93": [
+      {
+        "year": 2001,
+        "skor_ikod": 69.52
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 71.07
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 71.65
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.45
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 73.53
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.4
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 72.31
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 71.19
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 72.39
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 72.66
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 73.02
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 75.92
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 73.81
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 76.82
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 76.32
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 75.43
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 77.91
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 76.2
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 78.11
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 78.31
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 78.67
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 80.32
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 80.62
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 82.48
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.22
+      }
+    ],
+    "94": [
+      {
+        "year": 2001,
+        "skor_ikod": 67.67
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 69.16
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 67.22
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 69.07
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 71.17
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 70.87
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 71.99
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 70.59
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 73.06
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 73.03
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 72.94
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 72.19
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 75.03
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 73.09
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 73.2
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 75.94
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 73.61
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 76.41
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 77.14
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 77.55
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 74.7
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 77.69
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 77.67
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 78.17
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 81.56
+      }
+    ],
+    "95": [
+      {
+        "year": 2001,
+        "skor_ikod": 58.84
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 58.04
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 57.31
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 58.88
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 61.51
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 59.84
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 60.94
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 59.07
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 60.2
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 61.29
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 62.28
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 61.39
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 62.09
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 63.27
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 65.28
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 65.74
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 65.69
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 66.29
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 65.81
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 64.89
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 67.44
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 69.06
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 69.73
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 69.85
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 68.91
+      }
+    ],
+    "96": [
+      {
+        "year": 2001,
+        "skor_ikod": 50.2
+      },
+      {
+        "year": 2002,
+        "skor_ikod": 48.57
+      },
+      {
+        "year": 2003,
+        "skor_ikod": 50.55
+      },
+      {
+        "year": 2004,
+        "skor_ikod": 49.7
+      },
+      {
+        "year": 2005,
+        "skor_ikod": 52.63
+      },
+      {
+        "year": 2006,
+        "skor_ikod": 49.83
+      },
+      {
+        "year": 2007,
+        "skor_ikod": 52.88
+      },
+      {
+        "year": 2008,
+        "skor_ikod": 50.17
+      },
+      {
+        "year": 2009,
+        "skor_ikod": 51.26
+      },
+      {
+        "year": 2010,
+        "skor_ikod": 53.95
+      },
+      {
+        "year": 2011,
+        "skor_ikod": 52.22
+      },
+      {
+        "year": 2012,
+        "skor_ikod": 53.07
+      },
+      {
+        "year": 2013,
+        "skor_ikod": 53.59
+      },
+      {
+        "year": 2014,
+        "skor_ikod": 52.78
+      },
+      {
+        "year": 2015,
+        "skor_ikod": 55.9
+      },
+      {
+        "year": 2016,
+        "skor_ikod": 54.24
+      },
+      {
+        "year": 2017,
+        "skor_ikod": 55.01
+      },
+      {
+        "year": 2018,
+        "skor_ikod": 58.05
+      },
+      {
+        "year": 2019,
+        "skor_ikod": 56.19
+      },
+      {
+        "year": 2020,
+        "skor_ikod": 54.42
+      },
+      {
+        "year": 2021,
+        "skor_ikod": 56.44
+      },
+      {
+        "year": 2022,
+        "skor_ikod": 56.96
+      },
+      {
+        "year": 2023,
+        "skor_ikod": 58.81
+      },
+      {
+        "year": 2024,
+        "skor_ikod": 58.55
+      },
+      {
+        "year": 2025,
+        "skor_ikod": 61.29
+      }
+    ]
+  },
+  "growth": [
+    {
+      "kode_prov": "11",
+      "name": "Aceh",
+      "skor_2001": 78.86,
+      "skor_2025": 88.96,
+      "growth_pct": 12.81
+    },
+    {
+      "kode_prov": "12",
+      "name": "Sumatera Utara",
+      "skor_2001": 77.09,
+      "skor_2025": 87.68,
+      "growth_pct": 13.74
+    },
+    {
+      "kode_prov": "13",
+      "name": "Sumatera Barat",
+      "skor_2001": 70.36,
+      "skor_2025": 81.58,
+      "growth_pct": 15.95
+    },
+    {
+      "kode_prov": "14",
+      "name": "Riau",
+      "skor_2001": 67.54,
+      "skor_2025": 82.59,
+      "growth_pct": 22.28
+    },
+    {
+      "kode_prov": "15",
+      "name": "Jambi",
+      "skor_2001": 66.02,
+      "skor_2025": 79.09,
+      "growth_pct": 19.8
+    },
+    {
+      "kode_prov": "16",
+      "name": "Sumatera Selatan",
+      "skor_2001": 69.51,
+      "skor_2025": 81.53,
+      "growth_pct": 17.29
+    },
+    {
+      "kode_prov": "17",
+      "name": "Bengkulu",
+      "skor_2001": 63.81,
+      "skor_2025": 77.55,
+      "growth_pct": 21.53
+    },
+    {
+      "kode_prov": "18",
+      "name": "Lampung",
+      "skor_2001": 78.67,
+      "skor_2025": 89.66,
+      "growth_pct": 13.97
+    },
+    {
+      "kode_prov": "19",
+      "name": "Kepulauan Bangka Belitung",
+      "skor_2001": 68.33,
+      "skor_2025": 80.07,
+      "growth_pct": 17.18
+    },
+    {
+      "kode_prov": "21",
+      "name": "Kepulauan Riau",
+      "skor_2001": 60.91,
+      "skor_2025": 72.0,
+      "growth_pct": 18.21
+    },
+    {
+      "kode_prov": "31",
+      "name": "DKI Jakarta",
+      "skor_2001": 79.11,
+      "skor_2025": 91.76,
+      "growth_pct": 15.99
+    },
+    {
+      "kode_prov": "32",
+      "name": "Jawa Barat",
+      "skor_2001": 68.93,
+      "skor_2025": 80.33,
+      "growth_pct": 16.54
+    },
+    {
+      "kode_prov": "33",
+      "name": "Jawa Tengah",
+      "skor_2001": 66.85,
+      "skor_2025": 81.63,
+      "growth_pct": 22.11
+    },
+    {
+      "kode_prov": "34",
+      "name": "Daerah Istimewa Yogyakarta",
+      "skor_2001": 81.29,
+      "skor_2025": 96.87,
+      "growth_pct": 19.17
+    },
+    {
+      "kode_prov": "35",
+      "name": "Jawa Timur",
+      "skor_2001": 75.22,
+      "skor_2025": 87.15,
+      "growth_pct": 15.86
+    },
+    {
+      "kode_prov": "36",
+      "name": "Banten",
+      "skor_2001": 60.26,
+      "skor_2025": 72.18,
+      "growth_pct": 19.78
+    },
+    {
+      "kode_prov": "51",
+      "name": "Bali",
+      "skor_2001": 66.05,
+      "skor_2025": 77.21,
+      "growth_pct": 16.9
+    },
+    {
+      "kode_prov": "52",
+      "name": "Nusa Tenggara Barat",
+      "skor_2001": 69.39,
+      "skor_2025": 81.95,
+      "growth_pct": 18.1
+    },
+    {
+      "kode_prov": "53",
+      "name": "Nusa Tenggara Timur",
+      "skor_2001": 64.04,
+      "skor_2025": 77.47,
+      "growth_pct": 20.97
+    },
+    {
+      "kode_prov": "61",
+      "name": "Kalimantan Barat",
+      "skor_2001": 55.63,
+      "skor_2025": 67.45,
+      "growth_pct": 21.25
+    },
+    {
+      "kode_prov": "62",
+      "name": "Kalimantan Tengah",
+      "skor_2001": 57.42,
+      "skor_2025": 69.79,
+      "growth_pct": 21.54
+    },
+    {
+      "kode_prov": "63",
+      "name": "Kalimantan Selatan",
+      "skor_2001": 66.75,
+      "skor_2025": 79.99,
+      "growth_pct": 19.84
+    },
+    {
+      "kode_prov": "64",
+      "name": "Kalimantan Timur",
+      "skor_2001": 58.64,
+      "skor_2025": 67.99,
+      "growth_pct": 15.94
+    },
+    {
+      "kode_prov": "65",
+      "name": "Kalimantan Utara",
+      "skor_2001": 68.07,
+      "skor_2025": 79.32,
+      "growth_pct": 16.53
+    },
+    {
+      "kode_prov": "71",
+      "name": "Sulawesi Utara",
+      "skor_2001": 75.55,
+      "skor_2025": 89.05,
+      "growth_pct": 17.87
+    },
+    {
+      "kode_prov": "72",
+      "name": "Sulawesi Tengah",
+      "skor_2001": 57.61,
+      "skor_2025": 69.92,
+      "growth_pct": 21.37
+    },
+    {
+      "kode_prov": "73",
+      "name": "Sulawesi Selatan",
+      "skor_2001": 51.61,
+      "skor_2025": 66.22,
+      "growth_pct": 28.31
+    },
+    {
+      "kode_prov": "74",
+      "name": "Sulawesi Tenggara",
+      "skor_2001": 51.66,
+      "skor_2025": 64.6,
+      "growth_pct": 25.05
+    },
+    {
+      "kode_prov": "75",
+      "name": "Gorontalo",
+      "skor_2001": 66.89,
+      "skor_2025": 79.79,
+      "growth_pct": 19.29
+    },
+    {
+      "kode_prov": "76",
+      "name": "Sulawesi Barat",
+      "skor_2001": 71.22,
+      "skor_2025": 81.05,
+      "growth_pct": 13.8
+    },
+    {
+      "kode_prov": "81",
+      "name": "Maluku",
+      "skor_2001": 75.08,
+      "skor_2025": 84.54,
+      "growth_pct": 12.6
+    },
+    {
+      "kode_prov": "82",
+      "name": "Maluku Utara",
+      "skor_2001": 67.63,
+      "skor_2025": 80.29,
+      "growth_pct": 18.72
+    },
+    {
+      "kode_prov": "91",
+      "name": "Papua",
+      "skor_2001": 57.45,
+      "skor_2025": 69.81,
+      "growth_pct": 21.51
+    },
+    {
+      "kode_prov": "92",
+      "name": "Papua Barat",
+      "skor_2001": 72.02,
+      "skor_2025": 86.2,
+      "growth_pct": 19.69
+    },
+    {
+      "kode_prov": "93",
+      "name": "Papua Barat Daya",
+      "skor_2001": 69.52,
+      "skor_2025": 81.22,
+      "growth_pct": 16.83
+    },
+    {
+      "kode_prov": "94",
+      "name": "Papua Selatan",
+      "skor_2001": 67.67,
+      "skor_2025": 81.56,
+      "growth_pct": 20.53
+    },
+    {
+      "kode_prov": "95",
+      "name": "Papua Tengah",
+      "skor_2001": 58.84,
+      "skor_2025": 68.91,
+      "growth_pct": 17.11
+    },
+    {
+      "kode_prov": "96",
+      "name": "Papua Pegunungan",
+      "skor_2001": 50.2,
+      "skor_2025": 61.29,
+      "growth_pct": 22.09
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard IKOD — Indeks Kinerja Otonomi Daerah | Prototype v1 BRIN</title>
+<meta name="description" content="Prototype Dashboard IKOD untuk riset BRIN: Evaluasi Kritis 25 Tahun Desentralisasi dan Otonomi Daerah di Indonesia (2001-2025).">
+
+<!-- Google Font: Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+
+<!-- Bootstrap 5 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- AOS (Animate On Scroll) CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+<!-- CSS Aplikasi IKOD (urutan penting: token dasar -> layout -> komponen) -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/sidebar.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- =========================================================================
+     GLOBAL LOADER
+     ========================================================================= -->
+<div id="globalLoader">
+  <div class="loader-ring"></div>
+  <div class="loader-text">Memuat Dashboard IKOD &mdash; menyiapkan dataset 38 Provinsi...</div>
+</div>
+
+<!-- Toast Notification Container -->
+<div id="toastContainer"></div>
+
+<!-- Backdrop sidebar mobile -->
+<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+<!-- =========================================================================
+     SIDEBAR KIRI
+     ========================================================================= -->
+<aside class="ikod-sidebar" id="ikodSidebar">
+  <div class="sidebar-brand">
+    <div class="brand-logo">IK</div>
+    <div class="brand-text">
+      <strong>IKOD</strong>
+      <span>Indeks Kinerja Otda &mdash; BRIN</span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <div class="sidebar-section-label">Ringkasan</div>
+    <ul>
+      <li class="nav-item-ikod active">
+        <a class="nav-link-ikod" data-page="dashboard" data-tooltip="Dashboard" href="#dashboard">
+          <i class="fa-solid fa-gauge-high nav-icon"></i><span class="nav-label">Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="executive" data-tooltip="Executive Summary" href="#executive">
+          <i class="fa-solid fa-briefcase nav-icon"></i><span class="nav-label">Executive Summary</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidebar-section-label">Analisis Spasial &amp; Waktu</div>
+    <ul>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="longitudinal" data-tooltip="Longitudinal" href="#longitudinal">
+          <i class="fa-solid fa-chart-line nav-icon"></i><span class="nav-label">Longitudinal</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="peta" data-tooltip="Peta Indonesia" href="#peta">
+          <i class="fa-solid fa-map-location-dot nav-icon"></i><span class="nav-label">Peta Indonesia</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidebar-section-label">Dimensi &amp; Data</div>
+    <ul>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="dimensi" data-tooltip="12 Dimensi IKOD" href="#dimensi">
+          <i class="fa-solid fa-layer-group nav-icon"></i><span class="nav-label">12 Dimensi IKOD</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="indikator" data-tooltip="Indikator" href="#indikator">
+          <i class="fa-solid fa-table-list nav-icon"></i><span class="nav-label">Indikator</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="metadata" data-tooltip="Metadata" href="#metadata">
+          <i class="fa-solid fa-file-lines nav-icon"></i><span class="nav-label">Metadata</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="quality" data-tooltip="Data Quality" href="#quality">
+          <i class="fa-solid fa-shield-halved nav-icon"></i><span class="nav-label">Data Quality</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidebar-section-label">Lainnya</div>
+    <ul>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="analytics" data-tooltip="Analytics" href="#analytics">
+          <i class="fa-solid fa-chart-pie nav-icon"></i><span class="nav-label">Analytics</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="laporan" data-tooltip="Laporan" href="#laporan">
+          <i class="fa-solid fa-file-export nav-icon"></i><span class="nav-label">Laporan</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="tentang" data-tooltip="Tentang" href="#tentang">
+          <i class="fa-solid fa-circle-info nav-icon"></i><span class="nav-label">Tentang</span>
+        </a>
+      </li>
+      <li class="nav-item-ikod">
+        <a class="nav-link-ikod" data-page="settings" data-tooltip="Settings" href="#settings">
+          <i class="fa-solid fa-gear nav-icon"></i><span class="nav-label">Settings</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="sidebar-footer">
+    <span class="footer-full-text">IKOD Prototype v1.0 &copy; 2026 BRIN</span>
+    <span class="d-none">v1</span>
+  </div>
+</aside>
+
+<!-- =========================================================================
+     APP SHELL (Header + Filter Bar + Content + Footer)
+     ========================================================================= -->
+<div class="app-shell" id="appShell">
+
+  <!-- HEADER -->
+  <header class="ikod-header">
+    <button class="btn-icon-only" id="sidebarToggleBtn" title="Ciutkan/Perluas Sidebar">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <button class="btn-icon-only mobile-only" id="mobileSidebarToggle" title="Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="header-title-block">
+      <span class="app-title" id="currentPageTitle">Dashboard Utama</span>
+      <span class="app-subtitle">IKOD &mdash; Indeks Kinerja Otonomi Daerah</span>
+    </div>
+
+    <div class="header-search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="globalSearchInput" placeholder="Cari indikator, provinsi, dimensi... (Enter)">
+    </div>
+
+    <div class="header-actions">
+      <span class="header-date-badge"><i class="fa-regular fa-calendar"></i> <span id="headerDateText">-</span></span>
+
+      <div class="dropdown">
+        <button class="btn-icon-only icon-btn-badge" data-bs-toggle="dropdown" title="Notifikasi">
+          <i class="fa-regular fa-bell"></i><span class="dot"></span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-end notif-panel">
+          <div class="notif-item"><strong>Dataset diperbarui</strong><span>Skor IKOD tahun 2025 telah tersedia untuk seluruh provinsi.</span></div>
+          <div class="notif-item"><strong>Data Quality</strong><span>3 indikator memerlukan verifikasi ulang oleh instansi sumber.</span></div>
+          <div class="notif-item"><strong>Pengingat</strong><span>Ini adalah dataset dummy untuk kebutuhan prototype riset BRIN.</span></div>
+        </div>
+      </div>
+
+      <label class="btn-icon-only" style="padding:0;" title="Mode Gelap">
+        <input type="checkbox" id="darkModeToggle" class="d-none">
+        <i class="fa-solid fa-moon" style="pointer-events:none;display:flex;align-items:center;justify-content:center;width:100%;height:100%;" onclick="document.getElementById('darkModeToggle').click()"></i>
+      </label>
+
+      <div class="dropdown">
+        <div class="header-profile" data-bs-toggle="dropdown">
+          <div class="avatar-circle">BR</div>
+          <div class="profile-meta">
+            <strong>Tim Riset BRIN</strong>
+            <span>Administrator</span>
+          </div>
+          <i class="fa-solid fa-chevron-down fs-11 text-muted-ikod"></i>
+        </div>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#settings" onclick="IKOD.navigateTo('settings')"><i class="fa-solid fa-gear me-2"></i>Pengaturan</a></li>
+          <li><a class="dropdown-item" href="#tentang" onclick="IKOD.navigateTo('tentang')"><i class="fa-solid fa-circle-info me-2"></i>Tentang</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="javascript:void(0)" onclick="IKOD.toast('Ini adalah prototype riset, fitur logout dinonaktifkan.','info')"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Keluar</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- FILTER GLOBAL -->
+  <div class="filter-bar">
+    <div class="filter-group">
+      <label class="form-label">Provinsi</label>
+      <select class="form-select form-select-sm" id="filterProvinsi"></select>
+    </div>
+    <div class="filter-group">
+      <label class="form-label">Kabupaten/Kota</label>
+      <select class="form-select form-select-sm" id="filterKabupaten" disabled></select>
+    </div>
+    <div class="filter-group">
+      <label class="form-label">Tahun</label>
+      <select class="form-select form-select-sm" id="filterTahun"></select>
+    </div>
+    <div class="filter-group">
+      <label class="form-label">Dimensi</label>
+      <select class="form-select form-select-sm" id="filterDimensi"></select>
+    </div>
+    <div class="filter-group grow">
+      <label class="form-label">Indikator</label>
+      <select class="form-select form-select-sm" id="filterIndikator"></select>
+    </div>
+    <button class="btn btn-ikod-outline btn-sm btn-reset-filter" id="btnResetFilter">
+      <i class="fa-solid fa-rotate-left me-1"></i>Reset Filter
+    </button>
+  </div>
+
+  <!-- =======================================================================
+       KONTEN UTAMA (semua page-view, hanya satu yang .active pada satu waktu)
+       ======================================================================= -->
+  <main class="ikod-content">
+
+    <!-- ============================ 1. DASHBOARD ============================ -->
+    <section class="page-view active" id="page-dashboard">
+      <div class="page-header-row">
+        <div>
+          <div class="section-title">Dashboard Utama</div>
+          <div class="section-subtitle">Ringkasan kinerja otonomi daerah seluruh Indonesia berbasis 12 dimensi &amp; 38 indikator IKOD.</div>
+        </div>
+        <span class="ikod-badge badge-info" id="dashboardContextBadge">Konteks: Seluruh Indonesia</span>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card" data-aos="fade-up"><div class="kpi-icon bg-1"><i class="fa-solid fa-map"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiProvinsi">0</div><div class="kpi-label">Jumlah Provinsi</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="50"><div class="kpi-icon bg-2"><i class="fa-solid fa-city"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiKabkota">0</div><div class="kpi-label">Jumlah Kab/Kota</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="100"><div class="kpi-icon bg-3"><i class="fa-solid fa-layer-group"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiDimensi">0</div><div class="kpi-label">Jumlah Dimensi</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="150"><div class="kpi-icon bg-4"><i class="fa-solid fa-table-list"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiIndikator">0</div><div class="kpi-label">Jumlah Indikator</div></div></div>
+        <div class="kpi-card" data-aos="fade-up"><div class="kpi-icon bg-5"><i class="fa-solid fa-database"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiDataset">0</div><div class="kpi-label">Jumlah Dataset</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="50"><div class="kpi-icon bg-6"><i class="fa-solid fa-globe-asia"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiCoverage">0</div><div class="kpi-label">Coverage Data</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="100"><div class="kpi-icon bg-7"><i class="fa-solid fa-microchip"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiDigitalisasi">0</div><div class="kpi-label">Progress Digitalisasi</div></div></div>
+        <div class="kpi-card" data-aos="fade-up" data-aos-delay="150"><div class="kpi-icon bg-8"><i class="fa-solid fa-award"></i></div><div class="kpi-body"><div class="kpi-value" id="kpiSkorNasional">0</div><div class="kpi-label" id="kpiSkorLabel">Skor IKOD Nasional</div></div></div>
+      </div>
+
+      <div class="widget-grid">
+        <div class="col-span-4 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-gauge"></i>Skor IKOD</span></div>
+          <div class="gauge-wrap chart-box h-260">
+            <canvas id="chartGaugeNasional"></canvas>
+            <div class="gauge-center-label"><div class="gauge-value" id="gaugeValueText">0</div><div class="gauge-caption" id="gaugeCaptionText">-</div></div>
+          </div>
+        </div>
+        <div class="col-span-4 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-ranking-star"></i>Top 5 Provinsi</span></div>
+          <div id="dashboardTopRankList"></div>
+        </div>
+        <div class="col-span-4 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-area"></i>Profil 12 Dimensi</span></div>
+          <div class="chart-box h-260"><canvas id="chartDashboardRadar"></canvas></div>
+        </div>
+
+        <div class="col-span-8 ikod-card">
+          <div class="ikod-card-header">
+            <span class="ikod-card-title"><i class="fa-solid fa-chart-line"></i>Trend Skor IKOD 2001&ndash;2025</span>
+          </div>
+          <div class="chart-box h-260"><canvas id="chartDashboardTrend"></canvas></div>
+        </div>
+        <div class="col-span-4 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-earth-asia"></i>Distribusi per Region</span></div>
+          <div class="chart-box h-260"><canvas id="chartDashboardRegion"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 2. EXECUTIVE SUMMARY ============================ -->
+    <section class="page-view" id="page-executive">
+      <div class="section-title">Executive Summary</div>
+      <div class="section-subtitle">Ringkasan naratif otomatis dari data IKOD untuk pengambil kebijakan.</div>
+
+      <div class="widget-grid mb-3">
+        <div class="col-span-4 ikod-card"><div class="uppercase-label">Skor IKOD Nasional</div><div class="fs-28 fw-700 text-primary-brand" id="execSkorNasional">0</div><div class="fs-12 text-muted-ikod">Pertumbuhan sejak 2001: <span id="execGrowthNasional" class="fw-600 text-teal">0%</span></div></div>
+        <div class="col-span-4 ikod-card"><div class="uppercase-label">Provinsi Skor Tertinggi</div><div class="fs-24 fw-700" id="execTopProvince">-</div><div class="fs-12 text-muted-ikod">Capaian kinerja otonomi daerah terbaik nasional</div></div>
+        <div class="col-span-4 ikod-card"><div class="uppercase-label">Provinsi Perlu Perhatian</div><div class="fs-24 fw-700" id="execBottomProvince">-</div><div class="fs-12 text-muted-ikod">Memerlukan intervensi kebijakan afirmatif</div></div>
+      </div>
+
+      <div class="widget-grid">
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-list-check"></i>Temuan Kunci</span></div>
+          <ul class="ps-3" style="line-height:1.9;font-size:13px;color:var(--color-text-secondary)" id="execNarrative"></ul>
+        </div>
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-simple"></i>Kinerja Rata-rata per Dimensi</span></div>
+          <div class="chart-box h-300"><canvas id="chartExecDimensiBar"></canvas></div>
+        </div>
+        <div class="col-span-12 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-scale-balanced"></i>Perbandingan Top &amp; Bottom 5 Provinsi</span></div>
+          <div class="table-responsive"><table class="table-ikod"><tbody id="execTopBottomTable"></tbody></table></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 3. LONGITUDINAL ============================ -->
+    <section class="page-view" id="page-longitudinal">
+      <div class="section-title">Analisis Longitudinal 2001&ndash;2025</div>
+      <div class="section-subtitle">Timeline perkembangan skor IKOD selama 25 tahun implementasi desentralisasi.</div>
+
+      <div class="ikod-card mb-3">
+        <div class="year-slider-wrap">
+          <span class="fs-12 fw-600 text-muted-ikod">2001</span>
+          <input type="range" id="yearSlider" min="2001" max="2025" value="2025" step="1">
+          <span class="fs-12 fw-600 text-muted-ikod">2025</span>
+          <span class="year-slider-value" id="yearSliderValue">2025</span>
+        </div>
+        <div class="mt-2 fs-13" id="longYearInfo"></div>
+      </div>
+
+      <div class="widget-grid">
+        <div class="col-span-12 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-line"></i>Trend Nasional (Timeline Lengkap)</span></div>
+          <div class="chart-box h-300"><canvas id="chartLongNasional"></canvas></div>
+        </div>
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-area"></i>Area Chart: Nasional vs Provinsi Terpilih</span></div>
+          <div class="chart-box h-300"><canvas id="chartLongCompare"></canvas></div>
+        </div>
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-arrow-up-right-dots"></i>Growth Comparison (Top Gainer/Loser)</span></div>
+          <div class="chart-box h-300"><canvas id="chartLongGrowth"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 4. PETA INDONESIA ============================ -->
+    <section class="page-view" id="page-peta">
+      <div class="page-header-row">
+        <div>
+          <div class="section-title">Peta Sebaran Indonesia</div>
+          <div class="section-subtitle">Choropleth skor IKOD 38 Provinsi tahun <strong id="mapYearLabel">2025</strong>. Klik provinsi untuk detail.</div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-9">
+          <div class="ikod-card p-0" style="overflow:hidden;">
+            <div id="mapContainer"></div>
+          </div>
+          <div class="d-flex justify-content-end mt-2">
+            <div class="map-legend" id="mapLegendBox"></div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ikod-card">
+            <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-list"></i>Daftar Provinsi</span></div>
+            <input type="text" class="form-control form-control-sm mb-2" id="provinceListSearchInput" placeholder="Cari provinsi...">
+            <div class="province-search-list" id="provinceSearchList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 5. 12 DIMENSI IKOD ============================ -->
+    <section class="page-view" id="page-dimensi">
+      <div class="section-title">12 Dimensi IKOD</div>
+      <div class="section-subtitle">Analisis mendalam capaian setiap dimensi otonomi daerah.</div>
+
+      <div class="widget-grid">
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-area"></i>Radar 12 Dimensi</span></div>
+          <div class="chart-box h-340"><canvas id="chartDimensiRadar"></canvas></div>
+        </div>
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title" id="dimensiBarTitle"><i class="fa-solid fa-chart-bar"></i>Rata-rata Nasional per Dimensi</span></div>
+          <div class="chart-box h-340"><canvas id="chartDimensiBar"></canvas></div>
+        </div>
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-bars-progress"></i>Progress per Dimensi (klik untuk filter)</span></div>
+          <div id="dimensiProgressList"></div>
+        </div>
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-ranking-star"></i>Tabel Ranking Provinsi</span></div>
+          <div class="table-responsive" style="max-height:420px;overflow-y:auto;">
+            <table class="table-ikod">
+              <thead><tr><th>#</th><th>Provinsi</th><th>Skor</th><th>Progress</th></tr></thead>
+              <tbody id="dimensiRankTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 6. INDIKATOR ============================ -->
+    <section class="page-view" id="page-indikator">
+      <div class="section-title">Data Indikator</div>
+      <div class="section-subtitle">38 indikator turunan dari 12 dimensi IKOD, lengkap dengan pencarian, sorting, dan ekspor.</div>
+
+      <div class="ikod-card">
+        <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between mb-3">
+          <input type="text" class="form-control form-control-sm" style="max-width:280px" id="indikatorSearchInput" placeholder="Cari indikator...">
+          <button class="btn btn-ikod-accent btn-sm" id="btnExportCSV"><i class="fa-solid fa-file-csv me-1"></i>Export CSV</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table-ikod" id="indikatorTable">
+            <thead>
+              <tr>
+                <th data-sort="id">ID <i class="fa-solid fa-sort sort-icon"></i></th>
+                <th data-sort="name">Nama Indikator <i class="fa-solid fa-sort sort-icon"></i></th>
+                <th data-sort="dimensi_id">Dimensi <i class="fa-solid fa-sort sort-icon"></i></th>
+                <th data-sort="unit">Satuan <i class="fa-solid fa-sort sort-icon"></i></th>
+                <th data-sort="source">Sumber Data <i class="fa-solid fa-sort sort-icon"></i></th>
+                <th data-sort="value" id="indikatorValueHeader">Rata-rata Nasional <i class="fa-solid fa-sort sort-icon"></i></th>
+              </tr>
+            </thead>
+            <tbody id="indikatorTableBody"></tbody>
+          </table>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-3">
+          <span class="fs-12 text-muted-ikod" id="indikatorResultInfo"></span>
+          <div class="d-flex gap-1" id="indikatorPager"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 7. METADATA ============================ -->
+    <section class="page-view" id="page-metadata">
+      <div class="section-title">Metadata Indikator</div>
+      <div class="section-subtitle">Definisi, formula, sumber data, dan instansi penanggung jawab tiap indikator.</div>
+      <div class="ikod-card">
+        <input type="text" class="form-control form-control-sm mb-3" style="max-width:320px" id="metadataSearchInput" placeholder="Cari indikator atau dimensi...">
+        <div id="metadataAccordionList"></div>
+      </div>
+    </section>
+
+    <!-- ============================ 8. DATA QUALITY ============================ -->
+    <section class="page-view" id="page-quality">
+      <div class="section-title">Data Quality Assessment</div>
+      <div class="section-subtitle">Evaluasi kualitas data pada 5 dimensi: completeness, consistency, availability, accuracy, timeliness.</div>
+
+      <div class="row g-3 mb-3" id="qualitySummaryRow"></div>
+
+      <div class="ikod-card">
+        <div class="table-responsive">
+          <table class="table-ikod">
+            <thead><tr><th>ID</th><th>Indikator</th><th>Completeness</th><th>Consistency</th><th>Availability</th><th>Accuracy</th><th>Timeliness</th></tr></thead>
+            <tbody id="qualityTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 9. ANALYTICS ============================ -->
+    <section class="page-view" id="page-analytics">
+      <div class="section-title">Analytics Lanjutan</div>
+      <div class="section-subtitle">Eksplorasi statistik: distribusi, korelasi, dan perbandingan multidimensi.</div>
+
+      <div class="widget-grid">
+        <div class="col-span-4 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-pie"></i>Distribusi Kategori Skor</span></div><div class="chart-box h-300"><canvas id="chartAnalyticsPie"></canvas></div></div>
+        <div class="col-span-4 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-area"></i>Radar Top-3 vs Bottom-3</span></div><div class="chart-box h-300"><canvas id="chartAnalyticsRadar"></canvas></div></div>
+        <div class="col-span-4 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-simple"></i>Histogram Distribusi Skor</span></div><div class="chart-box h-300"><canvas id="chartAnalyticsHistogram"></canvas></div></div>
+
+        <div class="col-span-12 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-table-cells"></i>Heatmap Provinsi &times; Dimensi</span></div>
+          <div class="heatmap-wrap" id="heatmapContainer"></div>
+        </div>
+
+        <div class="col-span-6 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-braille"></i>Scatter: Rasio PAD vs IPM</span></div><div class="chart-box h-300"><canvas id="chartAnalyticsScatter"></canvas></div></div>
+        <div class="col-span-6 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-bar"></i>Bar: Rata-rata Skor per Region</span></div><div class="chart-box h-300"><canvas id="chartAnalyticsBarRegion"></canvas></div></div>
+        <div class="col-span-12 ikod-card"><div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-chart-line"></i>Line: Trend Nasional 2001&ndash;2025</span></div><div class="chart-box h-260"><canvas id="chartAnalyticsLine"></canvas></div></div>
+      </div>
+    </section>
+
+    <!-- ============================ 10. LAPORAN ============================ -->
+    <section class="page-view" id="page-laporan">
+      <div class="section-title">Laporan &amp; Ekspor Data</div>
+      <div class="section-subtitle">Unduh ringkasan IKOD tahun <strong id="laporanYearLabel">2025</strong> dalam berbagai format.</div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-md-4"><div class="export-option-card" id="btnExportPDF"><i class="fa-solid fa-file-pdf text-danger"></i><div class="fw-600">Export PDF</div><div class="fs-12 text-muted-ikod">Laporan ringkas siap cetak</div></div></div>
+        <div class="col-md-4"><div class="export-option-card" id="btnExportExcel"><i class="fa-solid fa-file-excel text-success"></i><div class="fw-600">Export Excel</div><div class="fs-12 text-muted-ikod">Data seluruh provinsi (.xls)</div></div></div>
+        <div class="col-md-4"><div class="export-option-card" id="btnPrintReport"><i class="fa-solid fa-print text-accent"></i><div class="fw-600">Print</div><div class="fs-12 text-muted-ikod">Cetak langsung dari browser</div></div></div>
+      </div>
+
+      <div class="ikod-card">
+        <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-eye"></i>Preview Laporan</span></div>
+        <p class="fs-13">Skor IKOD Nasional: <strong class="text-primary-brand" id="laporanSkorNasional">0</strong></p>
+        <table class="table-ikod">
+          <thead><tr><th>#</th><th>Provinsi</th><th>Skor</th></tr></thead>
+          <tbody id="laporanPreviewTable"></tbody>
+        </table>
+      </div>
+
+      <!-- Konten khusus untuk window.print() -->
+      <div id="printableReport"></div>
+    </section>
+
+    <!-- ============================ 11. TENTANG ============================ -->
+    <section class="page-view" id="page-tentang">
+      <div class="about-hero">
+        <h2 class="mb-2" style="color:#fff;">Dashboard IKOD &mdash; Prototype Versi 1</h2>
+        <p style="color:rgba(255,255,255,0.85);max-width:720px;">
+          Purwarupa digitalisasi Indeks Kinerja Otonomi Daerah (IKOD) yang dikembangkan untuk mendukung riset BRIN:
+          <em>"Evaluasi Kritis 25 Tahun Desentralisasi dan Otonomi Daerah di Indonesia (2001&ndash;2025): Relasi Pusat&ndash;Daerah,
+          Kinerja Pelayanan Publik, Demokrasi Lokal, dan Keadilan Wilayah."</em>
+        </p>
+        <span class="ikod-badge" style="background:rgba(255,255,255,0.16);color:#fff;">Prototype v1.0 &mdash; Data Dummy</span>
+      </div>
+
+      <div class="widget-grid">
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-bullseye"></i>Tujuan Prototype</span></div>
+          <p class="fs-13">Dashboard ini dirancang sebagai bukti konsep (proof of concept) digitalisasi IKOD, menampilkan
+          bagaimana 12 dimensi dan 38 indikator otonomi daerah dapat dipantau secara interaktif oleh pengambil kebijakan,
+          peneliti, maupun publik &mdash; mencakup seluruh 38 provinsi dan 514 kabupaten/kota di Indonesia.</p>
+          <p class="fs-13">Seluruh data pada prototype ini adalah <strong>data dummy yang dihasilkan secara sintetis</strong>
+          untuk kebutuhan pengujian antarmuka dan interaksi, bukan data resmi pemerintah.</p>
+        </div>
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-timeline"></i>Cakupan Riset</span></div>
+          <div class="about-timeline-item"><div class="about-timeline-dot"><i class="fa-solid fa-check"></i></div><div><strong class="fs-13">2001</strong><p class="fs-12 mb-0">Awal implementasi desentralisasi &amp; otonomi daerah pasca UU No. 22/1999.</p></div></div>
+          <div class="about-timeline-item"><div class="about-timeline-dot"><i class="fa-solid fa-check"></i></div><div><strong class="fs-13">2001&ndash;2025</strong><p class="fs-12 mb-0">Evaluasi relasi pusat-daerah, pelayanan publik, demokrasi lokal, dan keadilan wilayah.</p></div></div>
+          <div class="about-timeline-item"><div class="about-timeline-dot"><i class="fa-solid fa-flag-checkered"></i></div><div><strong class="fs-13">2025</strong><p class="fs-12 mb-0">Penyusunan Indeks Kinerja Otonomi Daerah (IKOD) sebagai instrumen evaluasi terpadu.</p></div></div>
+        </div>
+        <div class="col-span-12 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-code"></i>Spesifikasi Teknis</span></div>
+          <div class="row fs-13">
+            <div class="col-md-3 mb-2"><i class="fa-brands fa-html5 text-danger me-1"></i>HTML5 / CSS3 / Bootstrap 5</div>
+            <div class="col-md-3 mb-2"><i class="fa-brands fa-js text-warning me-1"></i>JavaScript ES6 (modular)</div>
+            <div class="col-md-3 mb-2"><i class="fa-solid fa-chart-simple text-accent me-1"></i>Chart.js &amp; Leaflet.js</div>
+            <div class="col-md-3 mb-2"><i class="fa-solid fa-server text-teal me-1"></i>100% Client-side (tanpa backend)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ 12. SETTINGS ============================ -->
+    <section class="page-view" id="page-settings">
+      <div class="section-title">Pengaturan Aplikasi</div>
+      <div class="section-subtitle">Preferensi tampilan dan pengelolaan data lokal.</div>
+
+      <div class="widget-grid">
+        <div class="col-span-7 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-sliders"></i>Preferensi Tampilan</span></div>
+          <div class="settings-row">
+            <div><div class="settings-label">Mode Gelap (Dark Mode)</div><div class="settings-desc">Ubah skema warna aplikasi menjadi gelap untuk kenyamanan mata.</div></div>
+            <div class="form-check form-switch"><input class="form-check-input" type="checkbox" id="settingsDarkModeSwitch"></div>
+          </div>
+          <div class="settings-row">
+            <div><div class="settings-label">Reset Seluruh Filter</div><div class="settings-desc">Kembalikan semua filter global ke kondisi awal.</div></div>
+            <button class="btn btn-ikod-outline btn-sm" id="btnSettingsResetFilter">Reset</button>
+          </div>
+          <div class="settings-row">
+            <div><div class="settings-label">Bersihkan Cache Lokal</div><div class="settings-desc">Hapus preferensi tersimpan (sidebar, tema) dari browser ini.</div></div>
+            <button class="btn btn-ikod-outline btn-sm" id="btnClearCache">Bersihkan</button>
+          </div>
+        </div>
+        <div class="col-span-5 ikod-card">
+          <div class="ikod-card-header"><span class="ikod-card-title"><i class="fa-solid fa-circle-info"></i>Informasi Sistem</span></div>
+          <p class="fs-13">Versi Aplikasi: <strong>Prototype v1.0</strong></p>
+          <p class="fs-13">Sumber Data: <strong>JSON Dummy (data/*.json)</strong></p>
+          <p class="fs-13">Mode Backend: <strong>Tidak digunakan (100% client-side)</strong></p>
+          <p class="fs-12 text-muted-ikod">Lihat README.md pada folder proyek untuk panduan migrasi dari JSON dummy ke REST API pada tahap produksi.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="ikod-footer no-print">
+    <span>&copy; 2026 Dashboard IKOD &mdash; Prototype Riset BRIN. Seluruh data bersifat dummy/simulasi.</span>
+    <span>Dibangun dengan HTML5, Bootstrap 5, Chart.js, Leaflet.js &mdash; tanpa backend.</span>
+  </footer>
+</div>
+
+<!-- =========================================================================
+     LIBRARY (CDN) - dimuat sebelum JS aplikasi
+     ========================================================================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
+<!-- Penjaga: jika salah satu library inti (Chart.js/Leaflet) gagal dimuat (mis. CDN
+     diblokir jaringan pengguna), tampilkan pesan yang jelas alih-alih loading tanpa henti -->
+<script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      var missing = [];
+      if (typeof Chart === 'undefined') missing.push('Chart.js');
+      if (typeof L === 'undefined') missing.push('Leaflet.js');
+      if (typeof bootstrap === 'undefined') missing.push('Bootstrap 5');
+      var loader = document.getElementById('globalLoader');
+      if (missing.length && loader && !loader.classList.contains('hidden')) {
+        loader.innerHTML =
+          '<div style="max-width:420px;text-align:center;padding:0 20px;">' +
+          '<i class="fa-solid fa-triangle-exclamation" style="font-size:32px;color:#DC2626;"></i>' +
+          '<p style="margin-top:12px;font-weight:600;">Gagal memuat library: ' + missing.join(', ') + '</p>' +
+          '<p style="font-size:12.5px;color:#64748B;">Periksa koneksi internet perangkat ini, atau pastikan domain <code>cdn.jsdelivr.net</code> tidak diblokir oleh firewall/jaringan Anda. Muat ulang halaman setelah koneksi tersedia.</p>' +
+          '<button onclick="location.reload()" style="margin-top:10px;padding:8px 18px;border-radius:8px;border:1px solid #153B75;background:#153B75;color:#fff;cursor:pointer;">Muat Ulang</button>' +
+          '</div>';
+      }
+    }, 4000);
+  });
+</script>
+
+<!-- =========================================================================
+     JAVASCRIPT APLIKASI IKOD (urutan memuat penting - lihat README.md)
+     ========================================================================= -->
+<script src="js/filter.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/map.js"></script>
+<script src="js/metadata.js"></script>
+<script src="js/export.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
